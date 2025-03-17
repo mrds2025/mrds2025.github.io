@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>今日吃瓜网站</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《今日吃瓜网站》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于今日吃瓜网站</h2>
+<p>					今日吃瓜网站<p>红墙绿瓦，阁楼坐落于高台之上，门上的牌匾已经斑驳陆离，油漆剥落得厉害，原本鲜艳的红色如今只剩下几片褪色的残迹。上面刻着的字迹也因风化而变得模糊不清。与之相比，它的周身到是更显光鲜亮丽。</p><p>“这里是永尊阁，宗门内的功法全都在这里了。前面四层都是允许弟子进入的，只有第五层需要宗主的令牌才能进入。”</p><p>听着苏柒的一番话，让林羽想起了上辈子电视剧里看到的那些藏有秘籍的阁楼。</p><p>通常这里应该有一个扫地的高手……看到了。</p><p>只见一位书生站在阳光之下，清扫灰尘。</p><p>他身形瘦削如同枯枝，似乎一阵微风就能将他吹倒。脸庞苍白无血色，皮肤紧贴着骨头，一双深陷的眼窝里镶嵌着一对黯淡无光的眼睛，头发凌乱不堪，几缕稀疏的发丝随风飘扬。衣角处还挂着几个破洞，显然已经许久未更换过新衣。</p><p>似是注意到了林羽的视线，那名书生拖着扫帚向二人走来。</p><p>“两位姑娘可是要进入阁中挑选功法？”书生的声音完全不似他身体那般羸弱，反而有几股“劲”在里边。</p><p>林羽一愣，确实是三师姐带她来的，不过功法的话，她在诡地里把能练的都练了，不能练的也练过了。</p><p>所以这是要讲注意事项了？</p><p>“规矩我懂。”苏柒苦笑着拿出那已不怎么饱满的乾坤袋晃了晃。</p><p>又是买裙子，又是买灵食的，我的灵石都要见底了，待四师妹看完功法后，再随便逛逛就回去吧。</p><p>“苏姑娘自是识得规矩，只不过你身旁那刚入门的小姑娘却是不知，按照惯例离某必须说一次。”</p><p>苏柒：“……”</p><p>书生弹指间打出一道隔音结界，“可以了。”</p><p>闻言，苏柒朝书生行了一礼，“云昙峰弟子苏柒，见过莫峰主。”</p><p>这回轮到林羽沉默了。</p><p>出门第一天就遇到峰主了？别太离谱！</p><p>虽然云昙峰是宗门弟子眼中的肉中刺，可对长辈的基本礼仪还是要施行的。</p><p>林羽也跟着苏柒行了一礼，“云昙峰弟子林羽见过莫峰主。”</p><p>“嗯。”莫言离微微颔首，“先说规矩吧。”</p><p>“永尊阁乃我宗功法储蓄之地，一直都由映月峰掌管，想要进去此地习得功法须交十枚下品灵石方可查阅一个时辰，由此往上第二层交十枚中品灵石，第三层交十枚上品灵石，第四层交十枚极品灵石，而第五层需要有宗主的许可方可进入。”</p><p>“若想要借阅功法，必须缴纳三倍的量，并且寻得离某登记才可。”</p><p>“当然，若有功法上交，永尊阁也会给予相应的报酬。”</p><p>林羽一时间怀疑是不是进错宗门了，这哪里是合欢宗啊，分明黑心宗！</p><p>买衣服花钱就算了，进别的峰要交罚款，看功法要给钱，合着加入你们宗门就是要被剥削的呗。</p><p>一想到这，林羽气的拉住苏柒的手，“三师姐，走吧，咱们不进去了。”</p><p>“唉，四师妹真不进去看了吗？这么多年都是这个价啊。”</p><p>对于二人的离去，莫言离无奈的摇摇头，“没有欲，何来的进步？想要创造一本功法，可非易事，终究是不思进取之辈。不过林姑娘这名字倒是耳熟。”</p><p>……</p><p>“真不看吗？”被拉着的苏柒还想要确认一下，“虽然三师姐的灵石所剩无几，但让你看看第二层还是没问题。”</p><p>林羽的头立刻摇晃的如同拨浪鼓一般，“不能再让三师姐破费了，随便去别的地方看看就好了。”</p><p>苏柒心中一暖，这么懂事的孩子可不多见啊。</p><p>随后除了五大峰，林羽与苏柒首先来到了宗门内的炼丹房。在这里，她们一同请教了负责炼丹的长老。</p><p>丹药之法，林羽不敢说精通，但基础的还是掌握了，这里学习倒是免费，不过老妇人只教授了他们基础的药材识别、火候控制以及丹方调配等知识。</p><p>她们亲自动手尝试炼制了几种基础丹药，恢复体力的“元气丹”和疗伤用的“愈合丹”。</p><p>林羽还算可以有着诡地里的经验，竟一次也没有炸锅，引来了长老的连连称赞。</p><p>而苏柒倒也是算是个奇才，对于火候的把控以及药材的计量可谓是毫无经验，可每次练的丹药都能完美的卡在炸锅与废丹之间。</p><p>学习完炼丹之后，二人前往制符场。与炼丹房不同，制符场是由一位女弟子施教。</p><p>最基本的符篆都是由朱砂笔和黄纸制作，若想要将符篆的等级提高一个档次，就必须要更高级的材料，所以林羽是不会碰符篆的，实在是太耗钱了。</p><p>苏柒倒是经常来此地画符，凭借着先前积累的经验，最基础的符没有一个画错的</p><p>让她在林羽面前小小的显摆了一手。</p><p>最后，林羽与苏柒来到了宗门内的演武场。现在时处于特殊时期，这里只能用空荡来形容，不过擂台上还有许多“痕迹”能够让林羽感悟一番，也算是有点收获。</p><p>……</p><p>“执法堂。多的话我就先不说了，四师妹自行体会体会。”显然当了一天的导游，苏柒多少感到些许乏味，这最后一站便让林羽观望观望就行。</p><p>林羽点点头，随即踏入大门内侧，映入眼帘的是各峰的弟子。</p><p>与其他地方相比，这里的人要更多些。</p><p>柜台、告示栏、桌椅摆放的恰如客栈一般。</p><p>林羽先是看向了告示栏，上面贴满了各种纸张，无外乎都是些猎杀妖兽，收集灵草的委托。</p><p>而另一侧的告示栏却是让林羽好奇了起来。</p><p>委托：收集金丹期的心魔鳞，越多越好。</p><p>报酬：一千下品灵石保底，若有其他需求可以进行交涉。</p><p>委托人：姜钰。</p><p>忽然间，一道温和的声音响起，“这位师姐，可是没有找到心仪队伍，小女名为沉月，或许能帮上点忙。”</p><p>林羽侧目而视，映入眼帘是一位头发绑成麻花，露脐裸盖的女孩。</p><p>其中那匀称苗条的小蛮腰，让林羽不由得多看了一眼。</p><p>“师姐？”</p><p>林羽轻咳一声，“不必了，我已经找到队伍了。”</p><p>沉月歪歪头，“真的不需要吗？我这里可是有些元婴师姐们组成的队，师姐若是加入或许可以拿到一点油水呢。”</p><p>林羽摆摆手，示意拒绝。</p><p>见状，沉月也没有打算继续纠缠下去，柔声道：“若师姐改变主意了，可以随时来找小女子。”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

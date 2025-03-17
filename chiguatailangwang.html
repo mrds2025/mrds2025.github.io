@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>吃瓜太郎网</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《吃瓜太郎网》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于吃瓜太郎网</h2>
+<p>					吃瓜太郎网<p>伴随着两人的话语，窗外的风声开始猎猎作响，热带雨季的天气眨眼就变，此刻已经是阴云密布，飘零的雨珠逐渐黏在了落地玻璃上。</p><p>“时间也差不多了，你该回去了吧。万一雨下大，那边可是要清点人数的。”</p><p>想到十香和折纸找不到士道时会发生的盛况，遥就轻笑了起来，推推他催促着赶紧去集合。</p><p>“既然是出来修学旅行的，就先别想太多，玩得开心点吧。”</p><p>“嗯……好的。”</p><p>话是这么说着，但站起来的两人却半点没有挪脚的意思，十指依旧交错相握。</p><p>“第一次发现，你的手居然那么大。”</p><p>遥轻笑着挠了挠对方的手背，她忽然发现，自己这两天笑起来的次数，比之前几周加起来，都要多得多。</p><p>就在两个人都舍不得松开手的时候，窗外的飓风冲了进来。不是形容，而是名副其实地撞碎了玻璃，把整个房间都化作了纷飞的舞动之地。</p><p>“哇——”</p><p>落地的窗帘席卷翻飞，枕头、靠垫、衣物、笔纸，房间里比较轻的东西全都被飓风带起，满屋子乱窜。就连办公椅和落地躺椅都被卷了起来，连带着撞碎了分隔浴室和卧室的玻璃幕墙。</p><p>然而灵力盾刚架起来，飓风却又顿时消散，只留下铺满地毯的玻璃碎渣和惨不忍睹的房间。</p><p>也幸好遥反应及时及时，除了她自己绑成团子型的头发被吹散开以外，两人并没有被四处乱飞的玻璃渣或是烟灰缸之类砸伤。</p><p>伴随着飓风褪去，稀里哗啦的零碎物品和墙灰还有破瓷砖纷纷洒落在地。</p><p>三羽遥愣愣地转过身，看着眼前的惨状，还有‘窗外’泼进来的连绵雨线。</p><p>原来不知不觉间，赤道无风带的阵雨已经轰然落下。</p><p>哐——摇摇晃晃的电视机终于也倒了下来，拉出一阵青烟。</p><p>“啊呜……”</p><p>电视机似乎砸到了什么东西，让碎屑和板材堆积的废墟中发出一阵微弱的呼声。</p><p>同时，房间靠墙角的另一头，原本是折纸单人床的废墟里，一个人影顶着破破烂烂的床架子爬了起来。</p><p>在被单和床垫的破洞中，露出了橙色脑袋和凌乱不堪的三股麻花辫。即便是满脸墙灰和插在头发里的木屑，也难以遮掩那副姣好容貌。</p><p>然而，当她看向电视机那边时，即刻发出一阵毫无语气波动的悲呼。</p><p>“惊讶，耶俱矢死了。”</p><p>“妾身才没死啊！”破烂书桌废墟里里，一个类似衣着的青春少女跳了出来，气愤地冲到前者跟前，迎面相对。</p><p>仿佛镜子里的人跳到了现实中，只不过她的头发盘成了发髻，上面还撒着不少碎玻璃。</p><p>“要不是夕弦这么慢，妾身才不会如此狼狈呀！”</p><p>“我说……”</p><p>“哀叹。耶俱矢已经陷入是非不分的逻辑紊乱了。”</p><p>“才没有！率先着陆的明明是妾身，若不是妾身的漆黑之魔枪贯穿了死亡骑士，夕弦早就被打飞了才对！”</p><p>“那个，你们是叫耶俱……”</p><p>看起来更加文质彬彬，但衣装下却潜藏着肉感魅惑身材的少女嘟着嘴，抱怨道：“反驳。明明是耶俱矢被对方摁着揍。”</p><p>争吵不休的两名少女都穿着类似束缚带的衣装，手腕上戴着重型镣铐。如果还有白色打底衫的话，那遥绝对会怀疑她们是从阿卡姆人才市场逃出来遛弯的。</p><p>然而现实是，束缚带底下除了皮裙皮手套和皮裤袜外空无一物，明晃晃地透露着少女们娇嫩细腻的身躯，那想来只能是某种恶趣味的cosplay装束了。</p><p>【还真是精灵啊。】</p><p>虽然对面两个问题儿童只顾斗嘴完全不鸟自己，但三羽遥还是能感受到她们身上强大的灵力波动。</p><p>况且原本的书桌，如今堆在墙角边的废墟里，Ratatoskr给的隐形耳麦正不停震动着，提示有来自空中舰的通讯等待接听。</p><p>“上吧，对精灵宝具——五河士道。”</p><p>三羽遥无力地抬起手臂，推推身边人的肩膀，把问题交给专家解决。自己则走到废墟旁，扒拉出那个质量很好的隐形耳麦。</p><p>正巧也听到两个精灵的自我介绍。</p><p>“妾身叫八舞耶俱矢，满怀荣耀的记住这个名字吧。”</p><p>“介绍。八舞夕弦一定会取得胜利，获得八舞之名。”</p><p>“哈？夕弦都已经输了50次了，还真是有自信啊。”</p><p>“纠正。耶俱矢也输了50次决斗。算上被黑漆漆打败，应该是51次。”</p><p>听着莫名其妙的对话，小心盯着正尝试和对方交流的士道，三羽遥接通了耳麦：“神无月先生？”</p><p>【是我。刚才这边检测到一股灵力波动，正往关岛本岛去了，所以想要提醒一下你。】</p><p>“如果你说的是那两个自称八舞的黄毛精灵疯丫头，她们现在已经在我这边了……”</p><p>对面陷入了一阵安静。</p><p>三羽遥踢开破裂的挂画框，走到门前。摁下开关把房门反锁，免得有不知情的服务人员闯进来。</p><p>【对不起，她们的低空速度实在太快了，想要通知你的时候，对方就已经到了本岛上空。】</p><p>对于Fraxinus的设备参数，三羽遥还是有点概念的，她默默一算：“那岂不是要好几马赫了？”</p><p>只听那边也传来一阵叹息。</p><p>【确实如此。也是这个原因，现在都没有能够拦截她们的东西。】</p><p>“听你这么说，Ratatoskr有她们的信息？这两只不是第一次出现？”</p><p>【根据灵力比对，她们应该是先前出现在美洲和太平洋区域的精灵Berserker〈狂战士〉。】</p><p>“Berserker？为什么叫这个名字？”</p><p>三羽遥也看不出眼前的女孩子有多疯狂，她听到这代号的第一反应是奇幻小说里那种会嗷嗷嗷无差别砍人的肌肉蛮子，或者月球人游戏里的垫脚石大叔。</p><p>【根据报告，Berserker每次出现必然是成双的两名，而且会不断相互战斗。一旦被卷入的话相当危险，属于危险度很高的精灵。】</p><p>“双生子啊……”</p><p>看着恍若倒影的八舞双子，三羽遥暗叹口气，又是三枚羽留下的记忆影响。也难怪对方斗嘴时会给她一种熟悉的感觉。</p><p>三枚羽之所以会叫三枚羽，自然不是随便取的名字。</p><p>【大地摇篮梅嘉斯之门、月球摇篮DOME以及深空摇篮昆仑女王号的管理者们】</p><p>“啊，都是过去的事情了。”</p><p>她摇摇头，丢掉了那些乱七八糟的记忆，光三枚羽就够让她烦心了，更别提另两个已经是逝去的影子了。</p><p>不过看着在斗嘴的两人，她也没觉得对方有多少威胁。反倒是夹在中间的五河士道，正不断来回扭头劝说双方，实在让人担心会不会年纪轻轻就得上颈椎病。</p><p>不就是两个笨蛋而已吗？自己见得多了。</p><p>等到结束和空中舰的通信，士道已经发挥特长，和她们聊得挺熟了。</p><p>于是遥又走了过去，悄悄把男孩挡在身后，和她们攀谈起来。</p><p>“你们之前在干什么？”</p><p>“比试速度，首先跨过太平洋的就是最终的胜者！”</p><p>属风的家伙都这么能跑吗？三羽遥想起了某个能绕地球七圈半的路痴。</p><p>“那结果是哪位赢了？”</p><p>“突发。比试中途遇到了一个黑漆漆，被他攻击后，我们发现打不过，就逃到了这里。”</p><p>“黑漆漆？”</p><p>“是恶灵骑士啊恶灵骑士！被死亡之灵裹挟的死亡骑士哦！”</p><p>听到这里，士道好奇地探出了脑袋：“恶灵骑士？你是指骑着火摩托车的骷髅脑袋？”</p><p>三羽遥的第一反应则是骑着骷髅马提着符文剑，到处复活骷髅僵尸的那种奇幻小说里的死亡骑士。</p><p>两人面面相觑：“到底是恶灵骑士还是死亡骑士啊……那不是两种东西吗？”</p><p>被称为耶俱矢的少女手脚并用，尝试着向他们描述对方的相貌：“他是妾身最大的宿敌！乃吞噬世界的恶之化生，所有亡灵主宰哦！”</p><p>“补充。是个全身黑漆漆铠甲的怪人。”</p><p>按照她们形容的，三羽遥到是想起了一个类似的家伙。</p><p>黑骑士。</p><p>那家伙自从上次偷袭自己，已经销声匿迹了一段时间，在这时候突然冒出来袭击八舞姐妹，究竟是为了什么？</p><p>更重要的是，他会追着自称八舞的少女们来关岛吗？</p><p>正当这么想着的时候，反锁的房间门被人叩响了。</p><p>“是我。”原来是得到消息的令音赶了过来。</p><p>进门后，她首先打量了一下房间的破损情况：“慎你们先换一间房休息，Ratatoskr的工作人员会来修复房间。”</p><p>同样观察了一阵，确认八舞们没敌意之后，遥也决定先解决后顾之忧。她有些担心黑骑士会追到岛上来。</p><p>于是走到令音身边：“我还是先去一趟Fraxinus，把装备调整好再说。拜托你暂时看一下她们，如果有情况，请及时联系我。”</p><p>考虑到机动兵器不太适合在游客密集的地方使用，琴里又去了欧洲出差，已方这边暂时缺乏能够灵活运用的小型战力。</p><p>所以三羽遥决定先去搞定自己能用CR-Unit，由此作为万一在关岛本地开战而做的保险。</p><p>和令音交接完之后，又来到士道身边：“我暂时离开一会，你……自己小心些。”</p><p>“好，我明白的。遥才是，不要太逞强了。”</p><p>“我才不会呢。”</p><p>向着对方吐吐舌头，三羽遥转身走出屋子，往着空中舰给出的坐标而去。</p><p>其实真要让她来选的话，遥其实并不放心让士道和八舞们待在一起，可也知道他的臭脾气，所以干脆暂时放一下手，拜托令音暂时看着。</p><p>“稍微再等我一段时间，很快就回来。”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

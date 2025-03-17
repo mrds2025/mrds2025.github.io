@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>zzzttt吧</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《zzzttt吧》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于zzzttt吧</h2>
+<p>					zzzttt吧<p>在一片充满生机又美丽的地方，住着三只小猪，他们每天都呆在一起玩闹，在河水中嬉戏，在泥土中翻滚，快乐和谐的猪生就是他们一辈子所向往的。</p><p>  “老大老二老三，过来一下。”</p><p>  但今天有点不一样，母亲突然叫住了他们，并指了指日历上的日子，这三人一看便明白了，原来已经过去那么久了。</p><p>  母亲并不是要他们怎么怎么样，只是已经到了自力更生的地步了，他们已经长大了，需要学会自己离家生存去了，三兄弟自然也早就为这一天做好了心理准备，他们告别了母亲，一起收拾了行李便出发了。 </p><p>  老大：“让我们来比比谁更能活的更出彩吧！（哼哼【猪叫声】）”  </p><p>  老二：“那肯定是我啦！”</p><p>  老三：“啊啊啊我等不及了，全新的生活再向往招手！（哼哼！）”</p><p>  老三迫不及待的向着河流的下方冲了下去，另外两位兄弟见状便也开心的提着背包一起滑了下去。</p><p>  “哈哈哈哈哈哈哈哈！”</p><p>  他们三人沿着河流开心的奔跑在草地上，看着远方的太阳，未来的希望也逐渐被照亮。</p><p>  【啊！】</p><p>  奔跑着的老三突然被什么东西拌了一下，直接摔了个狗啃泥。</p><p>  “老三！你没事吧！”</p><p>  另外两头小猪见状赶紧走了回去。</p><p>  老三：“……疼疼疼，嗯？”</p><p>  老三回头看去，看见一个背着白色的刀的黑发男人倒在地上，这个人就是缪，想必刚才自己绊到的就是他吧，三只小猪好奇的凑了上去看了看这个人类。</p><p>  “。。。。这是。。”</p><p>  缪慢慢恢复了意识，从地上坐了起来发了会呆，然后一声非常响亮的【阿嚏！】把三只小猪吓了大叫一声。</p><p>  “啊？”</p><p>  听到声音的缪往一旁看了看，三只双足站立的小猪站在一旁看着他，双方就这么盯着一句话也不说……</p><p>  …… </p><p>  “刀……他有刀……是人类啊！！猎人啊！！！”</p><p>  三只小猪这么大喊着，便迅速的跑远了，缪一脸懵逼的看着它们逐渐远去，自己也不想多管闲事了，毕竟到现在还没理清究竟发生了什么。</p><p>  缪：“这是哪儿啊。。。大家呢”</p><p>  他站起身拍了拍身上的草，四处张望了一下。</p><p>  一望无际的宽阔草地和远处杂乱的树林，身旁还有一条非常长的小河流直通下游，先不说别的，刚才三只奇怪的生物，还有这里的景色，太美了，太美了，又或者说，美的已经不正常了，河水清澈见底，树木郁郁葱葱，蓝天白云也格外美丽，宛如一个……一个……</p><p>  缪：“童话世界啊！！！！！”</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

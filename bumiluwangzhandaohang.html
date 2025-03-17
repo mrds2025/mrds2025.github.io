@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>不迷路网站导航</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《不迷路网站导航》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于不迷路网站导航</h2>
+<p>					不迷路网站导航<p>第八百四十一章：高魔低武</p><p>“真是那样的话……也有好有坏吧！但考虑到宇宙那么大，应该还不至于，就是不同文明因为诞生的时间大有相同，所以除了出现智慧文明的概率之外，能交流的时间窗口也非常小啊，早了或者晚了都会造成技术代差或者一方提前因为别的事情灭绝了。我之前看过一个计算公式，具体过程有点忘记了，但最终推导的结果是银河系内在这个时间窗口能和我们进行交流的文明大约是0.5个，那这基本就是我们自己了？但毕竟智慧文明的参考样本只有我们自己，所以实际结果可能都是几个数量级的误差，就算是平均0.5个的概率，既然都已经有我们这样的‘1’了，所以有‘2’有‘3’也并非不可能，将来还是有希望的……吧？”</p><p>“哇，那以后的事情谁知道呢？也许这就是生活吧……ε=（´ο｀*）））唉——”辣妹子的大脑袋瞬间又耷拉到了桌面，“不知道我有生之年能不能看到哦！”</p><p>“我觉得还是有戏的，虽然还没有证据说魔能一定会影响寿命，但许多魔能者的‘成分’里头本就自带保持身体健康和体能增强的能力，甚至不需要靠科技打药也能开挂增肌。”尹浩说着感觉自己的脑袋都开始头顶尖尖的了，“直接让传统竞技体育的商业价值骤降，现在还没从‘剧本表演赛’的泥沼中缓过劲来……”</p><p>“哦，这个我也听泉姐说过……”通过辣妹子转眼珠子的行为判断，她似乎又在对自己的信息渠道进行隐藏了，“对了，你之前说如果会长活得很久的话还能一直长，最终就会长得很高是么？所以我也有希望吗？”</p><p>“是的，但也不完全是，取决于你对‘很高’的定义是多少……（4米4就按一般魔能者来看就已经算很高了，但对于魔幻作品嘛，起码得像山一样大才能把人唬住吧？运气不好的话导致一直‘吃保底’的话，恐怕短期内没法实现……）虽然这东西完全是概率的混沌，导致有很多玄学的偏方，但确实只要你的魔能足够强大，它就越有可能携带各种令人惊喜的组成部分呢！甚至我也不知道栩棋那种是不是魔能变强才长高，长高了魔能又变得更强，这种疑似互相促进的现象算不算‘左脚踩右脚’螺旋升天呢！”</p><p>“哦对对对，有一次泉姐好像也跟我说过类似的话，还说这跟她能大难不死也很有关系……”琰玥也是说到兴头上了，但还是在涉及后半句之前便有意识地话锋一转：“其实有时候吧，我也能变得很强壮呢！但就是身高……或者说从头顶到脚底的距离，没什么变化哈！”也不知道她这会儿为什么来了一个近似于废话文学般地严谨，难道一般说身高不就是“从头顶到脚底的距离”吗？难道她能把头发的量堆到很厚，抑或是像梦里一样某肉球的直径远远超过了躯干长度？</p><p>“是……是嘛？（栩棋她哪次会因为身高而大难不死呢？总不能是搭乘飞机出事故的时候，一肘撞开客舱然后借助透明触手缓冲落地，以达成‘传奇耐摔王’的美誉吧？那也太变态了，感觉不仅仅是身高的问题……）”男主光想想就觉得汗颜，但还是勉强崩住的继续道：“我这两天确实也看到你比平时的肌肉线条更明显了呢！（或者我有一种猜想，力量和身体组织强度是为了适配魔能导致体型的变化才跟上的吗？不过琰玥的‘变化’毕竟不涉及躯干长度，四肢和身体能都最大附着的肌肉量终究还是有限的，最终还是会被四个‘肉山大魔王’困得动惮不得吧，按梦里来说的话……）”</p><p>“是吗？嘿嘿，听你这么一说，我好像捡了很大的便宜一样……”对方说着吸气挺起了胸膛，并弯举起手臂，随着布条泛出逐渐紧绷的“嘶啦”动静，果然肱二头也开始跟着充血变大，泵感十足，很快便从缺乏训练痕迹，达到了健身女网红的水平，并且似乎还能继续发展下去，直到一个自然人类眼中望尘莫及的水平。</p><p>“哇这也……（这魔能设定也太方便了吧？科技都要靠吃和练呢，她这演都不带演了。不过最终还得看她臀部带动大腿的变化是否会更明显一些？）哦我懂了，不然怎么会坊间传闻你是‘最水优等生’呢？哈哈，开个玩笑开个玩笑……”其实尹浩知道这并非玩笑，突然也就理解了对方为什么对训练那么摆烂了，只能再次酸溜溜感慨命运的不公：“毕竟我们的身边现在又出现了‘魔能’这个东西，估计也就暂时告别科幻的范畴了吧……”</p><p>“哎呦，怎么又绕回来了，之前就听你说过了，果然还是这样吗？呼——”琰玥说罢又长出一口气，肌肉和肉球顿时又像泄气的皮球一般瘪下去了一些，令人顿感好奇在其极限状态下到底能到达一个怎样的形态？</p><p>“谁让编剧设定的事情发展就是这么魔幻，那也是没有办法的事情嘛！”可就在琰玥对人类的活动范围之“狭小”而发出深沉如马里亚纳海沟的叹息之时，尹浩却已经把他的想象力驰骋到了宇宙的边疆：“（没错，解释不通的问题正是质量和引力，小说中的二向箔无法被电磁波直接观测到而是通过引力波才探知到的，在封装状态下纸片那么小的一个范围内其质量却大概相当于木星其中的一颗大卫星……而琰玥胸怀中的‘物质’虽然质量不明，但肯定也远大于155公斤的纸面数据，她又没有控制视觉和记录员思想的能力，不至于在体检的时候检测不出来。更何况若要真像我那个梦中所表现的那样足以崩塌物质和扭曲空间，怕是连一个星球甚至星系都打不住，那么当未解放的时候考虑到质量的重心在她体内，我离得这么近按理来说早已被引力撕碎然后从沟沟贴贴进去了……）”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

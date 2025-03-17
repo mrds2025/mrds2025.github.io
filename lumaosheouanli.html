@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>绿帽社区案例</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《绿帽社区案例》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于绿帽社区案例</h2>
+<p>					绿帽社区案例<p>在和风且温柔的细雨之中，二人漫步在这个城镇的每一个角落，阿托亚用轮椅推着梦溪，带着她欣赏着他认为平平无奇，但她又觉得十分有趣的常事，这里是城镇一个十分破旧肮脏的小街区，鱼龙混杂，阿托亚完全不喜欢这里，但这对于一个因病而足不出户的人来说，外面的任何世界都像是充满乐趣的乐园。</p><p>  两人观望了许多地方，他们去了照相馆照了照片，在小河边试图就用木棍和绳子钓鱼，翻开石头底下的蚁虫观察。</p><p>  “小朋友们在玩什么呢？”</p><p>  梦溪指了指在小路边玩耍的小孩们，虽然是在下雨天，但这反而更让孩童们玩的快乐，他们不停的踩踏着，地上的泥水飞溅在衣裤上也毫不在意，倒不如说更加开心。</p><p>  “他们啊，玩的应该是跳格子吧？我也不知道，就是地上用笔画许多格子在那里跳来跳去的。”</p><p>  “真好啊~”</p><p>  梦溪用着羡慕的语气讲道，阿托亚看了看她那无法动弹的双腿，感觉自己好像说了什么不该说的，便赶紧想办法让自己换个台词。</p><p>  “那个……阿托亚？”</p><p>  “嗯？”</p><p>  梦溪突然先自己一步讲了起来。</p><p>  “……我什么时候…能去你的家里看看呢……”讲到这句话时，梦溪的语气越来越小，但阿托亚自然是听的清清楚楚。他顿时一阵脸红害臊，支支吾吾的说道：“啊这个啊！额……不是不行啊，就是我家是个很小很破的房子，实在是不适合你啊，而且我也有个常年卧居久病的母亲你也是知道的。” </p><p>  阿托亚心里有点担心，虽然知道梦溪不是那样的人，但害怕她真正见到了自己穷酸的环境后就对自己瞧不起，而且还要一个理由，那就是他替梦溪准备了真正的生日礼物藏在自己家，那个花玩偶只是个幌子。</p><p>  “嗯…（嘟嘴）每次你都用同样的借口拒绝我，你看我是那样的人吗？”梦溪撒气的讲道。</p><p>  阿托亚连忙解释道：“我当然不是那个意思啦！只是……我母亲也是个病人，不管是好是坏，我也不想让她多受刺激了，所以，等到她病好了，我就带你去见她！让她健健康康，开心的见你，好吗？！反正我们有的是时间！”</p><p>  听到这，梦溪微笑着点了点头，“时间吗……”她自己心底里默想着。</p><p>  【咳咳咳咳……咳咳！咳咳咳咳咳咳！】</p><p>  突然梦溪又开始猛烈的咳嗽，这次更严重，甚至都咳出血来了。</p><p>  “梦溪！还好吗！你看啊，我就说不能下雨天出来的，你就是和往常一样任性！” </p><p>  阿托亚连忙上去搀扶她，但梦溪的咳嗽没有停止，无法顺利呼吸的难受让她脸色越来越差，阿托亚开始急了起来，便立马推着轮椅带她送往了这里最近的小诊所…………</p><p>  【小姐的病情很严重啊，这样，我先给她配点药，你带药钱了吗？】</p><p>  一个面色很丑陋的老医生，装模作样的拿着听诊器对着阿托亚问道。</p><p>  “钱……有！在我家里！我现在回去拿可以吗？”</p><p>  阿托亚如此回答着，他家其实没什么钱，不可能付得起昂贵的药品，但他现在必须想办法。</p><p>  “那就快点吧。”老医生如此催促着，阿托亚点了点头，立马跑了出去往家的方向去。</p><p>  他跑了一小会不到，发现自己手里捏着花玩偶，带着这么大是东西可不方便，于是便决定再回去一下，刚好看看梦溪怎么样。</p><p>  “求求你！请不咳咳咳咳！不要这样……阿托亚，阿托亚救救我！”</p><p>  阿托亚听到梦溪的喊叫，立马加快步伐跑了进去，撞开门，发现轮椅翻倒在一旁，老医生把按倒在地上准备实施**，“小美女就从了我吧！反正你也活不长了，还不如临死前快活快活~”</p><p>  （嘣！） </p><p>  阿托亚直接抄起旁边的收银机朝着老医生的后脑砸去，老医生被狠狠的砸中倒在了地上。</p><p>  “快！”</p><p>  阿托亚抱起梦溪破门而逃，老医生搀扶着爬到门前对着他们大喊：“别让这两个兔崽子跑了！给我抓住狠狠的教训他们。”</p><p>  原来这条街是不法之地，而这个医生似乎在这里很有地位，男人们见状便追了上去，阿托亚抱着梦溪跑的并不快，一会儿就被追了上去。</p><p>  “让你跑！” </p><p>  一个男人从后面抓住了他的衣服，阿托亚企图挣扎，男人抄起棍棒就是朝他挥去，阿托亚见状立刻护住梦溪缩起来把她保护在地上。</p><p>  一记棒子下去就让阿托亚疼的差点失去意识，顿时后面的人也追了上来，对着他就是一顿拳打脚踢。</p><p>  “住手！不要打他！”</p><p>  梦溪被围在里面喊道，但她那虚弱的呼唤还不及人群的吵闹……</p><p>  “好了，这样就可以了，最近附近安保管的严起来了，打死人可就麻烦了。”</p><p>  一个男人喊住了群众，众人便纷纷停手，只剩下地上伤痕累累的阿托亚以及哭泣着的梦溪，这还是她出生以来第一次见到这种情况。</p><p>  “…………”</p><p>  浑身脏旧沾满泥水的阿托亚慢慢站了起来，继续抱起梦溪一点一点的前进。</p><p>  “咳咳咳咳……阿托亚…放下我，你快休息一下。”</p><p>  梦溪轻声哀求道，她的声音比上一次更轻了。</p><p>  “没事的……我身体可硬朗了！你看，还能抱起你活蹦乱跳的，我们还是赶紧离开这里吧。”</p><p>  他没有停下脚步，继续抱着梦溪一瘸一拐的离开了这个肮脏的地方。</p><p>  “对不起……我太任性了。”</p><p>  “都说没事的，是我的不对，不应该带着你一起去陌生的地方。”</p><p>  不知过了多久，两人再度回到了花园这里，他们坐在草地上，两人淋着下不停的毛毛细雨，看向远方树群的风景。</p><p>  梦溪看着远方，慢慢依靠在阿托亚的肩膀上，“还记得我们第一次认识的时候吗？”</p><p>  梦溪突然轻声这么说道，阿托亚看了看她，说：“当然记得啊，那时你在二楼窗外因为父母一直忽视而看着远方在那哭，我当时在下面刚好去买药，全被你的眼泪滴到了，我还以为下雨了呢。”</p><p>  “hhhhh……”梦溪带着咳嗽声笑道。</p><p>  ……</p><p>  ……</p><p>  【小姐，大白天的为什么哭啊？我以为下雨了呢。】</p><p>  【（吸鼻涕）……关你什么事。】</p><p>  【额。。确实和我没关系，但是我推荐推荐你啊，人活在世上好好的，最好还是不要因为那么一两件事在意而在那哭个半天，多想点开心的事吧，或者有什么不爽快的和我诉诉苦，说不定会轻松一点呢？】</p><p>  【…………】</p><p> ……</p><p> “我永远不会忘记，我们相遇的那一天。”</p><p>  梦溪看着远处的风景，微微的说道，她的脸色布满幸福的笑容。</p><p>  阿托亚没有讲话，害臊的咬着嘴巴看着远方，随后梦溪突然又躺在了他的双腿上，吓得他双手一抬，尴尬的他不知道现在要怎么做。</p><p>  “额……”</p><p>  他刚想说些什么，但却发现有点不对劲，他侧过身看了看，发现梦溪脸色十分苍白，虚弱的残喘着，因为雨水的关系导致他没完全注意到梦溪身体的冰凉。</p><p>  “梦溪！不好了，快点，我现在到带你回家，让那个管家来！”</p><p>  阿托亚刚想起身，梦溪吃力的拉住他的手，微微的说道：“我不回去……”</p><p>  “你在说什么呢！你再这样下去就出事了啊！现在不是任性的时候，快点！”</p><p>  阿托亚再次试图起身，梦溪却突然一口牙咬住他伸过来的手指，阿托亚感觉不到疼痛，但却能从这无力的啃咬中感到比疼痛更具伤痛的东西。</p><p>  “我……我的家就在这，在你身边…我自己还有多少时间，我最清楚，至少，我想在最后一刻，能好好陪你。”</p><p>  阿托亚眼泪唰唰直流，哭喊道：“你为什么突然这么说啊，你是想死吗？你要死了吗？我不允许啊，我不允许啊！”</p><p>  梦溪伸出手，让阿托亚把他她扶起来，阿托亚扶起后，梦溪继续坐靠在他的身边，看向远方。</p><p>  “不要觉得我很可怜，我不这么认为，阿托亚，我一直看向远方……是因为我向往那遥不可及的未来，惧怕那永无止境的苦痛，如果可以，真想把身心都抛掷在外，随风而去。”</p><p>  “但……就在某一天我遇见了你，如果说我一直在思考何为生命的真谛，那我想，也许就在那一刻，我就明白了……”</p><p>  梦溪转过头轻轻的看向阿托亚，冰冷的双手轻抚他的脸颊，那感受到的温暖便是她最向往的……</p><p>  “阿托亚……不要觉得这个世界很残酷……当你感到绝望痛苦的时候，也试着像我一样，多看看外面的色彩吧，这个世界……是美好的…还有，你说过，今天一天我说什么就做什么的吧？”</p><p>  梦溪抹了抹阿托亚脸上流露不停的泪水，相拥而上，一吻深情，两人互坐在草地之中，泪水交错在雨水之间，在她感受到了何为真正的幸福后，微笑的闭上了双眼，倒塌在所爱之人的关怀之中，直到永远……</p><p>  “………………”</p><p>  “………………”</p><p>  “……梦………”</p><p>  “溪？…………”</p><p>  阿托亚看着睡去的梦溪，他先是一顿呆滞，随后大叫出声。</p><p>  “啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！”</p><p>  他死死搂住梦溪，试图挽留那最后一点温暖，在他的哭喊声中，雨越下越大。</p><p>  “我还没！还没给你看真正的生日礼物呢！还没有给你介绍给我的母亲啊！我还没！！！…………还没好好说一声【我爱你】！……啊啊啊啊梦溪！！</p><p>啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊为什么啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊…………</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

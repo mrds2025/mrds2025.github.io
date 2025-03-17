@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日黑料app</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《每日黑料app》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于每日黑料app</h2>
+<p>					每日黑料app<p>值班人员的小餐厅里，精灵们围坐一圈，享用士道和七罪她们准备好的晚餐。</p><p>餐桌灯洒下柔和的光，厚重浓郁的咖喱汤汁盖满餐碟，新鲜的胡萝卜、土豆和牛腩香气四溢，包裹米饭的蛋皮如同黄金般色泽鲜亮。</p><p>在餐勺碰撞和少年少女们的对话声中，只有一个人不言不语。</p><p>“我先回房间了。”</p><p>“……七罪小姐……我送你……”</p><p>“不用了，我认识。”</p><p>丢下银勺，七罪逃一般地离开了餐厅，就连那盘看来超好吃的咖喱也没能尝出什么味道。</p><p>原本热闹的餐桌稍显冷清，除了十香还在用汤汁搅第三份饭，就连耶俱矢都对离去的小小背影默不作声。</p><p>“她看起来心情很差。”</p><p>等到脚步消失在走廊里，耶俱矢才咬着勺子，与善解人意的姐妹悄悄嘟囔。</p><p>夕弦眨眨眼睛，把身边空出来的椅子推回原位，“同感。七罪酱似乎不习惯和我们在一起，也许她更需要一个安静的独处空间。”</p><p>“我们是不是有些操之过急了？”</p><p>餐桌对面，士道把手里的餐具放回桌上，他只顾着关注七罪的反应，盘子里的食物压根就没动过。</p><p>“我总觉得七罪在逃避什么东西……按照你的说法，真要目睹了那种恐怖场景的话，想走出心理阴影大概很困难吧。”</p><p>听到男友的话，三羽遥也摘掉眼镜，揉了揉眼睛：“也许……确实逼得她有些紧。”</p><p>“我没有责怪你的意思。”</p><p>听见女友在自责，士道赶忙解释。实际上他也明白，琴里和遥已经相当尊重七罪的隐私了。</p><p>比如考虑到让七罪得到最好的休息，从昨晚开始，病房的监控摄像机就已经被关闭，只剩下检测手环在收集体征数据。</p><p>总之，不管七罪信不信，这些事都早已经知会过她。</p><p>“遥姐姐……”</p><p>四糸乃起身握住遥的手，想要与她分担忧愁，却被轻轻拍拍手背。</p><p>“放心吧，我没事。大概是我自己的心态有些问题。”</p><p>“那需要休息一会吗？你也几天没回家睡觉了吧。”</p><p>眼看留在舰桥无事可做，琴里也跑来餐厅，大咧咧坐到椅子上，把士道面前那盘没碰过的咖喱拉到自己面前。</p><p>“那是我的……”</p><p>没有理会自家哥哥的抗议，直接拿起勺子大挖两口，在咀嚼米饭的同时还不忘继续说道：</p><p>“总而言之，后面两天还是先让她放松一些吧。说实话，相比之前你们几个动不动就Lost，她能安稳在这待上几天，已经谢天谢地了。”</p><p>“你当心噎着哦。”士道无奈起身，给她倒了杯水。</p><p>被琴里狼吞虎咽的模样逗出笑脸，三羽遥索性站起身，把水果色拉推到她面前。</p><p>“不过，总不见得什么都不做，把所有事情都推给四糸乃吧？”</p><p>虽然四糸乃作为情绪稳定器的效果卓绝，但也要考虑她自己的事情，总不能让她时时刻刻陪着对方。</p><p>“我也很喜欢和……七罪小姐一起玩……”</p><p>虽然说话时依旧有些畏缩，但四糸乃如今已经能很好地在大家面前表达自己的意见，这其实也和朝夕相处的精灵们都是好孩子有关。</p><p>“也可以找些事情让她放松嘛！”耶俱矢咋咋唬唬地跳起来，差点把斗篷都划拉到沾满咖喱酱的盘子里。</p><p>“应该找些什么事呢？”</p><p>三羽遥皱眉道。</p><p>对她来说，谈到如何在战场上把敌人一勺烩，那简直是得心应手，从理论到实践，闭着眼睛都能扯上八个小时不带重复的。</p><p>但要论哄孩子的经验……抱歉，还是另请高明吧。</p><p>众人你看看我，我看看你，愣是找不出半点好办法。毕竟真要算来，这里也都是一群半大的孩子而已。</p><p>而带孩子经验最丰富的令音小姐，此时正忙着给鞠亚她们做最后的灵波检查。</p><p>“我觉得七罪还是缺乏对抗恐惧的自信，”士道收拾完空餐盘，举手说道，“有没有什么办法能够帮她克服恐惧，或者增强自信的方法呢？”</p><p>“放松精神，或者增强自信的方法啊。”吃饱饭的一群人纷纷托腮冥思。</p><p>“小遥，你那边……就没有什么经验吗？”</p><p>琴里意有所指，她显然是把希望寄托在了宇宙世纪领先两百年的哄孩子经验上。</p><p>“这么问我也……”</p><p>【我又不是蓝色猫型保姆机器人，真没养过孩子啊……】</p><p>三羽遥内心不住嘀咕。</p><p>不过在大家期望的目光下，她还是调出了三枚羽曾保存的Alpha舰队生活记录，希望能找到点灵感。</p><p>首先输入了关键词：新人、自信、变坚强</p><p>检索之后，跳出来的第一个记录是《陆战队新人训练手册在阵代橄榄球队的实践运用》。</p><p>当她念完标题，其他人都颇感新奇地把脑袋凑了过来，毕竟这是未来世界的文字影像记录，对现代人而言很有吸引力。</p><p>于是他们看到了满屏的黑色方块。</p><p>“这个是机密文件？”琴里皱起眉。</p><p>虽然从标题来看，这套影音文档的内容应该只是普通高中生的课余生活记录，但未来的事谁知道呢。</p><p>三羽遥确认了一遍代码：“呃……这部分是被系统自主规制的，应该可以解码。”</p><p>“能放出来吗？”</p><p>“没问题。”</p><p>输入密码后，屏幕上立刻跳出一个视频框，从画面来看，应该是用手持设备拍摄的野外生存训练场景。</p><p>紧接着，音响里弹出了连绵不断的少年音，似乎正用大喇叭对一群越野训练的男生喊话。</p><p>【你们这群哔哔——要是有胆的话就在这里哔哔——给我看啊！】</p><p>【你们这些哔哔哔哔——养的大小姐，我要把你们的哔哔——全塞进哔哔——再哔哔哔——】</p><p>【听好了！哔哔——哔——哔哔哔——】</p><p>“看，”三羽遥捂住四糸乃的耳朵，用下巴指指屏幕底部的字幕，“自主规制。毕竟脏祸活累活全都陆战队干，总要给人家点发泄渠道吧……不过真没想到，宗介这小子嘴巴居然这么臭，平时明明挺斯文的呀？”</p><p>啪嗒一声，即便琴里直接暂停视频，那些不堪入耳的词汇似乎依旧环绕在半空中，久久不愿离去。</p><p>五河士道凑近屏幕，那个与他年龄相仿的男生正在念的小册子上，有一行手写体的标签。</p><p>“毛姐的……海军陆战队新兵训练手册？这个用不了吧？毕竟是给军人准备的。”</p><p>“也是。”</p><p>于是遥重新输入了关键词，还加了个新词条：新人、害怕、懦弱、变强</p><p>新的匹配记录是——</p><p>《如何打破心理障碍，老大哥们的爱之特训》</p><p>通过视频的文字简述，列举了好几条成功让人克服恐惧和心理障碍的例子。</p><p>“这个有用，这个有用！”蹲在一边，从桌面下方露出个脑袋的耶俱矢立刻手舞足蹈起来。</p><p>视频打开后，就看见两个慈眉善目的大汉正把一名五花大绑的柔道选手丢进小黑屋。随后又提来几个塑料桶，把里面装满的蜥蜴、壁虎、泥鳅、甲虫之类小玩意统统倒进了小屋子，然后狠狠关上了门。</p><p>一时间，只听里面发出接连不断的惨叫和痛哭，堪称绕梁三日时刻不绝。</p><p>“疑问。是不是有点简单粗暴？”夕弦双手捂眼，两只眼睛只能从指缝里偷偷观察。</p><p>在惨叫声中，就连三羽遥都缩起脖子，果断切换到下一个视频。</p><p>另一个案例，是害怕与父亲交流的十四岁少年想要克服心理障碍。</p><p>只见他的房间里被贴满了落腮胡男子的海报和照片，还有大型胸雕和等身人偶几乎占据了整个屋子，不管人往那边转，都逃不脱被落腮胡墨镜大叔冷漠注视的命运。</p><p>视频里，穿衬衫的美少年正裹着被子，端坐在床上不住发抖，仔细分辨的话，还能听见他在不断复读：“不能逃……不能逃……不能逃……”</p><p>沉默的餐厅里，不知是谁说了一句，“还是换下一个吧……”</p><p>于是遥果断把关键词改成了：儿童、放松、缓和关系。</p><p>新文档是《修正青春期孩子喜欢闹别扭的经验》，作者倒是没署名，只是挂了个马甲叫＜我家孩子可听话了＞。</p><p>……</p><p>一个小时过去，三羽遥两眼无神，主动关掉了显示器，自言自语道：“我觉得还是因地制宜比较好。”</p><p>众人纷纷点头。</p><p>这时候，在一旁观望了好久的十香举起手：“士道，我饿了呦。”</p><p>看来三盘蛋包饭完全不够填满她的胃。</p><p>“没事，煮的饭和咖喱都还有多，我帮你再热一盘。”</p><p>“但是……我吃这么多没关系吗？”</p><p>十香似乎对自己一个人占有了大部分餐食有些愧疚，水汪汪的大眼睛眨呀眨，就像一只可爱的小动物。</p><p>被萌到的三羽遥笑着摸摸她的头：“没关系哦，我们已经都吃饱了，十香当然也应该吃得饱饱的才对。”</p><p>当五河士道转身去忙的时候，盯着十香发愣的夕弦和琴里忽然一起拍手。</p><p>“提案。看电视里说，通过与小动物亲密接触，可以让情绪紧张的人得到放松。”</p><p>“确实有这种说法。”琴里回想了一下后，点头道：“好像是叫动物陪伴疗法，有的医院会让长期住院的病人和动物接触，这样有助舒缓情绪。”</p><p>这种说法似乎和四糸乃与七罪接触时的状况有异曲同工之妙，三羽遥看看身边的十香和四糸乃，确实可爱得令人不由心情舒畅。</p><p>“这倒是可以，从刚才的兔子来看，七罪也不会反感小动物……”</p><p>她琢磨到，“不过再用兔子肯定不行了，得换一种动物，最好是长期家养，足够聪明，又温顺亲人的那种……”</p><p>“嘿呀～这不是有现成的嘛！”</p><p>耶俱矢大喊一声，化作一阵旋风消失在餐厅里。</p><p>等几分钟后她再度出现时，手里拎着一团小巧的黑色毛球，原来她刚通过传送装置回家了一趟。</p><p>“小黑？”</p><p>把还处于懵逼状态的小黑猫抱到怀里，三羽遥逗了逗它的胡子，又举起爪子察看了指甲，确认已经修剪整齐，不会伤人。</p><p>“小黑，你今晚可以去陪陪七罪吗？她也是一个听话的孩子，现在可能会有些孤单。”</p><p>小黑猫可能是还没睡醒，此刻还愣头愣脑的，对突然换了个环境有点迷糊。</p><p>“那就这样说定了。”</p><p>三羽遥揉揉猫耳朵，就当对方答应了。毕竟想再找这么一只长期与精灵们生活的宠物，可是没那么简单。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

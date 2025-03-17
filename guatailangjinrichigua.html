@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>瓜太郎 今日吃瓜</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《瓜太郎 今日吃瓜》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于瓜太郎 今日吃瓜</h2>
+<p>					瓜太郎 今日吃瓜<p>“唔……如果士道想要住在这里，我是不介意啦，不过要准备的东西还挺多。”</p><p>“你看，虽然不用吃东西，但吃饭的习惯很难改变，所以锅碗瓢盆还是需要的……房子的话一套就够了吧？我们一人一间卧室，游戏室也是必须要的，对了还得搞个游泳池。”</p><p>三羽遥说着说着便要去准备生活用具和盖房子，甚至开始问士道他的房间想要什么装修风格。</p><p>“我不是那个意思啊！”</p><p>眼看对方真准备定居下来的样子，士道有些急了，不过看到遥笑眯眯的样子后，立刻明白对方是在逗自己。</p><p>这时他随即想到了另一件事：“那回去之后，遥你愿意来和大家一起住了吗？”</p><p>“呃……看情况吧，谁让盯着你的坏家伙那么多呢。”</p><p>三羽遥卡在了中途，脚尖点地扭着身，试图偷换概念的说道：“你看刚才那个粉毛，切开肯定是黑的喔。”</p><p>“是这样吗？你已经知道她是谁了？”</p><p>“还没有，”她摇摇头：“但我却知道你有点心动了。”</p><p>“哈？”</p><p>“哼哼～那个女孩，是你喜欢的类型吧～”</p><p>三羽遥怪笑着凑到他的面前，随后又绕着士道转了一圈：“眼神有躲闪，说中了吧？”</p><p>“才没有啦！”</p><p>“是是～没有没有～”</p><p>获得一次小胜利的三羽遥开心地哼起走音的曲调，转身准备出发。</p><p>“毕竟之前我就说过，希望那个陪在我身边的女孩，是你。”</p><p>“……”</p><p>“……”</p><p>“……那那那个是紧急状况，紧急避险！紧急的……”</p><p>看见停顿在半空中如同卡帧了的三羽遥，同样有些脸红的五河士道跟了上去。</p><p>“好的好的～我明白了。”</p><p>他接受了眼前正在闹别扭的女孩，抬手想要摸摸对方脑袋，却被瞬间扭头躲闪了过去。</p><p>“哈哈……”</p><p>看见手还尬在半空中的士道，三羽遥抓抓脸：“那个、这个稍微还有些不习惯。毕竟你看……有那么点危险动作的错觉，以后还是不要从背后过来比较好，我怕应激弄伤你……”</p><p>“我明白。”</p><p>五河士道反倒挺无所谓的，他甚至怀疑对方是不是有些战场PTSD，所以干脆换了个话题问：“那我们到底该怎么回去呢？”</p><p>见他没有在意自己的行为，三羽遥也悄悄松了口气：“我们先去见一个人。”</p><p>士道被吊起了胃口，他现在反而对这个所谓的精神世界更加兴趣盎然：“要去哪里见那个人呢？”</p><p>“最初之地。”</p><p>说着，三羽遥拍拍逐渐恢复白皙的脸颊，再次开始倒转时间。</p><p>这一次他们两人的速度更快，就连四周光的行进都成了笔直的一条直线。五河士道甚至能看见正在跃动中的光子在闪烁震动。旅途中，两人被光线所形成的漏斗围绕，仿佛踏入了时间的隧道里。</p><p>等到最后一颗光点黯淡，周围也变成了一片灰蒙蒙的虚无空间，他们来到了一个灰色的空虚之地。</p><p>“这里是？”</p><p>“邻界与宇宙外围的交界处。”</p><p>“邻界！？”</p><p>“没错，三十年前的邻界。”</p><p>这个词倒是瞬间就懂了，毕竟从初次接触到十香以来，就已经在士道的耳边被重复提到过许多次。</p><p>“原来邻界真的存在啊？我还以为是科学家提出的一种设想呢。”</p><p>打量着四周的环境，士道感叹着，不过没多久后，空无一物的环境就差不多耗尽了他的耐心：“我们来这里是为了见到……”</p><p>还没等话说完，三羽遥就点了点头：“已经来了。”</p><p>滋拉——</p><p>空间仿佛破布一样从内侧被撕碎，伴随着缝隙中露出的恐怖气息，一艘庞大的战舰破开了邻界的空间壁垒，出现在了这里。</p><p>那正是士道之前见到过的战舰，昆仑女王号。</p><p>“好大……”</p><p>在士道的视角里，刚出现时的空间裂缝距离他们还相当遥远，在他的眼里甚至是个只有一两厘米大的一个小点。</p><p>但随着对方逐渐开进，空间裂缝被慢慢撕开的同时，这艘蓝色的舰船也越来越大，直至占据了他整个视野。</p><p>可再看远方，舰身依旧有一部分还在空间裂隙里没有完整出现，仿佛无穷无尽一样。</p><p>如果说之前在扭曲空间中因为视角之类的原因还不觉得的话，那这一次他是真正感受到了对面的压迫感。</p><p>“好……好大！”</p><p>从距离自己几公里到几百米、几十米，等到那庞大舰身的阴影几乎就快要压到头顶，吓得他快要后退时，听见自己耳旁响起了一声不满的哼声。</p><p>“吓唬小孩子有意思吗？”</p><p>【我是小孩子吗？】</p><p>还没来得及表达不满，他就被女孩牵着手，微微上升，飘到了战舰的正前方。</p><p>而此刻正站在那钢铁大地顶端的，正是……</p><p>“遥？！”</p><p>再看看自己身边穿着黄色连衣裙的女孩，五河士道不淡定了。</p><p>“只是个投影而已。”</p><p>微微侧首给了个小提示，三羽遥这才朝对方开口道：“欢迎来到这个世界，三枚羽。”</p><p>“你好，未来的我。”</p><p>穿着军服的短碎发少女同样点点头，中性的声音回荡在空间里，语气中不带半点波动。</p><p>士道刚才反应过来，这正是他在梦中听到的声音。只不过光比较外貌形象的话，对面因为发型的原因，看起来还比自己身边的三羽遥稍微年幼一些。</p><p>“我当时就好奇，除了我自己之外，拥有叁式和MK III控制权限的还能有谁。把一部分记忆封锁在存储中心底层的又能是谁。”</p><p>“况且有能力引导士道绕过空间断层，来到昆仑女王号上。甚至隐约诱导士道来找我的，除了我自己之外，不可能还有别人了。”</p><p>“是的。”</p><p>三枚羽大方承认了下来：“在接受自己即将消失的这份事实的同时，我也必须要考虑到，未来感性的我会是什么样子。未来的我是否会因为感性而导致冲动行为，乃至对这个世界造成不必要的危害。”</p><p>三羽遥眯起了眼，流露出一丝危险的气息：“所以你就留下了一个后门。”</p><p>“我觉得检测程序的称呼更加合适。”</p><p>“呵呵，检测。”</p><p>没有理会三羽遥嘲讽的表情，祂接着说道：“这个程序会挑选一名适格者，由其评定新生的我究竟是否适合这个世界，并交由检测程序作为参考。”</p><p>“所以你选择了士道。”</p><p>“没错。”</p><p>“甚至把他拖进危险之中！”</p><p>“这是必要的。”</p><p>眼看两个双胞胎一样的女生就要吵起来，五河士道突然想到了什么：“等等，难道说我看到的遥……不，你们的记忆，也是你给我看的？”</p><p>三枚羽把目光移到了士道身上：“在你们的时间点，现在的我已经不存在了。所以准确的说，是由检测程序交付给你的。作为适格者，了解受试者的背景是必要的一环。”</p><p>祂顿了顿，继续替士道解释：“如果受试者不合格，被选出的适格者在继承数据的同时，也要承担起摧毁受试者的任务。”</p><p>“摧毁……这么草率的吗？！”</p><p>面对士道的逼问，三枚羽停顿了一下：“我推测你们如今遇到的情况，应该是某种意外或不可抗力导致的。我不是类神体，无法做到不修改因果就完美应对任何状况。所以对于维护世界本身来说，这是合理的选择。”</p><p>“那为什么封锁掉灵光之路和拜斯顿威尔的信息？那个并不构成威胁吧。”</p><p>“我希望未来的自己不要因为经验主义而否认这个世界对于灵力的使用。”</p><p>“傲慢的家伙。”</p><p>三羽遥咬紧了后槽牙，却意外地没有继续追究下去。</p><p>“那我现在算是合格了？”</p><p>“勉强合格。”</p><p>“我需要带士道回去，你干的破事你也得负责。”</p><p>不等三枚羽给出反应，她就毫不客气地伸手一摊：“把巴兰·修奈尔的特异点借给我。”</p><p>“它就在这里，你大可以直接使用。”</p><p>“这家伙不会又有什么阴谋吧……”</p><p>看到三枚羽这么大方的样子，三羽遥甚至有些嘀咕了，不过她的小动作立刻被对方察觉到。</p><p>“我就是你。”</p><p>简单明了的话，却让三羽遥显得有些焦躁：“没错没错，赶紧开始吧。”</p><p>就在这时候，五河士道拉了拉遥的袖子，凑到她耳旁悄悄说：“要不要问问黑骑士〈KuroiKnight〉的事？”</p><p>三羽遥低头想了想，最后还是摇头：“算了，对过去的干涉还是越少越好。”</p><p>于是，两名少女飘浮着，缓缓聚到了一起，她们同时伸出双手虚空捧起，光粒子与灵力场在她们的手掌中流动着被编织起来。</p><p>在等待通道程序成型的过程中，三羽遥小声念叨：“你这形象是照着我捏的？会不会引起悖论？”</p><p>“这具身体必然是依照世界规则和意愿而生成的，这都在预测范围之内。”</p><p>“那为什么你看上去比我小样一些？”</p><p>“依照线性时间计算，我比你年轻30年。”</p><p>“你——”</p><p>三羽遥差点被过去的自己憋出内伤。</p><p>三枚羽没有理会她，反而认真地说道：“程序完成了。”</p><p>“我这边也完成了。”</p><p>三羽遥气呼呼地说道。</p><p>等到光粒子和灵力场编织的球形程序笼罩了整个空间，两名少女同时出声。</p><p>“士道先生请过来。”</p><p>“士道把手伸过来。”</p><p>“……哦，哦。”</p><p>面对相同的声音和不同的语调，五河士道乖乖伸出两只手，被三羽遥和三枚羽各自握住。</p><p>于是，漂浮到一起的两名少女各自摊开手掌，仿佛一对镜像般，额头贴到了一起。</p><p>随着虹色的利剑刺破天空，固化的空间开始震动，时空跃迁再次启动。</p><p>这时，三枚羽用只有她们两人听得到的声音说道：“请守护这个世界。”</p><p>“我会的。”</p><p>三羽遥用同样的声量轻轻回答。</p><p>“还有，”她对着自己悄声说话，又仿佛是对三枚羽做出承诺：“我再也不会哭了。”</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>海角社区贴吧</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《海角社区贴吧》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于海角社区贴吧</h2>
+<p>					海角社区贴吧<p>巨龙紧跟逃跑的食尸鬼，吐出无数的火球，食尸鬼无法孤身应对如此巨大的怪物，只能不停的躲避。</p><p>  “有没有办法能捅它一刀呢，真的是。”食尸鬼拿着手中的剑，却找不到好时机，猛烈的攻势让他不得不承认，这头龙火着实危险，要是在现实中，肯定是能屠城的灾厄级。</p><p>  无数的火焰攻击着食尸鬼，再怎么说也不可能全部躲掉，眼看其中有一发就要命中他了，食尸鬼立马举起双臂防御，但在这一瞬间，一道黑色的魔法从他身边出现，然后把他拉了进去，食尸鬼一下便消失不见，火焰炸了一片空地，随后他又一下从另一旁瞬移出来。</p><p>  “刺激吗？”</p><p>  一个熟悉的声音响起，食尸鬼看向一旁，发现柴郡猫在旁边咧着大嘴傻笑。</p><p>  食尸鬼：“我可没说需要你帮忙。”</p><p>  柴郡猫：“我也没说需要你同意。”</p><p>  就在两人拌嘴时，最远处的房顶上有个黑影跳了下来，只见他呼喊着，一个大跳跳在了龙的身上，他在落下的一刻抓住了龙脖子上的刺棘，索性没摔下去，趁巨龙没有感觉到自己，立刻抽出小刀抓着一根一根黑刺往头顶上跑，一口气跑到了巨龙的头顶后，一下跳到了它的眉心处，朝着眼睛就是一刀刺下去。</p><p>  “嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷！”</p><p>  巨龙疼的闭上眼睛，疯狂的甩动头部。</p><p>  “好吧，合作吧，我也不是那么小心眼的人！”</p><p>  食尸鬼见情况紧急，便自退一步，直接朝着挣扎的巨龙跑去。</p><p>  “但我算是个小心眼的猫呢~”</p><p>  柴郡猫一笑，也化作一道黑雾往巨龙那边飘去。</p><p>  “啊啊啊啊啊啊啊啊啊！”</p><p>  一声惨叫，疯帽子被甩了下来，柴郡猫见状直接过去抓住了他的衣服，险幸没摔死。</p><p>  “做的好小哥，你们让开一下。”</p><p>  食尸鬼夸奖了一下疯帽子的勇气，随后趁巨龙嘟囔时，立马原地起跳往天上蹦，一下子来到了巨龙的眼前。  “这是何等的弹跳力！”疯帽子见状不禁赞叹。</p><p>  （抓住！）</p><p>  【啊！！！！】</p><p>  食尸鬼双手拎着火龙短小的胡须，直接奋力大喝一声往地上一砸！</p><p>  （砰！）的一声，巨龙狠狠的被拽了下来，脑袋沉重的砸在土地里。</p><p>  疯帽子：“好惊人的力气，居然把如此庞大的加波尔克徒手拽了下来！”  </p><p>  “还没完呢。”</p><p>  食尸鬼在半空中抽出万神剑，疯帽子和柴郡猫都很惊讶，万神剑竟然在他手上。</p><p>  只见食尸鬼拿起剑直接一刀落地捅进了巨龙的后背，巨龙痛苦的嘶嚎着，响音震耳欲聋，鲜血从伤口里迸涌而出。</p><p>  巨龙甩起尾巴，食尸鬼没有想到它还有余力，来不及躲闪，一下子整个人被尾巴甩在了地上。</p><p>  “没道理啊，万神剑不是砍中它了吗？”食尸鬼一下子站了起来。</p><p>  “没用的，加波尔克的伤口痊愈速度十分惊人，虽然只有万神剑能真正的伤到它，但是如果不一下子直接斩下头颅，它就能一直再生！”疯帽子喊道。</p><p>  听到这食尸鬼有点难办了，“原来如此，但是这把剑甚至还不如对方一个牙齿大，再怎么我也做不到一下子砍断它的脑袋啊，还有别的办法没？”</p><p>  疯帽子安稳着陆后，难堪的说道：“这不好意思，我还真不了解了。”</p><p>  柴郡猫：“又没说一定要一刀砍死吧，趁它没有完全恢复之前，大不了多砍几刀，反正最后就是要把头砍下来的吧。”</p><p>  “说的有理。”食尸鬼拍了拍脸上的泥巴，打算再试一次。</p><p>  “食尸鬼兄！”小灵耳在一旁喊道。</p><p>  “哦小妹啊，这里太危险了你到一边去，不要妨碍我们。”食尸鬼如此告诉她。</p><p>  “明白了。”她清楚地点了点头，便迅速跳开这些碎裂的建筑物，远离了这附近。</p><p>  巨龙从地上爬了起来，四只爪子牢固的钉在地面上，它咕噜着嘴巴，不停的吐出热温的口气，眼神死死的盯着眼前的二人一猫。</p><p>  “有没有什么作战计划B之类的？”食尸鬼扭动着手腕脖子说道。</p><p>  “很遗憾，面对如此绝对力量的庞然大物，什么计划都没用了。”疯帽子说道。</p><p>  “哼，没有计划吗，这我也喜欢！”食尸鬼笑了笑，随后眼神变得十分凶狠，卧地一跳径直就是冲向加波尔克。</p><p>  巨龙张牙舞爪用爪击向食尸鬼，食尸鬼发觉躲不开站稳脚步双手防御企图抵挡，却一下子如同苍蝇一般瞬间拍飞。</p><p>  “好大的力量……”小灵耳躲在远处看着，她还是第一次看到那个食尸鬼居然如此处于下风，完全被敌人压制着打。</p><p>  食尸鬼像个弹弹球一样被击倒在地，柴郡猫这时从巨龙头顶上出现，利用魔法强化了双爪，它蓄力待发，以无数高速频率的爪击疯狂的抓挠着巨龙的头部，巨龙疯狂的摇晃头部想要把它甩下来，而疯帽子也拿起小刀来到了它的四足下，跳起来就是对着跟腱部位狠狠的插了进去，并由上而下给它解剖了一道深沉的伤疤。</p><p>  巨龙抬起脚一记后踹，疯帽子瞬间被踹飞出去，食尸鬼向这里跑来，奋力一跃，举起左手，顿时柴郡猫从他旁边遁出，一下抓住他的手，然后又是一次瞬移，带着食尸鬼直接来到了巨龙的面前，并转一圈借助惯性给他甩了过去。</p><p>  食尸鬼在飞向巨龙的同时，也举好了万神剑。</p><p>  巨龙则朝着食尸鬼张大嘴巴，无数火星开始在嘴巴燃烧。</p><p>  “喂，这招看起来很危险！快躲开！”</p><p>  柴郡猫大喊道，而且它不能短时间再度使用这种瞬移系列魔法，食尸鬼自然知道，但是他躲不开了，不如就这么赌一把，直接把剑刺穿它的喉咙。</p><p>  加波尔克散发出比往常更强的高温，火星在嘴里不停的聚集，汇聚层耀眼的红色龙息。</p><p>  “躲开啊！”</p><p>  柴郡猫如此一喊，便立刻跑开了，疯帽子从远处也爬了起来躲避，食尸鬼却拿起万神剑，直接顶着铺面而来的毁灭龙息冲了进去。</p><p>  “！”</p><p>  他一下直接把万神剑狠狠的刺入巨龙的口腔，巨龙在饱受伤害的同时，把龙息全部倾泻而出，食尸鬼咬紧牙关，无力的看着眼前的红色吞没自己，龙息一瞬间光速飞跃，就像一个导弹划过，所到之处，寸草不生，俯视整个安纳西的中间便能看清瞬间多出了一道笔直的焦灼之道。</p><p>  “食尸鬼兄！”</p><p>  小灵耳见状立刻跑去事发地，通过灵敏的耳朵倾听呼吸的声音。</p><p>  “在那！”</p><p>  她迅速跑到声源处，发现食尸鬼早已翻白眼晕倒在地，但是万神剑却紧紧的拿在手中没有落下。</p><p>  “就连房屋都被这道龙息吞噬干净了，正常人早就灰都没了。”</p><p>  她不禁赞叹食尸鬼超人的身体素质，随后立刻把他背了起来远离事发点，姑且先搬到一个安全的角落。</p><p>  “那家伙没事吧！”</p><p>  一旁疯帽子从角落里站了起来，如此巨大的龙息，虽然这么说不好，但是他肯定已经……</p><p>  “现在没时间担心别人啊！小心！”</p><p>  柴郡猫没有放松警惕，一下子把疯帽子拉了开来，躲避了巨龙的突然袭击，差点被巨龙一脚碾成肉泥。</p><p>  “啊不好意思。”</p><p>  他抱怨自己的分心，不管发生什么，眼前的这个才是最大的威胁，如果不将它消灭，将于事无补。</p><p>  “喉咙……”疯帽子注意到加波尔克的喉咙在异常的流血。</p><p>  “多半是刚才万神剑那下造成的，虽然没干掉它，但是伤口非常深，短时间内肯定是无法复原的。”柴郡猫推测道。</p><p>  “那么喉咙现在就是我们的突破口了？！谢谢你勇敢而产生的机会，男人！”疯帽子向食尸鬼道谢，随后再度燃起意志。</p><p>  “那么…………嗯？”</p><p>  疯帽子正在思考如何击败恶龙，但这时好像看到天上有什么黑影逐渐下落。</p><p>  疯帽子：“那是什么？”</p><p>  巨龙也没有注意到，只见它再度张开大嘴开始蓄力龙息，却没想到黑影就在自己的头顶上。</p><p>  可儿：“我来啦臭龙！吃我一记！”</p><p>  疯帽子突然看到可儿她们从天而降，吓得直瞪眼珠，柴郡猫看了也笑了笑。</p><p>  巨龙听到声音刚想往上瞄一眼，一瞬间一块比自己脑袋还大的石头砸落下来，狠狠的敲响自己头颅的回声，嘴巴里的龙息因为巨大压力瞬间炸膛，只听boom的一声，巨龙的嘴巴冒着黑烟被自己炸飞在地。</p><p>  “可儿！你终于来了！”见到可儿，疯帽子激动不已，完全无视了三月兔的存在，也许是太小了。</p><p>  可儿：“欧！我来帮忙啦！”</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黄瓜社区官网</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《黄瓜社区官网》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于黄瓜社区官网</h2>
+<p>					黄瓜社区官网<p>这一趟，除了认识那些奇珍蔬果，还能带来些许乐趣，除此之外实属无聊，她如今已经过了那个见到花花草草都会惊讶的年龄。</p><p>“这是羽穗，可以用来炼制一些低品丹药。”苏柒指着一株宛如白色羽毛球的草。</p><p>林羽嗯了一声，这一路上来皆是如此。</p><p>苏柒会把她觉得有趣的植物和果子介绍给林羽，而林羽偶尔也会点评几句，这一路下来她已经见识几十种灵果灵草。</p><p>“好了，这是最后一个了，接下来我带你去下层看看吧。”苏柒笑着伸出手。</p><p>想要进到药林，就必须要有司念薇的许可，否则外围的杀阵会瞬间将闯入者绞成肉沫。</p><p>出去亦是如此。</p><p>苏柒牵着林羽从药林的后门走了出去。</p><p>“从这个石头阶梯往下，一直走到半路，差不多就到中层了。”</p><p>林羽看了看头顶的白云又低下了头。</p><p>这山估摸着有数千米高，若是一走一回的不知要浪费多少时间。</p><p>她皱起眉头，实在是想不通司念薇把遁法封禁的目的。</p><p>苏柒看着林羽嘟起小嘴的模样，只觉得可爱极了，情不自禁的揉起那粉嫩脸颊。</p><p>“为什么要一副冷冰冰的样子，这样笑笑不是很好看吗？”苏柒完全不理解一个不爱笑的人怎么获得幸福呢。</p><p>“停！”林羽一把抓住苏柒的手，“再揉的话脸都要肿了。”</p><p>苏柒回过神来连忙松开，双手合十，九十度鞠躬：“真是对不住，不知怎么回事看着四师妹的样子，心里就下意识想这样做了。”</p><p>“没事，”林羽轻抚着揉红的左脸，“反正这张脸被揉的多了。”</p><p>在诡地里二师姐就很喜欢揉自己的脸。可揉脸这种事爽的是自己祸害的是别人。</p><p>“噫！我直接带你去宗门里转转吧。”苏柒突然想起什么，从储物戒中拿出一大块树皮，“下半层基本都是师姐们的住所和修炼的地方，四师妹住在山脚，日后也能看看。”</p><p>“而最近外边好像发生了什么大事，宗门弟子少了很多，这种机会很难得啊，怎么样？去嘛。”苏柒用着那写满了“一起去”的青眸看着林羽。</p><p>“可以。”林羽微微颔首，她本来就打算在这里深入一番，拜托苏柒也是因为怕自己独自一人行动会被人认出来。</p><p>修仙嘛，有点“透视”很正常。</p><p>“那我们直接从这里滑下去吧。”说完，苏柒把树皮放了下来，“用这个可快了。”</p><p>“你要用这个树皮？”林羽有些吃惊，“多少有点危险。”</p><p>苏柒的修为才筑基圆满没有灵气护体，这要是从这数千的山峰掉下去……</p><p>“有我在，你只需放一百个心。若真摔了还有它在。”苏柒信誓旦旦的贴了张符篆在树皮上，“来，抱紧我，三师姐带你体验一次。”</p><p>“好。”话都说到这了，林羽已没有丝毫犹豫，踏在树皮上后，紧紧的抱住了苏柒的腰。</p><p>“出发！”苏柒大喊一声，随即催动符篆，滑了下去。</p><p>此时的速度，彷如乘风。</p><p>那山顶上的黑点不停的在向下移动着。</p><p>……</p><p>际地场外围。</p><p>“那里就是际地场了，宗门内的核心地带，你可以在那里解决大多数麻烦。”苏柒指着前方。</p><p>林羽扭头望去，那里她之前来过了，就是第一次与方止相识的广场。</p><p>“喏。隐藏面貌的法宝可不要忘记带了。”苏柒递给林羽的正是无间斗笠。</p><p>这个法宝确实很方便，要不是上次二师姐给我的那个丢在了遗迹中，不然就又多了一个技能可用了。</p><p>林羽看向苏柒，只见她早已戴好斗笠，面容化作水雾般模糊不清。</p><p>见此，林羽心中断定这个法宝确实如同二师姐那天给她的一样。</p><p>不过这斗笠是能够量产的吧，随随便便就能送人了。</p><p>“走吧，先带你去周围看看。”</p><p>苏柒引着林羽来到际地场的中心，今日确实如她所言人流不多，平日里热闹非凡的市集竟寂若死灰，连方止都不在树上睡觉了。</p><p>可见宗门内出了什么大事。</p><p>“有件事忘了说，”苏柒传音道，“宗门内只有外门弟子有要求统一服饰，各峰的弟子依靠衣着便能分配出来。”</p><p>“你看，那个衣装华丽的大概是妙灵谷的人，穿着很少的应该是妍姻阁的人，这两个峰的宗主是死对头关系，你可千万别去掺和啊。”</p><p>映月峰弟子的特点是只想双修，她们不在乎对方的长相如何，只关心能够从男人身上榨得多少修为，简单来说就是一个非常正规的合欢宗代表。</p><p>林羽已听过映月峰的一些事，现在只剩下一个山峰不知了，“那么九素呢？”</p><p>“九素啊。”苏柒略微思索，“我知道的也不多，只是听闻她们喜欢戴着指环。”</p><p>“啊，到了。”</p><p>林羽跟苏柒一同停在一座阁楼前。</p><p>“凌缕阁？”林羽对着门匾轻声念道。</p><p>“四师妹如此楚楚动人，怎能一直穿着这没有美感的粗布衣呢，正好出来一趟就来买几件吧。”苏柒拿出乾坤袋往上一抛，沉甸甸的声响足以证明里面的分量。</p><p>买衣服……想让我女装！</p><p>林羽一听才察觉到了事情的不对，一个转身正想溜之大吉，可苏柒的无情铁手早已牢牢抓住了她的手臂。</p><p>“四师妹，你这是要去干吗啊？三师姐连灵石都帮你准备好了。”</p><p>“我突然想起来二师姐找我有事，恕不奉陪了。”林羽心虚道。</p><p>“二师姐不是闭关了吗？”苏柒的眼眸中闪烁着困惑，“难不成四师妹你刚化为女身？可我也没见你脖子上有任何印记啊。”</p><p>林羽知道苏柒所说的印记是什么，先前方止就与她说过，宗门内有一老祖留下的大阵。</p><p>在阵中，若男子受到致命伤害时，阵法就会生效，往其脖子上刻入印记并且转换成女身。</p><p>而我当然没有印记了，毕竟是穿越过来的。</p><p>在外人眼里我就是纯天然的美少女。</p><p>那为什么不进去？当然是因为我心中还有着作为男人的底线。</p><p>女装是不可能穿的，这辈子都不可能！</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

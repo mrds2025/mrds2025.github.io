@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>冲哥吃瓜不打烊</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《冲哥吃瓜不打烊》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于冲哥吃瓜不打烊</h2>
+<p>					冲哥吃瓜不打烊<p>“罗兰，你来复述一下上节课我们学到的，关于魔物人类一家亲的内容。”</p><p>第一节课就是历史课，老师点了罗兰的名。</p><p>罗兰站了起来，流利地答道：“在很久很久以前，魔物和人类是死敌，双方之间的战争不死不休，魔物总是占据上风，而人类则节节败退，濒临灭亡。后来，人类被困在名为断灭之崖的狭小的土地上。魔物停止了进攻。但是人类没有停止反抗，人类当中每隔一段时间就会出现一名叫做勇者的强大个体，他们肩负起讨伐魔王的任务，但是，勇者从来没有成功过。</p><p>“直到一千年前，那位传奇的勇者踏上了征讨魔王之路，他不是使用暴力，而是用爱征服了女魔王。于是，魔王和勇者紧紧相拥，他们结为夫妻，共同宣布了魔物和人类战争的结束。从此，魔物人类一家亲。在魔物和人类的共同努力下，世界迎来和平，科技得到发展，于是有了我们现在的生活。</p><p>“但是，由于当时的记录很少，我们并不能知道当时的魔王和勇者的名字。但是，我们应该继承那对无名的魔王和勇者的精神，将魔物人类一家亲的精神永远地传承下去。”</p><p>“答得非常好！”历史老师是一个看起来四十多岁的女人，她笑容可掬，带头鼓起掌来，看起来非常的亲切。其他的学生也跟着送来了热烈的掌声。罗兰微笑着微微鞠躬致意，看起来，他好像很享受大家的赞美，对这段历史有浓厚的兴趣。</p><p>此乃演技。</p><p>他能这么回答这个问题，并不是因为他真的多喜欢历史，而是因为类似的内容实在宣传得太多太多了。</p><p>他也知道，大家鼓掌并不代表着大家觉得他有多厉害，一切都是表演而已。</p><p>因为这么做能被大家喜欢，所以必须这么做。</p><p>多么的无聊。</p><p>而为什么学校以及媒体要反复强调这段历史呢？</p><p>这是因为有一群名为魔法少女的存在，她们公然宣传着另一个故事。</p><p>在那个故事里，没有什么美好的婚姻，没有什么和平的宣言，魔物战胜了人类，它们统治了人类，并且延续至今。它们之所以没有把人类赶尽杀绝，之所以还让人类过得看起来比较滋润，就和人类把猪养肥是一个道理，是因为他们需要在人类身上吸取能量。每年世界上发生的各种人类死亡或失踪的案件和灵异事件，有许多都是魔物所为。</p><p>所谓的和谐是魔物的谎言，人类必须要识破它们的谎言，必须要团结起来，行动起来，反抗魔物的统治。这就是魔法少女的宣言。</p><p>为此，她们一直在身体力行地猎杀着魔物。</p><p>这是何等荒谬的言论，这是何等残忍的暴行。人类才不会相信她们的话，因为人类从小就被教育，魔法少女是坏人，是破坏人类与魔物和谐共处的败类。</p><p>但对于罗兰来说，这些都无所谓。</p><p>正当他这样想着的时候，历史老师没有直接进入课程，而是把今天早上他看过的，魔法少女「燎月」袭击z市的新闻给大家讲了一遍，尤其是强调了，这次事件有两名人类死亡。</p><p>不是所有人大清早的家里会打开电视收看新闻，所以许多学生听了这个消息之后惊叫出声。</p><p>等大家的惊呼声过了，老师才重新开口说道：“你们是好样的，你们一下就明白了，这充分说明了魔法少女所言就是谎言！魔法少女口口声声说魔物是人类的敌人，她们站在人类的一边，可她们终于隐藏不住残忍的本性，对人类也下手了……”</p><p>突然，一个学生站了起来。</p><p>他义愤填膺，脸憋得通红，声音洪亮地说：“老师！如果有征兵令下来，一定要告诉我啊！我要去当兵！我要去消灭该死的魔法少女！”</p><p>“好！非常好，有征兵的通知，老师一定第一个告诉你！”</p><p>老师竖起了大拇指。教室里响起了热烈的掌声。一时间，那个站起来的少年仿佛一颗耀眼的明星。</p><p>罗兰没有鼓掌，他觉得尬得不行。</p><p>就是因为这样，他才讨厌这个世界的。</p><p>他决定不去看这个讨厌的教室，他托着脸，看起了窗外的风景——他坐在教室里靠窗那一列的倒数第二个。</p><p>虽然校外的风景也是这个世界的一部分，从他的位置，可以看到校门口，那是他每天都会走过的路，算不得稀奇。但是在这个时候，窗外的风景还是比较怡人的。</p><p>还有更加怡人的就是……</p><p>从窗户的玻璃上，可以看到反光。在那玻璃的反光当中，可以隐隐约约看到一张秀丽而认真的脸。</p><p>那是坐在他身后，也就是全班最后一列最后一个的女生，陶怡。</p><p>不知道为什么，罗兰就是喜欢“最后”这个词，仿佛一个东西排在前面就俗了，落在后面才是宝贵的。</p><p>假如陶怡坐在其他地方，他可能不会有那种感觉。</p><p>但是，当陶怡坐在最后一排的最后一个时，看着她的脸如梦似幻地出现在窗户玻璃上，他觉得，好美。</p><p>陶怡没有注意到他，而是认真地看着讲台，那认真而专注的样子就更美了。其实，陶怡的成绩并不是太好，她是那种虽然很努力学，但是怎么学成绩也上不去的类型，想到他的这个属性，罗兰更加兴奋了。</p><p>简直就好像是坠入了怎么挣扎也出不去的堕落的深渊。</p><p>越是挣扎，那污秽的黑泥越是裹满她的全身。</p><p>如此美妙……如此……</p><p>咚！</p><p>老师重重地砸了一下讲台，把罗兰吓得差点从座位上蹦了起来。</p><p>老师瞪了他一眼，继续讲课，他这才明白，不知道什么时候，老师已经开始正式上课了。</p><p>罗兰感觉到有些同学在偷偷地笑自己。</p><p>瞧，这就是这个虚伪的世界，刚刚还鼓掌，马上就嘲笑。</p><p>这种世界……这种世界还是早点毁灭了比较好。</p><p>乖乖地听老师讲了三分钟的课，罗兰又感觉无聊起来。他不敢再明目张胆地偏过头去，但是眼皮子的确在打架了。</p><p>他偷偷打了一个哈欠。</p><p>这种每天就只是上学的日子，真无聊啊。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

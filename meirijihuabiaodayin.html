@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日计划表打印</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《每日计划表打印》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于每日计划表打印</h2>
+<p>					每日计划表打印<p>姓名：三羽遥〈Mihane Haruka〉</p><p>年龄：16岁〈外表，实际上……别打了、别打了！遥小姐有话好好说别动手啊……作者也不知道行了吧？！〉</p><p>身高：170cm〈被采访人多次强调，实际身高为169.5cm。为什么非要这样说？真奇怪？〉</p><p>三围：B97/W58/H92〈均衡的营养摄入，并保持一定的运动，才能拥有健康的身体。但有些东西真的是天生的……〉</p><p>体重：？？〈被采访人要求保密〉</p><p>特征：淡棕色波浪长发，工作时会挽起发髻，深棕色眼瞳，平时常戴平光眼镜〈本人声称这样会有安全感，但其实只是耍帅〉</p><p>爱好：音乐〈宇宙歌姬和宇宙歌基的专辑都有存档〉，小手工〈如果米氏热核聚变反应炉也算小手工的话……〉</p><p>喜爱食物：巧克力、糯米糕、可乐、慕斯巧克力、冰山熔岩蛋糕〈绝对的甜食党，精灵了不起啊！？不怕胖啊！？〉</p><p>便服：羊绒开衫，白色蕾丝衬衫，学院风背带格子裙，牛皮小靴子，红色领口蝴蝶结，羊绒贝蕾帽〈对着服装店门口的假人模特照抄，试完掏钱直接抱走，深受营业员喜爱的消费者类型〉</p><p>喜欢的味道：柠檬马鞭草，月桂，aromatic wood</p><p>识别代号：Guest〈访客〉〈本人相当不喜欢这个代号，因为原本世界的异星侵略者之一也被地球联邦称为Guest〉</p><p>特殊能力：直径一千公里的球型随意领域，唯一的作用就是停泊昆仑女王号〈Exelion〉〈菜，这能力真是太c……好吧，朴实无华了，说好的狂霸酷拽呢？〉</p><p>灵力光：白色</p><p>空间震规模：C〈根据资料显示，Guest的空间震普遍出现于高空〉</p><p>灵装：神威灵装·三番〈Elohim〉</p><p>灵装等级：B〈低下的灵力值导致防护能力只有C，但介于本人自带的重力护盾，升级到B〉</p><p>灵装造型：白金披风搭配未来风军礼服，内衬露肩连衣短裙，尖头短靴配过膝袜绝对领域〈绝对是外星技术研究机关里那群色老头的恶趣味。兜十藏别看其他人了，带头的就是你！〉</p><p>天使：凶鸟mk3、古伦加斯特叁式〈遥并没有天使，默认这些舰载机是天使，只是为了隐藏自己异世界来客身份，以此误导官方〉</p><p>魔王：戒律魔神〈Granzon〉〈也是假的，忽悠澪的。称号来自那个世界最令她头痛的谜语人，所以就随手把头痛的种子播撒到另一个世界〉</p><p>能力值：</p><p>力量（STR）：220〈封印状态下徒手逼停出租车的水准〉</p><p>耐力（CON）：180〈马拉松闭着眼睛跑完也出不了几滴汗〉</p><p>灵力（SPI）：99〈灵力反应羸弱，说得难听点，简直就是惨不忍睹，遥小姐你真的是精灵吗？〉</p><p>敏捷（AGI）：255〈真实系只改运动性不是常识吗？我打不死你，你也打不中我〉</p><p>智力（INT）：——〈掌握着未知的异世界技术，总能掏出点奇奇怪怪的东西来〉</p><p>总和：754+〈怎么会有这么菜的原创精灵啊？而且您这真不是狂战士加点吗？和您的形象那真是一点都不搭呀〉</p><p>综合危险度评价：B-〈虽然不会主动挑起战斗，但受到攻击后会进行一定程度的反击〉</p><p>各种奇奇怪怪的特长：</p><p>灵力感应（A）：精灵们都能感应到周围环境的灵力波动，并没有什么实际用处的剧情专属种族特长，俗称脑门过电。〈路过的红色有角三倍速：“嗯？是阿姆罗吗？”22岁过期前女友：“你瞧谁都是阿姆罗！”〉</p><p>料理（B）：师承某位不愿意透露姓名的，喜欢把搭乘机体编号都改成龙卷的迷之美食家。不过由于死板的性格，得到了〈没有妈妈味道〉的奇怪评价，正在逐渐摸索属于自己的料理之路，也许以后手艺会越来越好……吧？</p><p>东方不败流格斗术（A）：这是一种激发人类身体潜能的学问，曾在短暂的反派共斗中，由那位武术界的泰斗托付给了三枚羽，希望能将其保存到人类踏上新家园的那一天。</p><p>虽然三羽遥自问在武术上并没有什么天份，但生搬硬套还是做得到的。〈既然大家都是邪恶的反派角色，搞个温泉联谊也是很正常的啦。by Dr.Hell。语出第一届也是最后一届反派联合大会，随后大家就分道扬镳了，因为价值观实在谈不拢。对了，我们这里真的不是搞笑四格漫画？〉</p><p>数据待更新……</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

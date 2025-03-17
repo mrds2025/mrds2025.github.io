@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>暗黑中文网</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《暗黑中文网》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于暗黑中文网</h2>
+<p>					暗黑中文网<p>电车安静地停在站台前，两人走出闸机，便已是博物馆的大门口。</p><p>得到鞠亚的帮助后，小小遥已经能够坐在士道肩膀上而不会引起旁人注意，这就让他们的行动方便了许多。</p><p>五河士道对封锁线前执勤的警官出示证件，经过一番复杂的验证后，终于走进了警戒重重的博物馆。</p><p>越过前现代风格的前厅，来到布置完毕的中央会展大厅，十香正在这里和黑马警部一起检查警备漏洞。</p><p>“士道你看怎么样？”</p><p>被层层叠叠的安保系统环绕，少女侦探邀功般向眼前的少年炫耀。</p><p>“别说怪盗，我看连只苍蝇都跑不进来。十香这次真的很厉害呦～”</p><p>五河士道毫不吝啬他的夸奖，让十香停不住地得意偷笑。</p><p>“说来最重要的东西，就是那个吧。”</p><p>红色隔离带围起的空旷展台中央，是一尊独立的玻璃展示柜，那颗无比珍贵的珠宝，此刻正安静地躺在银制托架上。</p><p>“要进去看看吗？”好说话的黑马警部拉起隔离带，让他们能近距离观察到宝石。</p><p>那是一颗如同女神眼瞳般美丽的珍宝，比少女握起的拳头更大一些，在柔和的光线笼罩下，不断折射出波光粼粼的彩虹。</p><p>“好漂亮吖。”</p><p>小小遥站在士道肩膀上，手撑防弹玻璃，盯着箱子里那颗名为天空之星的稀世珍宝两眼发光。</p><p>“确实呢。”</p><p>没想到她还有这样的一面。</p><p>士道忽然有了把这颗宝石弄来送给她，以此换得女友笑颜的冲动。不过他好歹还算清醒，知道这不过是虚拟世界里的一串数据而已。</p><p>也许下次约会时，博物馆是个不错的选择，于是便悄悄开口：“那你想不想——”</p><p>“用来做盖塔线的发射装置肯定很好用，回头可以考虑搓一颗……你说什么？”</p><p>小女友闪闪发光的卡姿兰大眼睛直接让士道把接下来的话憋回肚子，“我是说，有谁想吃点东西吗？”</p><p>“我要吃！”同样对珠宝完全不感兴趣的名侦探立刻举手。</p><p>对十香投去感激的目光，他就开始对黑马警部装模作样：“咳……隔壁应该有休息的咖啡厅吧？我们去找点吃的。”</p><p>还没等三人动身，旁厅的门扉被推开，一个满脸和蔼的胖老头在安保人员的拥簇下来到展览大厅。</p><p>发现士道询问的眼神，挂上隔离带的黑马警部转过身来，开口解释：“这位就是天空之星的主人，也是这场珠宝文物展的主办人。二宫财团的当家，二宫先生。”</p><p>懂了，是在杀人事件剧集里随时都可能被干掉的路人甲。</p><p>五河士道朝那位大富豪点头默哀。</p><p>同二宫先生打过招呼后，几人作为布展方的核心小圈子，自然免不了攀谈几句。</p><p>“不过，只是普通的安保措施，真能挡住那个怪盗吗？”大富豪先生显然很在意这颗稀世珍宝，不由得去找传奇大侦探寻求心理安慰。</p><p>“哈哈哈，二宫先生您就放心吧！”</p><p>黑马警部依旧是那副自信满满的模样，见对方惴惴不安的眼神，索性让手下启动了安保系统以此演示。</p><p>在介绍了红外线探测器、夜视摄像机、温度检测仪和重量监测器等设备组成的安防线后，又展示了人员安检规程。</p><p>“所有安保人员必须经过瞳膜、指纹、口令以及面部触碰这四重检查后才能入场。那个怪盗引以为豪的易容术根本不起作用！”</p><p>说罢，黑马警部终于松开被他扯肿的小警官的脸皮，抬腿在地板上狠踩几脚，又用力敲击了展示柜的防弹玻璃。</p><p>“而且我们已经对整个场馆做过了全面检查。没有地道，也没有被那个小偷提前掉包宝石和展览设备！”</p><p>最后，他还狠狠扯了周围布置的横幅和天鹅绒窗帘：“更没有被偷偷布置小儿科的魔术装置！并且夜间在场人员必须三人一组，严禁独自行动！这样一来，那个小偷绝对没法靠近展厅中央半步！”</p><p>这是警方根据怪盗鸢之前几次作案手法而特意排布的安保措施，说是天罗地网也不为过。</p><p>被警部带着亲身体验一圈后，二宫先生终于把心又揣回怀里，狠狠夸奖了警方的工作，并对名侦探夜刀神十香的鼎力相助表达了由衷的感激。</p><p>虽然士道也没看出十香究竟在哪里帮上忙就是了。</p><p>“能看出哪里有漏洞吗？”</p><p>反正他自己看不出问题，便索性朝十香和小小遥那边听取建议。</p><p>“除非折纸用CR-Unit拆了这栋楼，否则确实可说是万无一失。”小小遥观察周围的布置后，不由点头认可：“除非执勤的都是草台班子，不过这么想可就没底了。”</p><p>这边的遥给出了正面评价，但另一边的十香却没有回应，反倒皱起眉头陷入了沉思。</p><p>虽然知道虚拟世界的十香很喜欢cos名侦探的经典姿势，但士道却不由地担心。</p><p>“十香？怎么了？”</p><p>“很奇怪，有一种不安的感觉。”</p><p>这话一出，除开乐天派的黑马警部，就连在一旁偷听的二宫先生都被吓得魂不附体。</p><p>“夜、夜刀神小姐，此话可怎么讲啊？！”</p><p>没理会大富豪的哀求，少女侦探犀利的眼神扫过四周，跳过一个个走动的安保人员，却始终没有定格在某个地方。</p><p>相比二宫先生，士道也有些许紧张。以他过去的经验和剧情中琴里的说法，十香在危机直觉这方面，可说是远超人类想象的灵敏。</p><p>“总不见得折纸真开CR-Unit杀进来了吧。”由于不方便对其他人透露，所以他只能找小小遥咬耳朵。</p><p>“你啊，别立这种Flag……”</p><p>话音未落，博物馆外面就响起剧烈的爆炸。</p><p>一时间地动山摇，原本亮如白昼的布景灯光瞬时闪烁，就连由十几根粗大罗马柱支撑的展厅都猛烈摇晃起来。</p><p>大厅里，所有人都下意识地蹲身，以防被天花板掉落的物品砸到。</p><p>待到震动平息，环绕在大厅四周的灯管碎的碎、暗的暗，挣扎了十几秒后，终于全都切换成了应急照明。</p><p>“停电了，是地震吗？”</p><p>士道观望四周，发现暂时没有危险。如果在现实世界里，他早就拽起女孩们逃命要紧，才不会傻愣愣待在建筑物里。</p><p>“地下有柴油发电机。”十香伸手把士道拉起来，剧情里的她意外地可靠，“很快就会切换成备用电源。”</p><p>“咳咳……外面究竟是怎么回事？！”</p><p>吃了一脸灰的黑马警部掏出对讲机大吼，可惜博物馆外面也一片混乱，暂时没有得到明确回复。只能在背景音里勉强分辨出线索，那就是外面遭遇了袭击。</p><p>二宫先生从保镖们的拥簇下钻出脑袋：“怪盗鸢总不见得能调动军队吧？”</p><p>“这该不会是只有大场面，不看推理剧情的剧场版……”检查完天空之星的展览柜，确认重要道具完好无恙之后，五河士道不由吐槽。</p><p>“总之先把宝石取出来。”</p><p>和十香以及二宫先生达成统一意见后，黑马警部便转身准备开启密码锁。</p><p>还没来得及输入密码，摇摇欲坠的门廊轰然倒塌。借着黯淡的应急灯，勉强能看见烟雾里走出的黑影。</p><p>就等对方现身的士道大惊，差点咬到舌头：“折……怪盗鸢？”</p><p>“她才不长这样啦。”小小遥无奈扶额。</p><p>从黑暗中现身的人影，是个从脚到头超过两米，全身包裹紫色皮肤，身材壮硕的巨汉。</p><p>其实这样形容并不妥帖，因为除了保持人形的站立姿态和双手双腿之外，这东西和人类压根看不出有什么关系。</p><p>倒不如说那庞大的头冠和冰冷的竖瞳，更像是由远古蜥形纲进化出的类人生物。</p><p>“我再确认一下。”</p><p>五河士道摩挲下巴，就像一位神秘学知识点满的调查员：“我们真是在名侦探十香而不是假面战士夜刀神的片场对吧？！！”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

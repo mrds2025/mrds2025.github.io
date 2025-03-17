@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>咪咪导航页</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《咪咪导航页》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于咪咪导航页</h2>
+<p>					咪咪导航页<p>进击的怪物像打地鼠一样，一个接一个，将分布在四周的伪装平台接连敲碎，引起连串爆炸。这幅场景，就连享誉全球的超级大富豪都忍不住皱眉头。</p><p>旁边看戏的三羽遥见状，无语道：“只是旧型魔力炉而已，你就不会找安理会埋单吗？”</p><p>“他们只肯七折收购。”</p><p>自己找便宜老爹赞助修学旅行时，几百万美元的账单他连眉头都不皱一下。结果搁这反倒打起小算盘来了。</p><p>这人只有在处理精灵的问题时，才显得那么豪横吗？三羽遥心里直嘀咕。</p><p>黑心资本家，放到宇宙世纪里，你可要小心被三枚羽吊路灯哦。</p><p>要论起坑联邦财政预算的本事，三枚羽才是真正的大宗师，经过光量子计算机处理的财务报告那是一环扣一环，任谁来都找不出半点差池。</p><p>当初她能瞒着联邦政府给远征三重连太阳系的Aplha舰队提供全程资源支持，甚至连Alpha舰队自己都不知道，领了大半年的财政预算和资源支持是三枚羽私底下运作的。</p><p>说起来，联邦内部的极端组织之所以翻不起浪花，和它完全控制了政府内部审计通道亦有关系。</p><p>不知道自己离开后，Alpha舰队的老实人们会不会被穿小鞋。这让遥有点小担心。</p><p>话归正题，当伪装平台吸引巨兽攻击的时候，距离中心部六公里外的攻击机中队收到指令，开始切入战场准备近距离空中支援。</p><p>       二十四架F15E分成两批，每架攻击机都挂载了七枚MK84两千磅炸弹，在光学吊舱瞄具的观测和火控计算机的支持下，于距离怪物约两公里处开始倾泻火力。</p><p>不多时，密集的火焰花在灵力护盾上接连绽放，爆炸几乎笼罩了怪物位于海面上的全部身躯。虽然没能破坏护盾，但多少延迟了它的行动。</p><p>真要说来，在小范围内进行如此密集的火力覆盖，放眼现代战场亦属罕见，但对于克拉肯这只以灵力为生的怪物来说，也就暂时延缓了它摧毁所有伪装平台的时间。</p><p>至少它一时半会还没功夫去袭击其他船只。</p><p>这就为下一个阶段的部署争取到了时间，从两栖登陆舰上起飞的魔术师部队终于赶到现场。</p><p>当她们与空中力量组成数据链后，立刻分散成小组形式布置到克拉肯四周，形成了一个以巨兽为圆心，大约一公里半径的圆形包围网。</p><p>与飞行在三千米上空进行“近距离”打击的航空部队不同，魔术师部队和克拉肯算得上是真正的‘脸贴着脸’。在这个距离上，那几十支能够划破音障的触手就变得相当危险。</p><p>这是三羽遥在测算克拉肯触须长度之后，给出的相对安全距离。</p><p>和拥有大量现役装备的太平洋舰队不同，米军在短时间内压根凑不出足够数量的魔术师。所以，这里的魔术师有一半是来自澳大利亚、日本、韩国、新西兰等（准）北约组织成员国的对精灵部队。</p><p>至于米国派出的魔术师，全都归属于海军陆战队的空地特勤部队，在编制上属于对外武装力量。</p><p>“他们倒是不装。”目睹米军魔术师的部队番号，三羽遥笑到。</p><p>“原本华、俄也想派魔术师参战，但被米方以指挥系统不通用为由拒绝了。所以那几家只负责了卫星网络的硬件支持。”</p><p>伍德曼议长不太关心那些军事道道，反倒抓紧机会给名义上的女儿科普国际政治上的弯弯绕绕。</p><p>遥听着点头，她能从卫星的序列里整列出各方提供的设备和器材比例。相比负责武力的北约，另外两家确实在补充卫星网络上花了大力气。</p><p>唯一比较奇怪的是英国，虽然碍于地理因素来不及调派部队到太平洋，但对于提供卫星和其他软硬件支持似乎也兴致缺缺。</p><p>大概是出于政治考量吧，她猜。</p><p>再回到战场上，各国联合组成的魔术师部队已经开始架设Ratatoskr提供的激光发射器。当她们调整完毕后，对着巨兽显露在海面的躯干部分开始攻击。</p><p>在巨大的体积差下，这画面简直就像是蚂蚁在袭击狮子。</p><p>不过三羽遥也没指望魔术师部队对巨兽本体造成多少伤害，她们的真正工作是尽量中和掉灵力护盾。</p><p>实际上，中和护盾的最好方法是近距离将随意领域和灵力护盾贴合，三羽遥初来乍到时就在这方面吃过小亏。</p><p>只不过克拉肯的身躯太过庞大，近身作战实在太过危险，因此只能在中远距离使用高能激光发生器来进行中和操作。</p><p>“还是缺乏能够快速调动的重型魔力武器。”</p><p>三羽遥和便宜老爹随口闲聊。</p><p>“所以绣球花才会配备有高能粒子发射器。”</p><p>伍德曼开始理解她的思路。说得难听点，现今各国的CR-Unit终归还是以人类之间相互对抗为潜规则而开发的。</p><p>开发思路依旧是将魔术师融入现代战争的军队体系，承担的任务是提供精准定位和武力侦查等特种作战任务，而非火力投射平台。说到底就是超级加强版的机动步兵。</p><p>相比之下，情报中DEM的几台新型机反倒脱离了现代武装体系，逐渐在形成一套全新的武力运用方式。</p><p>当然，这也不怪他们，毕竟武器开发和魔术师素质也息息相关。</p><p>“相比传统军队的超视距打击手段，装备CR-Unit的魔术师虽然能够中和灵力护盾，但大范围杀伤能力又差得很远。”</p><p>伍德曼议长搓起下巴，自言自语：</p><p>“这种怪兽如果在陆地上频繁出现，相比动辄几十分钟部署展开的重型部队，确实需要加强魔术师们的火力。”</p><p>说起来，如果调动位于高空的尼伯龙根号等三艘空中舰，应该能对克拉肯造成更有效的伤害。只不过米军高层碍于颜面，一直在抗议Ratatoskr的直接干涉。</p><p>当两人闲聊的时候，魔术师部队的高能激光正在与灵力护盾不断碰撞。直到好几台发射器发热过载，克拉肯的灵力护盾终于又出现了被削弱的闪烁现象。</p><p>抓住这个机会，由驱逐舰发射的第二波巡航导弹终于抵达现场。</p><p>收到消息的魔术师部队立刻接过导弹的导航权限，几个技术最好的魔术师加速接近克拉肯的身躯，使用手腕处的激光发射器诱导巡航导弹，试图命中灵力护盾最薄弱的部位。</p><p>在两次失败操作后，终于有一枚巡航导弹钻过灵力护盾，结实地砸在怪物的本体上。</p><p>轰——</p><p>猛烈的冲击波从内部穿透灵力盾，与外部空气的空气混合在一起，激起阵阵白色气浪。</p><p>“运气真不错。”三羽遥赞许地点头，这枚导弹上搭载了爆炸术式弹头。</p><p>显示器的视频信号糊成一片，侦查无人机显然也收到了牵连。不过在干本的操作下，另一个位于更高角度的视频信号被替换上来。</p><p>画面中，烟雾和海浪正在逐渐散去，退避到远处的魔术师们已经支起了防御性随意领域，躲在后面引导无人侦察机靠近。</p><p>至于那只巨大的怪物，此时正匍匐在洋面之上，巨大的身躯血肉模糊，伴随海潮缓缓起伏。</p><p>“目标的灵力数值正在不断衰减……啊，归零了。”</p><p>伴随通讯士官的话语，代号为‘狩猎海神’的军事行动，至此终于宣告一个完美的句号。</p><p>听闻此言，伍德曼议长弯了弯许久未动的胳膊，重重吐出口气，“接下去还有很多事情，比如尸体的采样分配，还有那个坐标的联合考察——”</p><p>都没来得及说完，就被三羽遥打断了话头，“我要太平洋上空那三艘空中舰的全部权限。”</p><p>只见她面色凝重，死死盯着画面中央那只一动不动的海洋巨兽。</p><p>“那个早就交给你……说什么？！”</p><p>悟出味来的伍德曼议长赶忙转头，同她一样看向屏幕。</p><p>没过几秒，椎崎也发出惊叫：</p><p>“战场中央的灵力曲线……正在负坐标不断上升！我的天！周围环境的灵力浓郁程度已经接近了索多玛事件！”</p><p>所谓的‘索多玛事件’，就是安理会为吉川皆阵封锁天宫市那事所取的官方代号。</p><p>只见从克拉肯残躯的身下开始，正不断有红色的血液溢出，沾染了液体的海水同样开始变得像血一般赤红。</p><p>但随着血液不断扩张，任谁都能瞧出不对劲来。毕竟就算是如此巨大生物的体液，也不可能污染周围整整十几平方公里的一大片海洋，甚至还在加速扩散！</p><p>“那究竟是什么东西？赶紧进行采样和光谱分析！”</p><p>“别看了！那是被污染的LCL！”</p><p>三羽遥大喊道，紧接着她闭上眼，强行接入了太平洋指挥总部的通讯网络。</p><p>【袭击来了！】</p><p>Ziaaaaaaaaaa——</p><p>怪物的尖啸再度响彻海洋，天空的云层被破开，海底的礁岩被崩裂。</p><p>洋面上，被爆炸术式撕裂的身躯彻底分裂成数瓣，如同一朵对天空盛开的肉质巨花，展露出怪物内部不断蠕动的肌肉骨骼和神经序列，以及——更多的晶状触枝。</p><p>触枝像有独立生命般缓慢摇摆，首段的结晶体闪烁起微弱的星光。</p><p>下一秒，无数光、赤红色的光照射在半空，它们在空气中折射出诡异的角度，以完全不符合物理现象的姿态，瞬间洞穿了周围所有还在运动的目标。</p><p>拖船、伪装平台、侦查无人机、身穿CR-Unit的魔术师、三千米高空盘旋的预警机、五公里内正在分组返航的战斗机群。</p><p>战场上，几乎所有单位都瞬间失联。魔术师的尸体不断坠入冰冷的红色海洋，在空中所向无敌的战斗机接连爆炸，数十米长的预警机引擎拖着黑烟从高空滑落。</p><p>当所有人都傻愣愣看着仅存那个漂浮在海面上摄像头传回的画面时，通讯频道里再度回响起那个提供预警的声音。</p><p>【火力压制——】</p><p>***</p><p>～感谢书友凯文帮助军武相关纠错～</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

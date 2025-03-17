@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>zztt 论坛</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《zztt 论坛》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于zztt 论坛</h2>
+<p>					zztt 论坛<p>青森县位于日本本州岛最北端，与北海道隔海相望。因为远离工业中心和大都市，所以这边保留着相当良好的自然风光。</p><p>用高情商的话来说就是人烟稀少，景色优美。如果说话的人情商低，那就变成了——</p><p>“果然是好山好水好无聊，人不欺我啊。”</p><p>三羽遥左打方向盘，转过第一百八十个山道弯口。</p><p>“小遥，抱歉啊——”副驾驶座上，刚被山路颠簸弄醒的椎崎打了个哈欠：“明明应该是我带你来的，结果还要你开车。”</p><p>“没事啦，你就好好休息吧，天央祭的准备工作真是辛苦你们了。”</p><p>三羽遥对导航里的地图比划几下，目的地已经在可以接受的距离内了：“……也怪我，放着好好的直升机不坐，非要感受一下长寿之乡的自然气息。”</p><p>“这倒是没错，毕竟唯一的优点就是人烟稀少嘛。”</p><p>“雏子你从小在这里长大的吗？”</p><p>“对啊，爸妈工作都忙，是奶奶把我带大的。小时候也没什么朋友，才养成了这样阴郁的性格。”</p><p>“真是完全看不出你哪里阴郁了……”</p><p>“嘿呀，小遥真是会说话～”</p><p>“捂……快撒手！要翻车啦！”</p><p>在女孩间的打闹下，三羽遥又回想起椎崎之前对阴阳术的评价。</p><p>即便椎崎家的长辈被称为〈最富盛名的阴阳师〉，可如今到了她这一代，却已经把家传‘手艺’当作了都市传说来看待。</p><p>由此也不难看出，那位老人家对旧时代魔术师究竟抱有着怎样的看法。</p><p>……</p><p>Ratatoskr的公务轿车穿过小小宁静的偏僻村庄，又钻过秋季依旧郁郁葱葱的山路。跟着雏子小姐逐渐轻快起来的指引，终于停在了一栋古风大宅前。</p><p>“到喽。”</p><p>在雏子的指示下刚把车开进院子，就已经有身穿日式女佣服饰的中年女性等在了车门旁。</p><p>“没想到你家还挺大的……”</p><p>从没见过日式豪宅的三羽遥好奇地打量周围，一眼望不到头的木质走廊让她不由感慨。</p><p>“有什么好，小时候经常走着走着就迷路了。菊阿姨，奶奶在哪里？”</p><p>得到回答后，她直接带着三羽遥往院落深处走去。</p><p>穿过奇石林立的庭院，跨越无人的走廊和院门，宁静到无声无息的庭院里，仿佛连时间都停止了流动。</p><p>“啊……这是……”</p><p>“怎么了？”听见三羽遥的自言自语，椎崎雏子有些好奇地回头询问。</p><p>“不，没什么。”</p><p>虽然和另一个世界里的魔法在细节上大相径庭，但从建筑的整体结构来看，椎崎家的房屋走廊甚至山石水池的排布，显然有着特殊的作用。</p><p>【有点像封印之类的作用？】</p><p>精灵少女摇摇头：“这里是你家祖宅吗？装修风格相当古典呀。”</p><p>“我也不知道什么时候造的，从记事起就这个样子。不过，肯定有翻建过啦，你看至少有网络的……”</p><p>顺着她手指方向，遥的视线穿过纸窗拉门和房间里的大扇屏风，落在房间深处。</p><p>苍峰青松和寒雪傲梅的挂画侍立两侧，一位年迈的老太太笔挺正直地跪坐在榻榻米上，表情严肃地面对墙面，看起来就是充满威严的一家之主形象。</p><p>【哇，简直就是宫斗剧里的经典太后形象……难怪琴里不愿意过来……】</p><p>不过再转转视角，她立刻绷不住了。</p><p>因为老人所面对的墙面上，挂着一台正在投影Splatoon3游戏画面的70寸大电视。</p><p>“雏子，这位难道就是？”</p><p>“唉……”</p><p>椎崎雏子叹口气，熟门熟路地踩着榻榻米走进房间，弯腰摘掉了老人的蓝牙耳机。</p><p>“奶奶——我回来啦——”</p><p>“别动别动！正到关键时刻——啊啊啊！输了输了！”</p><p>随着电视里的卡通小人跌落悬崖，小个子老太太握着手柄，抱起满头银发痛哭哀嚎。</p><p>摸摸台座模式的Switch主机后侧，椎崎脸色一冷，直接伸手抢过老人手里的游戏手柄，丝毫没有关爱老年人的美德体现。</p><p>“你玩多久啦！医生明明说了每天只能玩半小时！”</p><p>“信医生的话，哪还能活到现在……”</p><p>“嗯？！”</p><p>“唉，不是。我是说联机聊天版的那些人简直不可理喻，都说了我是女孩子，他们居然还不肯放水！太过分了！”</p><p>“所以你把菊阿姨打发去等我，就为了在这边连输几个小时？！”</p><p>“谁连输了？谁上头了？！谁怕小菊念叨了……”</p><p>丢下还在强装嘴硬的奶奶，椎崎雏子痛苦地捂上脸，朝屋外的三羽遥招招手，示意她不用在意自家长辈这副丢脸模样。</p><p>等到三羽遥乖巧地进屋，这才又低下头，对还在“嘤嘤嘤”的老人家说到。</p><p>“我把小遥带回来啦，不是你要见她吗？”</p><p>”小遥？你有男朋友啦？在哪呢？让我看看！让我看看！”</p><p>老人兴奋地抬头，眨眼就瞧见屋里另一个高挑的人影。</p><p>不过在看清对方的性别之后，眼神可见地萎靡了下去：“怎么是个女孩子啊？算了算了，女孩子也没差，总比单身强。反正咱们家都是招上门女婿……”</p><p>眼看大龄美少女戴起痛苦面具，暂时是说不出话来了。三羽遥只得苦笑着弯下腰，与跪坐在地的老人视线平行。</p><p>“老人家，冒昧打扰了。我是Ratatoskr的三羽遥，根据昨天的联系，是您让我来这里见面的。”</p><p>话音落下，对方才又缓缓转过头来，与遥四目相对。</p><p>椎崎花子的眼瞳深邃幽暗，不若普通老年人那样黯淡无光，反倒像是要将一切外界的光芒都吸收进去一样。</p><p>三羽遥甚至没法在她的瞳孔里瞧见自己的倒影。</p><p>椎崎的奶奶……眼睛看不见？</p><p>“哦哦，原来是艾略特的女儿呀～坐吧坐吧，正好一起吃点心。”</p><p>挥手示意三羽遥在榻榻米的垫子上落座，她又朝自己孙女那边招手。</p><p>可惜雏子压根没理她，径自拔掉了游戏机的电源，连带手柄和信号盒一起端出了门外。</p><p>“我去把这些东西处理掉，奶奶您有事就和小遥先说吧。”</p><p>“处理？可这不是垃圾啊——”</p><p>老太太伸手阻止的动作凝固了好一会，直到孙女的背影渐渐消失在门廊外的转角，这才沮丧地回过头。</p><p>“没游戏玩啦，活在这世上还有什么意思……”</p><p>椎崎花子跪坐回榻榻米上，揉搓着手指关节唉声叹气。</p><p>这位和自己预想中的性格还真是……有点差距啊。</p><p>在老人独自长吁短叹的过程中，三羽遥悄摸着左右张望，一眼瞄到叠在几本线装书上的手机，于是无奈地随口搭话。</p><p>“那……您接触过手机游戏吗？”</p><p>“呵呵，手游都是垃圾。”</p><p>原来是硬核的主机玩家，失敬失敬。</p><p>***</p><p>#アイモ~鳥のひと</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

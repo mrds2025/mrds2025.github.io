@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黑夜不打烊</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《黑夜不打烊》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于黑夜不打烊</h2>
+<p>					黑夜不打烊<p>罗兰只能满怀歉意地点了点头。他看着面前的森林。这用魔物的尸体滋养起来的森林依然还在，却永远保护不了人类了。</p><p>罗兰将发生的事一股脑儿全部告诉了尼尼，其中也包括陶怡讲述的帝都塞弥亚的历史。这则历史，尼尼也知道，不过它说：</p><p>“虽然这个传说故事很有名，但是真实性是不可考的，就算是魅魔是长寿的种族，她说的也不一定就是真。比如说，为什么婴儿们的血液能够侵蚀土地，形成河流？就是血液腐蚀性最强的灰河蜥蜴，它们的血液恐怕也不可能形成这么宽广的河流呢。既然这一点不可信，其他的部分也就都存疑了。</p><p>“不过，魔法少女婴的确一直保护着死婴的怨魂，一直在把缭鬼森林打造为人类的保护伞，这大约也佐证了传说的真实性。现在魔法少女婴却被勇者大人您误杀……但是勇者大人您不必自责，事情已经发生了，只要您能够最终消灭魔物，那么魔法少女婴的牺牲就是值得的。”</p><p>“我已经走出悲伤了。我现在只想问问，为什么我能够变身？变身不是必须要自己去创造女子力才能获得足够的女子力吗？”罗兰问。</p><p>尼尼回答道：“这种情况尼尼也是第一次见。尼尼想到了一种可能性，那就是，或许爱这种感情也是能够创造女子力的，因为男性会产生恋爱的感觉，必然就是因为勇者大人您身上女子力拉满嘛。不过这里可能需要因果倒置一下，是因为有人喜欢上了勇者大人您，您才可以创造出女子力。这样看来，纯粹的爱情和肉体的欲望创造的女子力是一样的呢。可喜可贺，可喜可贺，这下，勇者大人有新的获得女子力的办法了。”</p><p>“不是不是，你等一下，谁喜欢上我了？”</p><p>“从目前有的线索来看，只能是狮子头魔物阿诚了。”</p><p>“你不是说魔物不能提供女子力吗？”</p><p>“是女性的魔物无法产生可供勇者大人您使用的女子力，但是显然当男性魔物爱上您时，产生的效果和男性人类是一样的呢。这下，勇者大人无须做自己不喜欢的事，也可以获得女子力了。希望这件好事可以冲淡魔法少女婴死亡的哀伤。”</p><p>“……”</p><p>的确，阿诚的爱，让罗兰不需要牺牲身体就可以获得女子力。</p><p>但是……</p><p>被魔物爱上，还是被男性魔物爱上，那种感觉真的就如同阿诚给他来了一个熊抱，一身的毛扎得他浑身都刺挠啊。</p><p>还好阿诚不知道男版的自己就是它喜欢的那个神秘少女，知道的话，它说不定就会缠着自己，要求自己变身之类的呢，那在学校里都不得安宁了。</p><p>想必现在阿诚都还在想办法寻找着“神秘少女”吧？</p><p>噫~~~</p><p>罗兰又想到了什么，说：“那也就是说，我下次想变身，还必须首先在阿诚面前变成女生的样子，再激发它对我的爱？”</p><p>“如果勇者大人接受不了的话，也不必操之过急。勇者大人现在身体里的魔法能量，还可以提供两次变身。而且，只要阿诚看到您一眼，您就可以进行三次变身哦。”</p><p>“什么？”</p><p>只需要看一眼，就可以三次变身？</p><p>罗兰顿时感觉被魔物爱上也不是那么难受了。</p><p>尼尼又说道：“既然这样也可行，那么尼尼给勇者大人想出了一个很好的获取女子力的方案，只要让更多人爱上您，女子力就可以取之不尽、用之不竭了。”</p><p>罗兰也想到了。</p><p>“你说得对，尼尼，谢谢你的建议。这算是今天最大的好消息了。好了，我要问的问题已经问完了。不过，我的心情还很复杂。接下来应该不会发生意外了，我把你放回书包里吧。”</p><p>“好的哦。祝勇者大人郊游玩得开心。”</p><p>罗兰把尼尼放回了书包当中。现在，今天郊游所有的问题他都搞清楚了。</p><p>这之后，也是该好好享受一下郊游了。</p><p>按照老师的安排，聚餐以后，大家依然是自由活动，然后一直到下午四点。</p><p>几乎全在自由活动，当然也是为了给魅魔行动的机会。</p><p>不过只可惜，今天不会再有魅魔行动了。</p><p>下午的时间，陶怡又和罗兰混在了一起，她扭了扭身子，把手指放在嘴边说：“哎呀，其实，班上有个男生我一开始就看中了，现在我的姐妹都死了，也抓不了人了，那就让我抓一个嘛，好不好，魔姬大人~~”</p><p>“不行。”罗兰斩钉截铁地说。</p><p>“唉。好好好。”她又忘了忧郁的阿诚一眼，“也不知道它是怎么了，明明上午还喜欢我喜欢得不得了，到了下午就对我爱搭不理了。魔姬大人，是不是您对它做了什么？”</p><p>“我什么都没做，但是它爱上了我。”</p><p>“呀，什么？这莫不是也是魔姬大人的p……”陶怡露出了星星眼。</p><p>罗兰赶紧把她的发癫捂了回去：“停停停，和我没关系，是它看到我变身魔法少女以后就对我一见钟情了。”</p><p>看陶怡不信，罗兰又说：“真的和我一点关系都没有。”</p><p>“……”陶怡迟疑了一下，然后说，“原来如此，魔姬大人在计划大的，连我都不能告诉。”</p><p>“真的和我没有关系啊！”</p><p>“那就全交给魔姬大人了~我就在旁边乖乖看着它怎么被魔姬大人戏耍好了。哈哈哈~”</p><p>陶怡调皮地吐了吐舌头，就收起了魅魔的魅劲，恢复了普通人类的状态。</p><p>罗兰十分的无奈。</p><p>下午阿诚又到他们身边来过一次，不死心地再问了一遍“神秘少女”的事，陶怡当然也还是回答不知道。阿诚惆怅极了，到了要乘车离开的时候，它还扶着车门，恋恋不舍地回望着森林。</p><p>“它被调较得好痴情啊。”陶怡眯着眼睛说，“今天它没死，算便宜它了。如果不是魔法少女婴把我打晕了过去，今天唯一的失踪者恐怕就是它了。”</p><p>罗兰没说话。</p><p>“不过，来日方长，对吗？敢这样得罪魔姬大人，必不会有好下场。就由魔姬大人，来亲自让它知道什么是绝望。啊，是了，现在它就已经陷入无限的相思苦了。嚯嚯嚯嚯，越是要玩一个人，越是应该慢慢煎熬。魔姬大人，总是这么地富有智慧。”</p><p>陶怡软软地趴在罗兰身上。情之所至，也就不管什么男女分座了。实际上，也没有人来管陶怡和罗兰坐在一起。</p><p>大巴发动了。</p><p>这场郊游仅只带走了魔法少女婴的生命。但是，却也给罗兰留下了一个谜团。</p><p>圣子。</p><p>他总觉得，这个圣子的故事没有这么简单。</p><p>为此，他将利用周末前往s市图书馆查阅与缭鬼森林与帝都塞弥亚有关的资料。</p><p>剧透一下，在图书馆，魔姬梅丝菲菈妲将觉醒。</p><p>可是……谁能保证，在当下，罗兰不是魔姬梅丝菲菈妲扮演的呢？谁又能保证，之后的那个魔姬，不是罗兰扮演的呢？</p><p>啊，对了，魅魔小薇是不是下线太久了，她就真的什么都没做吗？</p><p>未知，一切都是未知。</p><p>大巴车驶出了森林。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

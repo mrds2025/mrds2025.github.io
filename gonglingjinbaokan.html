@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>红领巾报刊</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《红领巾报刊》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于红领巾报刊</h2>
+<p>					红领巾报刊<p>第四章：第五次世界大战</p><p>“啊~呀！但这尼玛的……（只可惜无福消受啊！）”尹浩烦躁地挠挠头，伸了个大懒腰，“（开学的报道，还有之后的能力测试，只怕要赶不上了呀！）”</p><p>按照男主之前计划，他本来应该赶上一小时之前的那班列车，从容地奔赴学校报道，要是一切顺利的话现在已经在场地上做着热身准备活动了。但实际上，尹浩这天却无缘无故地晚醒了一个小时，造成了自己现在的窘境，但其实他并不是这么大大咧咧的人，平日里都是作息很规律的，昨晚还特意早睡，就是不懂今天这么重要的日子，为啥三台闹钟都没把他从床上捞起来。</p><p>“（我去他的就剩20分钟了？）”然而抬头瞧了瞧车门上的进站提示，还有十五分钟磁能到“第三中央高校”站，如果下车后全速奔跑的话，理论上还能够勉强赶上，其实他光是上车时也是一脸懵逼地狂奔而来……</p><p>“（这不科学啊！）”过去为进入中央高校的多年中，严格的管理和自律，已经把他训练成了精密运转的机械。即便是在难得的暑假，他在自己的单人公寓也保持着训练的状态，所以今天出现这种情况确实是蹊跷得让人看不明白。</p><p>“（算了，反正这个世界本来就不科学，发生这种破事也只能说运气不好喽？）”而要说刚刚结束的暑假中要有什么和平时最大的不同的话，那就是耳边少了一个活跃而又令人无奈的家伙。</p><p>“（难道说就是因为这几十天没了那个逗逼在我面前晃悠，就在我的身体内积累了如此巨大的不适应性，最终在开学时才彻底爆发？）”没办法了呀！尹浩反思了半天也找不出其他靠谱的理由，为了证明自己并不是一个很高冷的人，只能自以为幽默一下了。</p><p>“（果然不科学！回学校以后再给闹钟设定一些其他功能吧！比如‘羊教授的烈焰红唇’啥的……）”</p><p>“噗——嗞——嗞——嗞——”而就在这个时候，男主感觉到自己的手机开始震动了起来，这种时候说不定是有老师来催他了，可是当他看到屏幕上显示出“齐鹏飞”的时候，放在接听键上的手指头就停滞住了。</p><p>“（真是我肚子里的蛔虫，我一撅屁股他就知道我要拉什么屎！明明他爹妈给他起了一个这么正经的名字……）”还真是说逗逼都逗逼就来了呢！</p><p>“唉——你好，请问找哪位？”长叹一声，出于礼貌还是接了起来，却又无时不刻不想装作不认识。</p><p>“啊这——”对面沉默了一下，又或者说是酝酿了一下，“杜、尹、浩，我是齐、鹏、飞呀！就算你被实验室那么老变态调教了洗脑了也没关系，我一定会让你重新记起我来的呜哇哈哈哈哈哈——”</p><br><img src='http://rs.sfacg.com/web/novel/images/uploadpic/2018/01/b0f0c4e6-9a4d-43ca-b781-87d6a8a10303.jpg' /><p>“嘶……（这我怎么遭得住？）”此时此刻面对此情此景，我们的男主只觉脑仁生疼，既然一计不成只好再生一计：“啊哈哈，我这里信号不好啊！哎呀呀呀……听不到了听不到了，挂了挂了哈！”说着就把听筒越拉越远。</p><p>“杜尹浩，你要等我，坚持住，我齐鹏飞马上开卫星定位来救你！”对面不会当真了吧？至少他还是说到做到的，“哎？你不就快到学校了吗？”</p><p>“我去，我错了，我认输还不行么？”男主深明再这样装下去，对面真的是会玩脱的，只得缴械投降，争取宽大处理，“我现在在车上刚醒来，头晕晕的，有什么事情一会儿到学校说不行么？（反正即便你在电话上讲完，见面了也还会再重复重复又重复的，字数都是这么水出来的！）”</p><p>“嗨呀，这我就放心了，一个暑假开始了你居然手机都关了，害我不知道你这几十天干嘛去了，天天蹲你有没开机，你刚才说不认识我了真是吓我一跳，毕竟你身上那点东西指不定那天就被绑了也不是不可能啊！幸亏后面听到你还是那么几招果然还是没有变哈！”</p><p>“嗨呦，我倒是希望你多少能变一点OK？我现在啊，身体真的不是特别舒服，我觉得还是……”</p><p>“哎哎哎，别急嘛！你都没变，那我又怎么可能变呢？要知道人类要是那么容易改变，又怎么会一直犯同样的错误，也不至于从地上到天上打了五次世界大战了。所以呀，我也就不强求咱们互相理解啦！”鹏飞开始强行提及世界观。</p><p>“啧，什么场面话都被你抢了，我噶哩贡吼~（跟你讲哦）我今天莫名其妙晚起了一个小时，现在都不知道能不能赶得上学校的测试，你再这么跟我哔哔影响我心情，那灾难完全不亚于第五次世界大战。”</p><p>“哪里哪里，第五次世界大战虽然挂了几千亿人型生物的，但你这一个暑假哈，估计从双手上流掉的生命大概也有这个数了吧？”</p><p>“（别把我跟你相提并论啊！）哎呀不行不行，肾虚了肾虚了，我果然还是先挂掉好了！”</p><p>“啊等等等等！你今天起那么晚，昨晚干啥了就肾虚了？”</p><p>“你才肾虚呢！”尹浩也是气不打一处来，决心今天就跟对面刚一波，“都长这么大了不懂察言观色呐？”</p><p>“大你指的是上面还是下面？”</p><p>“我……（这尼玛多老的梗了，真是防不胜防！）”</p><p>“啧，哎呀，不要羡慕，低调低调！有问题要早说的呀！马上都要升到三年级了，还在关键时刻就纵欲过度可不行哦！”</p><p>“哈嘁~全年级就你最没资格用这个来教育我，好了好了，我还有不到十分钟就要到站了，时间已经很紧了我上去还要不少时间，你就少废话吧！”</p><p>“啊？时间是谁？”</p><p>“是——你——妹——啦！”男主本来想说“（是你妈）”的，但出于自己的形象考虑还是选了一个不存在的对象。</p><p>“啊哈哈，开个玩笑开个玩笑啦！我现在在三年级的测试场这里，好几个大佬都已经摆完POSE了，你快点哦！”</p><p>“我又不像你异能全点在体能上，但也应该不会迟到的，你先去吧！”</p><p>“哎你行不行啊？要不我一会儿去车站接你，背你过去好了……”</p><p>“别，我可不想让别人看到我们关系好像很好的样子！”尹浩斩钉截铁般拒绝了这份对于对方来说已经十分天才的提议。</p><p>“好吧，那你……哦哦哦——啊啊啊啊啊啊！”突如其来的噪声让尹浩本能地就把手机拿离了耳旁，“啊哈哈尹浩，会长来了，会长也来了啊！会长——会长——会长——”对方以及寻多各种各样的声音开始无比兴奋而又整齐划一地吼叫着，如同偶像舞台下疯狂打call的宅男一般纯粹。</p><br><img src='http://rs.sfacg.com/web/novel/images/uploadpic/2018/01/96b1074b-58a0-4399-a73b-ff273ed4bf74.jpg' /><p>“（那个家伙也来了？这下我万一迟到了那麻烦可就大了呀！）”联想到过往种种，男主心中不禁开始暗自叫苦。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

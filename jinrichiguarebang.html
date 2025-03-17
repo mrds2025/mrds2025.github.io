@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>今日吃瓜热榜</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《今日吃瓜热榜》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于今日吃瓜热榜</h2>
+<p>					今日吃瓜热榜<p>狮鹫一声刺耳怒吼，飞在高空大力拍打着翅膀，扇起的强风把地上几人吹的七零八落，像三月兔和睡鼠这些体型小的动物，瞬间惨叫着被刮到了天上，可儿也差点飞了出去，好在被疯帽子给及时拉住了衣服，他一手抱着一旁的石柱一手抓着可儿，实在是撑不住了。</p><p>  只见他拿起衣服里藏着的一把小刀，对准天上的狮鹫就是一扔，但巨大的狂风却直接把刀卷了回来，还差点挂到了可儿，可儿吓的一扭，疯帽子一手没抓住，她便啊啊啊啊啊啊的成为了第一个飞天的人。</p><p>  “遭了！可儿！！！”</p><p>  疯帽子想松开手去救她，但在面临死亡般的危险时，他迟钝了几秒钟，就因为这短短几秒，可儿直接飞到了高高的天上去，这个距离但凡落下来就直接摔成肉泥了。</p><p>  疯帽子慌张了，他顶着狂风想要做些什么，但现在的他光是想要在风堆中正常呼吸就很困难，更别说要主动飞上去在无规则的气流中抓到她。</p><p>  “撑不住啦……啊！”</p><p>  三月兔一声尖叫也被卷到了天上，但三月兔更惨一点，它硬生生的被吹到狮鹫的眼前，狮鹫看着猎物主动送上来也不拒绝，长大大嘴就是要把这微小的生物活吞。</p><p>  三月兔大哭：“不要啊啊啊啊啊啊啊啊啊啊啊！！！”  </p><p>  底下的疯帽子等不了了，但他刚准备松开手，却发现天空好像突然就暗起来了。</p><p>  【不对，不是天空暗起来了，而是！】</p><p>  他惊讶的看着天空，所有人都被吃惊到了，就连远方正在敢来的斯塔亚尼也吓的停住了马看向天空。</p><p>  他们所有人看到的让人吓掉大牙的场景，是一栋非常巨大厚实的守卫碉堡居然在他们头顶上漂浮，没错，建筑飞到天上了。</p><p>  三月兔喊道：“什——么情况！房子在天上飞？！那个大鸟的风那么强的吗！”</p><p>  就在几人震惊之时，他们更吃惊的发现，这个半斜的碉堡上居然站着一个人影，而且这个人影，还是可儿！</p><p>  风吹动着她的裙子，阳光照射在那带着有点倔强的脸上。</p><p>  “本公主…也是有脾气的啊！”</p><p>  她生气的手一展开，脚下的碉堡瞬间变得四分五裂，随后弯下腰徒手拿起一块巨石，就是朝着远处的狮鹫扔过去，狮鹫没有反应过来，狠狠的被正面砸中了身子，口中吐出鲜血，身体短时间调整不会平衡，坠落了下来。</p><p>  三月兔：“诶诶诶诶！那女人徒手拿起几米长的大石头！！！那真的是女人吗！不对，那真的是人吗！”</p><p>  这一壮举就连一旁疯帽子也惊叹到了。</p><p>  狂风一停，疯帽子终于不用死命的抓着柱子了，但问题是。</p><p>  “啊啊啊啊啊啊啊！”</p><p>  三月兔从天上开始掉落下来，疯帽子连忙摘下帽子冲过去。</p><p>  “别怕兔子，我接住你，到我帽子里来！”</p><p>  他拿反帽子用帽口对准好角度，随后biu的一下，三月兔华丽的落在他的帽子里，又钻了出来，就宛如正常魔术师变魔术一样。</p><p>  “啊谢。。这什么东西啊！”三月兔刚想道谢，发现自己不知何时穿了一身裙子。</p><p>  疯帽子：“魔术哟，厉害吧。”</p><p>  三月兔：“厉害你妹啊！把我原来的黑色礼服还给我！”</p><p>  【啊啊啊啊麻烦也接住我！】</p><p>  可儿这时也在天上大喊道。</p><p>  “哦，当然可…啊啊啊啊啊啊啊啊啊啊啊！！！！”</p><p>  疯帽子刚信誓旦旦的抬起头准备接住她，然后发现伴随着可儿落下来的还有一堆巨大的碎石，吓的直接拎起兔子耳朵跑起来。</p><p>  “诶！不是说可以的嘛！”</p><p>  可儿生气的喊道，但他们早就跑的远远的了，没办法，情急之下再度发动了异能，这次巧妙的把要着陆的地面升了起来，变作了一个滑滑梯的模样，而且石头品质也非常的光滑，可儿立马掉到了这个十几米高的滑滑梯上，随后唰的一下一屁股坐在上面滑了下去。</p><p>  “啊不好不好！啊！”</p><p>  但又因为速度太快，没抓稳绊倒了，整个人变成滚筒一样从半路的滑梯上滚了下去。</p><p>  【xibei#dba%k—z{ba￥ks=iswu、】</p><p>  吧啦吧啦的一直往下滚，就这样完美的滚到了地上，随后眼冒金星的跪在地上开始吐的稀里哗啦。</p><p>  “为什么会这么惨啊。”一旁的睡鼠吐槽道。</p><p>  就在几人觉得安全的时候，狮鹫又从地上站了起来。</p><p>  “完了它起来了，我们快跑啊！”三月兔急急忙忙的拉着疯帽子，疯帽子见状也对远处还在地上吐的可儿喊道：“喂！那只大鸟起来了！我们快跑啊！”</p><p>  【呕……对不起，我有点。。反胃。】</p><p>  狮鹫看到可儿在那里，气愤的扯着嗓子，向可儿跑了过去，尖锐的声音让他们难受的堵住耳朵。</p><p>  疯帽子看到狮鹫目标对准可儿了，又喊道：“快走啊！那只鸟冲过去了！”</p><p>  只见狮鹫红着眼怒吼着，张开双翅，爪子一噔一噔的就是跑过去。</p><p>  睡鼠：“危险！”</p><p>  狮鹫张开大嘴就是对着可儿咬上去。</p><p>      可儿：“叽叽喳喳叽叽喳喳的…………”</p><p>  可儿脸一黑，气的立马从脚下直接抓起一块堪比十米高房子的碎石，【boom！】的一下狠狠的砸在狮鹫的脸上。</p><p>     可儿：【耳朵吵死啦！！！！！】</p><p>  狮鹫一秒就直接被拍飞出去，眼睛都被揍直了，巨大的身躯冲撞在城堡的城门上，连同大门一块被撞碎了。</p><p>  疯帽子：“噗噗噗噗噗噗！！！！”</p><p>  三月兔—睡鼠：“诶诶诶诶诶诶诶诶诶！！！”</p><p>  就在三人吓成呆子之际，快要赶到的斯塔亚尼也听到了巨响。</p><p>  “太好了！一定是这群混蛋被看门鸟解决掉了！活该啊，叫你们没事招惹我！”他大笑着，快马加鞭的赶了过去。</p><p>    “可儿！”</p><p>  可儿听到声音回头望去，发现疯帽子他们正招着手向自己跑过来，便微笑着也摇了摇手，然后…</p><p>  一把抓住疯帽子的衣领，他死命拍打伸出舌头眼睛瞪大差点窒息。</p><p>  可儿：“你这家伙刚才跑了是吧！之前明明说好要保护我的！结果每次跑的比谁都快啊！”</p><p>  三月兔：“啊杀人了啊！”</p><p>  疯帽子：“不不不……不不，你看你这不是……很强吗…换过来说，我们…才…需要你的保…护。才对。”</p><p>  可儿：“哪有男人要让女人保护的啊！你怎么能好意思说出这种丢脸的话，我哪里强了呀！好几次差点被害死你就这样把我一个手无缚鸡之力的柔弱女子给无视眼睁睁看着我被狮鹫扔上去扔下来的要不是我突然想起来能有那番操作早就摔死了懂不懂啊啊啊啊啊啊啊啊啊！”</p><p>  “懂！懂…懂……” </p><p>  她疯狂的摇晃着疯帽子的衣领，这时一堆拿着武器的士兵也赶到了这里，可儿见状先是一愣，然后提起疯帽子当盾牌摆在自己前面。</p><p>  可儿：“好！那你就好好保护我吧！”</p><p>  疯帽子：“诶！！我是靶子吗？！”</p><p>  只见士兵里的一名长官一招手，所有的弓箭手全都站出来拉好弓。</p><p>  疯帽子：“啊啊啊不行不行不行这绝对受不了的，人家会死的！啊太多了人家要受不了会死的啦啊啊啊啊啊啊！”</p><p>  （放箭）</p><p>  疯帽子：“呀啊啊啊啊啊！！”</p><p>  就在危机之际，一道黑色的光芒袭来，把他们几人团团围住包裹起来，随后biu的一下，所有人又全都消逝了踪影。</p><p>  斯塔亚尼也刚刚赶到，场面却令他如此震惊，那伙人消失不见，狮鹫被打败吐着舌头伴随着被破坏的大门倒在地上，只剩一堆没用的士兵。</p><p>  “完蛋了……得去和皇后汇报。。。”</p><p>  但一想到这，他又害怕的咬了咬手指，不知道到底会面临怎样的怒火，可事已至此，只能如实禀报了，但他并没有放弃，因为机会还在，不管敌人如何把这里搅的天翻地覆，只要计划稳妥进行，那其他的一切都是浮云。</p><p>  “没一两天了。”</p><p>  他看起来似乎已经不再慌张，相反因为种种事情的发生反而令人逐渐冷静，吁！的一声，便骑着马回到了城堡里去，并命令士兵连夜赶工修好大门。</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黑料每日排行</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《黑料每日排行》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于黑料每日排行</h2>
+<p>					黑料每日排行<p>第七百四十四章：贼喊捉贼</p><p>“嗯，有一说一，确实……（个鬼啦！她大手大脚的花钱难道是自己赚的吗？真是挺符合我对女生之间喜欢互相埋汰的刻板印象……哎呦，但说不定她还真有可能赚到，但那就不是以我希望的方式了……）”尹浩为了打消重新聚集的邪念，立刻转移注意力回忆了一下顾妹子提供的那些物件上，各种不可思议的点，怎么想都不太可能是一般商家能够提供的，尤其是那三服神药，以他浅薄的理解和见识，除了富含纳米机器人，应该没有别的非魔能方式能如此之快地治愈他的伤情：“（当然你非要说其实是我昨天睡着之后，雨霏她外婆雷雨晴偷偷潜入进来对我施了个法进行了‘还原’操作也不是不可以解释……）”</p><p>“好了，那别闹了，继续看呗！”琰玥重启了视频的播放，但总感觉她这么讲却有股“贼喊捉贼”的内味了。</p><p>“嗯嗯嗯，好好好，看看看……”而尹浩苦笑着一歪嘴，决定还是不再纠结这种细节。</p><p>——“……地球上毕竟有几十亿人，动用‘面壁者’的权限找到完美符合你要求的对象还是完全有可能的……”过了一会儿，片中演到大史向罗辑志得意满地介绍庄颜的来历。这边与原著不同的是，罗辑从一开始就便对于如此顺利的发展有所怀疑，而为了打消她的顾虑，大史在打比方的同时，还拿出一些文件材料，证明庄颜真的是一名来自知识分子家庭的中央美院高材生，签了一份普通的工作派驻协议，是到他身边当起了女秘书。能在战时配给制的大背景下陪住在这么豪华的世外庄园并享受高薪，确实是一份很多人趋之若鹜的工作。</p><p>“有用么？这些也是可以伪造的呀！”这句吐槽居然来自于琰玥，她此时正漫不经心地嚼着饼干：“嗯嗯，但这个吃着就比较一般了……可能没密封放冰箱受潮了？”</p><p>“就一晚应该不至于……（果然预算也不是能无限使用的呀！）”但尹浩还在想别的事情：“（所以自助餐也不可能真的无限吧，当然说不定也有魔能可以变出很多食物呢……哎呀我咋了这是，怎么又倒回去那么多了？又不是什么伏笔，这联想能力太奇怪了吧？）”</p><p>“啊我主要不是说这个……那你说说男主就怎么就这么相信这个妹子的来历呢？”琰玥做出一个握话筒的姿势将手掌递到尹浩跟前，而后者还以为她没见过这么经典款的话筒呢！就像昨天晚上发现她还会用那个老式吹风机一样。</p><p>“不是啊，我觉得大史已经解释得够可信了……呃，但另一方面，现在他也只能相信自己愿意相信的东西吧？毕竟现在能让他对世间产生牵挂的东西已经不多了……”而尹浩却看出了那个男演员所展现出来的动心，是那样的难以掩饰与迫不及待，某种程度上他感同身受的回答也能算是自我介绍了。</p><p>“哦，是吗？爱信不信……”想不到对方也会漫不经心地敷衍他，不过当男主转头一看，发现辣妹子现在正用手指间渗出的微焰，烘烤着被她咬了一半的饼干……</p><p>“你不看剧了吗？（啊？别告诉我这也是计划的一部分啊！那我还能不能当得了她的‘破壁人’？）”尹浩正踌躇着突然老脸一红，不得不惊叹于汉语的博大精深：“（额……至于破的是啥壁我还不好说，万一昨晚辣个梦暗示了‘千万别要’的内种事实，那我可真是个沙壁了！）”</p><p>“嘿嘿，这就行啦！啊？”琰玥回过神来的时候一抖眉毛，而根据这两天以来的表现，早就已经不难读出其中的略微惊慌：“我……我在给你准备小食呢，快说‘谢谢搭档’……”嘟囔着就将饼干递了上来。</p><p>“哦，谢谢搭档……”而好死不死的是，男主下意识地接过才反应过来：“（这这这……这不是她吃剩下的吗？我我我……我们这是不是算间接接吻？火火火……火应该已经把口水蒸干了吧？）”</p><p>“啊啊啊……不好意思！”而琰玥却是瞪着巨眼一把夺了回去，显然也是意识到了同样的问题，手忙脚乱地拆起了另一份包装：“我我我……再烤一个，再烤一个哈！”</p><p>“嗯，行吧……”但尹浩看着几乎空空的掌中，却涌起一股失望，恨不得把剩下那些星星点点的饼干渣舔干净，不过对方现在虽然在垂着头烤饼干，但那大大的眸子随着长长的睫毛时不时地向他难以掩盖地摆动，所以尚且不敢轻举妄为。</p><p>“嗯嗯，好啦，吃吧！呼——”再次分神之际，几块叠放起来的饼干又被辣妹推至男主跟前，前者像是作秀一般地吹熄了指尖的火焰，而后者一低头，那恰到好处的金褐色焦边以及丝丝烘烤之后的油香，令其刹那间便能脑补出那种“咸香酥脆”的口感。</p><p>“哦哦好，但还是看看远处的《三体》电视剧吧，家人们！（既然她都知道这个梗，我也没啥好顾忌的了……吧？）”不过尹浩现在只想弄清对方是真的想看剧，还是找个事情把他箍在身边。</p><p>“哈哈，其实这段我以及看过啦！但之前没想起来……”琰玥挠着头，做出了抱歉的笑容，“或者说……我刚点的时间不是很准确？但顺便回顾一下也没啥不好的……”</p><p>“你是不是……很久没看了？”尹浩也不知道她是真的假的，反正就有点像是故意的：“（或许只是想单独分享这个片段而把整个前因后果完整的展示出来？那她能不能再装得认真一点啊？算了，这种事情发生得太多真是懒得管了，累了……）”</p><p>“啊……确实，这些天真的发生了好多事情……”琰玥漫不经心地吃着先前咬了一半的饼干，突然宛若静如止水的双眸又是像之前那般灵光乍现地掀起波澜，“嗯？真的好吃耶，你也尝尝嘛！”</p><p>“哦好……”尹浩小咬一口，声音果然干脆利落，口味也符合预期，但还是故意皮了一下：“嗯，真是非常的新鲜，非常的美味呢！”然后整蛊地板着脸竖起大拇指。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

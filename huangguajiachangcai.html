@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黄瓜家常菜</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《黄瓜家常菜》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于黄瓜家常菜</h2>
+<p>					黄瓜家常菜<p>“……这听起来好BAKA啊。我都忍不住想骂人了，BAKABA——KA~”陶怡可爱地说出骂人的话。</p><p>罗兰接着道：“其他的伏笔也可以证明这一点。我是卡着最后一天来到图书馆还书的，可是工作人员却说我逾期了。这是什么原因？如果真的是有两个图书馆，那么我从A日的白天图书馆穿越到夜晚图书馆以后，回到白天图书馆，应该还是A日才对。当时我认为这是因为图书馆内的时间流速和外面不一样，现在我才明白，当我在A日白天离开图书馆时，我被门口的保安打晕了，他把我搬回了图书馆内，我醒来时，是A日的晚上。当我晚上再次出去时，黑暗当中，我没有看到依然守在门口的保安，我又被打晕了，再次被搬了回来。等我睁眼时，已经是B日， 所以我才会逾期！在天文台上方也是一样，所有的出口都有保安守在外面，我一出去就把我打晕。其实种种伏笔都是在告诉我，这里面根本没有灵异事件！”</p><p>“可是不对啊。你不是真的见到了那么多灵异事件吗？”</p><p>“这就是这整个《图书馆规则怪谈》的诡计了，也是我这种资深规则怪谈爱好者才会中的诡计。”罗兰笑道，“其实，在那个规则上，一丝的诡异都没有。什么进入低幼儿阅览区就会智商变成低幼儿，什么一定有第四层多出来的空间，什么逾期就会发生诡异事件，什么厕所一定有打败五笔魔物的办法，什么去到没有工作人员的空间就会变成工作人员，通通都是我看到规则以后产生的联想而已。</p><p>“也就是说，这整个《图书馆规则怪谈》的真正机制是‘心想事成’。如果你不脑补，这就是一个正常的图书馆，你脑补了，你脑补的那些东西才会成真。我想，如果我认为我自己会被规则杀死，我也真的会死吧。就好像我认为我变成工作人员，我就真的变成了工作人员。”</p><p>“是这样吗？你玩个游戏，怎么还会真的死啊。也就是说，这个游戏可以检测你的思想？甚至修改你的思想？你看，你就真的变成了工作人员。如果你就这样一直以为自己是游戏里的工作人员，那怎么办，你不用回现实了吗？”</p><p>“所以你们就是唤醒我的机制啊，这不就说得通了。而且你们还是作为这个游戏中的小说里的人物出现，这就告诉了我，我不是工作人员，我是来还书的罗佑土。好了，现在我该回家了。我想，这个游戏其实才刚刚开始吧？走出图书馆只是第一步，接下来，这一整个世界，都会是小说世界，如何我就需要从游戏里的小说世界回到小说里的现实世界了吧？嗯，开始吧！”</p><p>“嗯嗯，恭喜你通关哦。好吧，快点和我们一起回家吧~”</p><p>“是跟我回家。”秦心终于可以插进话来。她冰冷地说。</p><p>陶怡一愣，随即露出一个更灿烂的微笑：“对，是跟你回家，你才是‘同居者’呀。不过，在到家之前，就把你家罗兰借给我吧~”</p><p>罗兰感受着陶怡贴上来的柔软，涩迷迷道：“哈哈，这游戏真好，这是通关以后的福利吗~”</p><p>好？好吗？</p><p>或许这一路上，罗兰都爽到了。</p><p>但是，快要接近罗兰的家时，秦心忽然站住了。</p><p>她拦在罗兰面前：“不好，快跑！”</p><p>“怎么了？”</p><p>罗兰话音未落，只见从罗兰的家里，已经冲出了一群黑衣人。罗兰意识到不好，想要回头，却发现身后也涌出来大量的黑衣人。</p><p>这些黑衣人全部戴着墨镜，手持手枪，对准了中间的罗兰众人。尤其是——</p><p>秦心？</p><p>黑衣人当中有一个没有持枪，明显是为首的，他负手而立，对秦心喝道：</p><p>“秦心！你果真背叛组织了吗？”</p><p>组织？罗兰来不及思考什么组织，他就看到，在那为首的黑衣人的后面，从他的家里又走出来了几个黑衣人，只是这一次，两名黑衣人擒着一个男人，并用手枪抵在他的头上，还有一个黑衣人，一只手端着一盆花，另一只手拿着一把剪刀，随时要把花茎剪断。</p><p>“爸！妈！”罗兰失声叫出。</p><p>那不正是罗平和桑芙洛娅？</p><p>随即，罗兰又笑了：“啊哈哈，我入戏了，这里只是游戏而已，这魔物和这男人还是游戏当中的小说里的，我这么认真干嘛，哈哈。”</p><p>“小兰！你没事吧小兰！”</p><p>“小兰！别管我们，你快跑！”</p><p>游戏……只是游戏而已……</p><p>罗兰的笑容还维持在脸上。</p><p>但是，这两个NPC那逼真的表情……不，不对，不仅是表情，是他们的情感，他们流溢出的情感，让罗兰的笑脸上，泪水在眼中打滚。</p><p>他们都这样的，还想着让自己跑……</p><p>罗兰的脸垮了下来，他冲桑芙洛娅喊道：“妈，你不是有脚吗？你跑啊！”</p><p>“妈不能丢下你爸不管啊！”</p><p>原本黑衣人还不知道桑芙洛娅有脚，听罗兰这么喊，那端着桑芙洛娅的黑衣人，立刻五指抠拢，抓得更紧了。桑芙洛娅立刻吃痛，叫喊起来。</p><p>“混蛋！给老娘轻点！”</p><p>原来花盆也是桑芙洛娅身体的一部分，并且是有痛感的。</p><p>这一切到底是怎么回事呢？</p><p>从为首的黑衣人的话来看，这一切发生，显然是因为秦心，这个被罗家收留的女孩。</p><p>她到底有着怎样的身份？</p><p>秦心看起来还是那么镇定，比身为魅魔的陶怡还要镇定许多，这根本不符合她看起来的年龄。只听她淡淡道：“我没有背叛。”</p><p>“如果你没有背叛，为什么和魔物共处一室，为什么又和你身边这个魔物的首领待在一起？”</p><p>魔物的首领？</p><p>罗兰看到秦心看着自己。靠！魔姬什么的只是小说啊！我也不是罗兰，我是罗佑土啊！</p><p>这突发剧情这么刺激的吗？</p><p>“你在装什么傻？我说的是她！”黑衣人首领一指另一边的陶怡，“你不要说你不知道！这么明显的气息，这个人类女孩，已经被魅魔的首领，魅魔小薇附身了，你看不出来吗！”</p><p>魅魔……小薇？</p><p>按照书里所写，不是魅魔芊妺吗？</p><p>怎么可能是魅魔……小薇？？</p><p>突然，秦心跳开，周围的黑衣人俱是一惊，枪口随着秦心移动。但是秦心却没有进攻动作，相反，摆出了防御姿态。</p><p>“对不起，是我的疏忽，我以为她只是一只普通的魅魔，所以接近她，只是想知道魅魔小薇的下落。既然她是魅魔小薇的话，那么我……将立即执行任务！”</p><p>天色，突然变黑了。</p><p>罗兰抬头看到，大片的乌云，不知道什么时候突然形成，它们翻滚、涌动着，继而连一丝翻滚涌动都看不到了，这不是因为它们平静了下来，而是天光全被遮蔽，因此，无论它们怎样张牙舞爪，地上的人类也再也看不到痕迹。</p><p>在那涌动地愈发疯狂的乌云当中，一道红光，璀璨而耀眼、压抑而恐怖地一亮。随后，刺眼的红光虽然淡去，可是，那红色的月牙却在空中愈发清晰。</p><p>那不是什么月牙形状的其他东西。</p><p>那正是一弯血残月。</p><p>当天色异变的时候，地上的秦心，也完成了变身。</p><p>她的皮肤变得更加的白皙，甚至可以说是惨白，头发也变成了没有一丝生机的纯白色，衬托出，她新变出的哥特连衣裙上，那残忍的血色。服装上的荷叶边和装饰让她看起来更加的美艳，也更加的骇人。不过，这些都不重要。因为，另一样东西，才更衬托出她的恐怖。</p><p>镰刀。</p><p>比她的人还高，血色的、形制恐怖的长柄，以及，那透着寒光的，有半个人长的镰刃。</p><p>她是谁？她还是秦心吗？</p><p>她是秦心。因为，她的表情依然那么淡漠。但如果说人类形态的秦心表情淡漠，还让人觉得有一种神秘的美，那么此时秦心的淡漠，仅只代表她杀人不眨眼。</p><p>秦心轻声吟道：</p><p>“魔法少女燎月前来觐见。”</p><p>“奴家，便是这夜空中最耀眼的血月。”</p><p>此时，穹顶漆黑，没有太阳，也看不见星星。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

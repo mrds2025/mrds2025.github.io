@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黑王蛇的萌新</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《黑王蛇的萌新》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于黑王蛇的萌新</h2>
+<p>					黑王蛇的萌新<p>‘天使’在异怪的保护下静滞高空，火山灰和硫磺粉末将周围的云气全都染成了黄黑色。</p><p>压抑死寂的天空下，只有歌声依旧在回荡。</p><p>【如今 依旧能感觉到你的视线～】</p><p>“这个音乐到底什么鬼？又不是在开长途汽车。”</p><p>头顶的阳光被尘埃遮掩，公共频道里无法屏蔽的歌曲也闹得心烦。洁西卡便索性切掉了那个无线电频道。</p><p>“队长，有来自执行董事的命令！”</p><p>接到通讯员的提醒，抬起便携终端查看了信息，她朝手下挥挥手，开始布置任务。</p><p>……</p><p>【即使彼此分离～】</p><p>“遥姐，DEM的魔术师开始行动了。”</p><p>负责火力支援和战场瞭望的真那在频道里给出提示。</p><p>看到远处的DEM魔术师正三三两两加入战斗，并试图摧毁异怪收集样本的时候，三羽遥点点头。</p><p>“不用理会她们，先解决侵蚀周围规则的‘天使’再说。”</p><p>“‘天使’的灵力波形的负值依旧在不断增大，继续下去的话……”</p><p>折纸用激光剑砍翻了几只纠缠不清的异怪，她现在位于战线后方，压力相比之前要小得多，就顺便负责起前方作战小组和Fraxinus的信息交换任务。</p><p>“这片空域的规则可能会被彻底改变，”冲锋在最前线，吸引了大量异怪的三羽遥接过话题：“到时候世界会变成什么样都不好说。”</p><p>【但内心依然能感到暖意～】</p><p>三羽遥刚甩开异怪的追击，又如同预知般迅速翻转。绣球花瞬间变成了飘临的落叶，躲过侧后方偷袭的子弹。</p><p>“还真厉害啊！背后长眼睛的吗？！”</p><p>DEM制式的深红色CR-Unit从云雾里冲出，紧紧咬在她身后。</p><p>一连串机炮子弹和曳光弹穿过硫磺云层，同三羽遥的飞行轨迹相擦而过。但她却只瞄了眼周围的异怪动向，压根没有理会对方的挑衅。</p><p>【此刻 我相信着你的爱～】</p><p>洁西卡显然不愿意就此罢手：“你就是那个Ratatoskr的王牌吧？只要打赢你，我就能被另眼相待了！”</p><p>“闪开。哪有空陪小孩子玩！”</p><p>见对方不顾一切冲过来要肉搏，三羽遥连点两枪后，直接把手里的武器丢了出去。</p><p>“小孩？！”</p><p>洁西卡刚用随意领域抵消了威力巨大的光束，黑漆漆的物体已经砸到身前。</p><p>不得已之下，她只得伸手拨开。一碰才发现面前的压根不是枪械，而是一个猛然膨胀开的气球。</p><p>“在哪、啊——”</p><p>当眼角的余光在斜下方瞄到一个银白影子的时候，第三道光束已经炸在眼前。</p><p>【所以就请你～】</p><p>被洁西卡拖延了十几秒，遥发现自己还没赶得及威胁‘天使’本体，新诞生的异怪就已经在逐渐散开。</p><p>“真那，能提供掩护射击吗？”</p><p>“没问题，在下已就位。”</p><p>大型光束步枪不断开火，将脱离了‘天使’周边的怪物击坠。</p><p>【在远方注视着我 守护着我～】</p><p>崇宫真那听着公共频道里播放的歌曲，居然产生了一种在玩射击游戏的错觉。</p><p>“虽然不知道为什么，但在下现在可是精神满满哦！”</p><p>在她们与敌人交火的同时，空中舰那边也更新了信息。</p><p>“Fraxinus还有四十秒到达射击位置。”</p><p>收到消息，三羽遥赶忙确认情况。</p><p>“折纸？你那边怎么样？”</p><p>【直到昨天 我还泪眼朦胧～】</p><p>“已经准备就绪。”</p><p>鸢一折纸此时心情意外地平静，自从双亲去世后，任何音乐在她听来都与杂音无异。</p><p>可现在，耳旁环绕的歌声却让她心情无比舒畅，直到一缕凉意自眼角滑落。</p><p>【此刻 我的世界却……】</p><p>“我……哭了？”</p><p>鸢一折纸没有抬手擦拭，而是任由风将其吹干。</p><p>她忽然觉得世界开阔了许多，就连那个和自己争夺士道的夜刀神十香，似乎也变得没那么讨厌了。</p><p>“一定是……错觉。”想到那张傻乎乎的脸，折纸点头肯定到。</p><p>【还记得吗～】</p><p>三羽遥用掉了最后几发高爆火箭筒，又操纵微型飞弹将最后两台躲藏在不远处的DEM无人机连同异怪一起炸翻。</p><p>当她成功把‘天使’的注意力吸引到自己身上时，DEM的魔术师们已经捞起了被击坠的洁西卡，开始整编撤离。</p><p>“士道她们的演出也快结束了……”</p><p>听见歌声里熟悉又带些陌生的沙哑女音，她微微一笑。</p><p>【当我们视线交汇的那个瞬间～】</p><p>阳光下，街道边，少年与少女的视线交错而过。</p><p>不认识的年轻人……</p><p>想当初，就是觉得蓝发少年拎几个超大号购物袋的样子很有趣，她才会微笑着冲这个陌生人打招呼。</p><p>三羽遥抑制着心头快要满溢出来的炙热灵力，朝着‘天使’所在的空域冲去。</p><p>她要尽可能吸引更多的敌人，为折纸清理出射击窗口。</p><p>【还记得吗～】</p><p>折纸狠狠咬了舌头，试图让自己更清醒些。</p><p>由于消耗过大，光是让White Lycoris稳定漂浮在半空都很困难。</p><p>只剩一根的魔力炮早已过载，她拼命控制着自己的魔力输入，想要在到达临界点前为随意领域灌注更多的魔力。</p><p>“撑住……White Lycoris——”</p><p>【当我们两手相牵的那个时候～】</p><p>“遥姐！你身后……不对，周围全都是——”</p><p>每次扣下扳机，都有两只甚至更多异怪被击落。</p><p>敲击锁扣，空弹夹脱落。</p><p>真那插上了最后一个弹夹，枪身在她手中滚滚发烫，如果不是依靠随意领域散热，怕是早就炸膛了。</p><p>就在这时，耳麦里传来天籁一般的通讯音。</p><p>“Fraxinus已抵达炮击位置！”</p><p>怪物们拼命追逐逼近了本体的三羽遥，防线也因此被拉出个口子。剩余的异怪则被崇宫真那使用高出力光束步枪驱赶和击坠。</p><p>折纸在狙击镜中摒气凝息，直到异怪与‘天使’之间拉开空隙。</p><p>“机会！”</p><p>按下发射键的同时，折纸眼前一黑。</p><p>功率远超平常的魔力炮瞬间将她的魔力榨得一干二净。</p><p>【那是我们第一次的～】</p><p>“鸢一机发射了魔力炮——”</p><p>Fraxinus舰桥里，环境灵力的监测指数依旧在不断上升，甚至连折纸的魔力炮都受到了影响，威力远超预期。</p><p>“好惊人的威力，灵力护盾被击破了！”</p><p>“就是这个时候！”</p><p>【爱之旅程的开始～】</p><p>作为兜底的后备战力，被按在指挥席无法出战的琴里早已等候不急。</p><p>她猛地站起身，挥舞手里早已咬瘪的珍宝珠棒子。</p><p>“收束魔力炮〈Mistilteinn〉，全功率开火！”</p><p>“明白！收束魔力炮〈Mistilteinn〉，射击！”</p><p>早已蓄势待发的空中舰主炮震出轰鸣，瞬间驱散了周围的云雾和自身的电磁迷彩。</p><p>能量洪流扫过怪物集群，拉出了一道绚丽的火花。</p><p>【I love you so～】</p><p>收束魔力炮就像敲玻璃般，轻松击碎了来不及充能的灵力屏障，直接轰在‘天使’的岩石外层。</p><p>天空中激扬起炫目的白光，将硫磺和火山灰堆积而成的厚重云雾吹散一空。</p><p>……</p><p>“I love you so～”</p><p>在逼真的投影画面中，一部分巨人被少女的歌声所唤醒，为了取回丢失了五十万年的文化，他们选择与人类站到一起。</p><p>部分舰船自战场中脱离，自发汇聚成反抗舰队，以人类唯一那艘战舰为首，冲向了战场中央的始作俑者，那座无比庞大的机动要塞……</p><p>【现在我已不再孤单寂寞～】</p><p>借着三维投影的光亮，神崎爱丽丝摸到了舞台侧面的高空看台上。</p><p>她捂着耳朵，遮掉不断传来的歌曲和爆炸声，有些犹豫地开口问道。</p><p>“姐姐大人……有人在问要不要去切断电源……”</p><p>【因为有你 在我身旁】</p><p>可是诱宵美九却没有回答，只是安静地站在那里。</p><p>就连庞大的巨舰投影从头顶穿过，那恐怖的压迫感让周围观众纷纷弯腰，也没能让她眨眼。</p><p>【还记得吗～】</p><p>【当我们四目交会的那个瞬间～】</p><p>她看到舞台上的那些精灵都在关注着中央的五河士织。</p><p>精灵们仿佛坚固的支柱，让毫无舞台经验的士织能够直面无数观众视线的压力。</p><p>【还记得吗～】</p><p>【当我们两手相牵的那个时候】</p><p>她看到士织拨动吉他琴弦，口中唱着她从未听过的曲调，虽然偶有走调，却无法掩盖掉歌声中的真情流露。</p><p>【那就是 我们爱之旅途的开始～】</p><p>【I love you so～】</p><p>“为什么……你能那么勇敢？”</p><p>诱宵美九捏紧了扶手，死死盯着中央的舞台。</p><p>……</p><p>【现在 我已不再孤单寂寞～】</p><p>在一片破败残乱的废墟里，少年用手指沾起粉末，在黑板上写出了少女的名字。</p><p>【因为有你 在我身旁～】</p><p>伴奏缓缓落下，十香抱起话筒，双目注视着认真演奏的士织，露出笑容。</p><p>……</p><p>【现在 我已不再孤单寂寞～】</p><p>在无边无际的暴风雪里，遍体鳞伤的少年把一个普普通通的手偶交到了女孩的手里。</p><p>【因为有你 在我身旁～】</p><p>一手轻敲琴键，另一只手将兔子手偶抱在胸前，四糸乃贴近麦克风，面露微笑。</p><p>……</p><p>【现在 我已不再孤单寂寞～】</p><p>在落日的海滩上，少年拦身在少女们之间，用身体阻止了她们相互厮杀。</p><p>【因为有你 在我身旁～】</p><p>橘色长发的少女们紧贴在一起。耶俱矢轻弹着贝斯，和握着麦克风的夕弦共同轻唱。</p><p>……</p><p>【现在 我已不再孤单寂寞～】</p><p>在烈焰肆虐的火海中，有一个高大的人影抱扶起自己，大声喊叫自己的名字。</p><p>【因为有你 在我身旁～】</p><p>“笨蛋……”琴里抬起头，看向屏幕中的士织，轻轻默念。</p><p>折纸垂眸看着脚下的场馆，她终于再一次保护了最重要的人。</p><p>……</p><p>【现在 我已不再孤单寂寞～】</p><p>在钢铁大地上，静静等死的少女看见了自远处而来的幻影。</p><p>绝不可能出现的人，站在了她的眼前。</p><p>【因为有你 在我身旁～】</p><p>三羽遥望着远方崩离坠落的天使残骸，轻声哼唱来自另一个世界的歌。</p><p>***</p><p>#愛・おぼえていますか</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

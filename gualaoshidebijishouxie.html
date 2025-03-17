@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>瓜老师的笔记首页</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《瓜老师的笔记首页》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于瓜老师的笔记首页</h2>
+<p>					瓜老师的笔记首页<p>就在林羽掏出火铳的那一刻，邱敬的脸色瞬间转阴为晴。</p><p>他认得此物，凡人的武器，名为火铳，当然它也有另一个称呼手铳，此物确实威力惊人，但也只是相对于凡人而言。</p><p>邱敬早已测试过火铳的威力，结果是连金丹期的灵力屏障都打不穿。</p><p>果然先前的从容淡定只是装出来的，她现在已经是强弩之末。</p><p>就像她说的一样，只有弱者才会依靠外物来对付强者，能来这里的都只是这种货色罢了，先前的疯言疯语倒是挺真，差点就信了。</p><p>邱敬的嘴角上扬，满脸不屑嘲讽般的看向林羽，接着伸出手紧压住皇帝的肩膀强行让他镇静了下来。</p><p>“圣上，还请放心一切皆在贫道的掌控之中。”</p><p>感受到肩膀的力道，本来还惊慌不定的皇帝终于冷静了下来。</p><p>空气再次如同死一般的寂静。</p><p>林羽扣动扳机，一枪直接打穿了皇帝的头。</p><p>“砰！”</p><p>这一声是林羽自己说出来的</p><p>普通的子弹，当然不可能击穿金丹期的灵力屏障，她用的是自己的“气”来击穿的。</p><p>在这一个月内，林羽准备万全，拿到火铳那一刻，她就想起前世的手枪。</p><p>正好现在的她缺乏一项杀伐用的手段，经过不断的测试才完善出了这个火铳。</p><p>在子弹里装入气，是目前她掌握的最为杀伤力的手段了，只不过火铳的使用方法，当真麻烦无比，因此战斗只能使用一次，不仅如此还得想办法让敌人不能动弹，距离够近，不然，极为容易打偏，并且子弹还得是灵石所制作而成不然根本没法承受住“气”，还好在那洞里又找到了一些。</p><p>眼下这几样条件都满足了。</p><p>当然，能有如此成效还是多亏了林沫的帮助，否则也不可能这么快做出来。</p><p>邱敬眼睛瞪得像铜铃一般，他怎么都想不明白，为何子弹会穿过他的灵力屏障。</p><p>明明他早已踏入金丹期巅峰的修为，怎会如此！？</p><p>忽然间，在皇帝被爆头的那一刻，他的嘴唇蠕动，不甘道，“竟会是这样的结果啊。”</p><p>天空被黑暗所吞噬，大地被水墨所沾染。</p><p>可视的色彩皆被抹去，宣告着这个世界即将终结。</p><p>……</p><p>一片虚空之中，林羽开始扭动身体，但身子却没有任何反应。</p><p>这种感觉跟之前在池子那里一样，现在的她只是意识体。</p><p>林羽当然知道现在是什么情况，简单来说她灵魂出窍了。</p><p>但也不可能一直待在这，只好凭借着往日的感觉向前漂泊。</p><p>不断的穿梭在黑雾之间</p><p>终于，林羽看到了与黑色不一样的事物，那就是她的面前出现了一个白色的人形。</p><p>依靠轮廊来看，这是一位身披长剑的女人。</p><p>接着林羽继续向前飘去，狐狸，信徒，侠客，战争等勾勒出让人莫名其妙的场景。</p><p>直到尽头时，白影开始变为了白雾，或者说是那人全被白雾所遮挡更为准确。</p><p>除此之外，雾里还构成了一座山崖。</p><p>依林羽所见，那白雾构成的人形像是男性。</p><p>站在崖边的人竟开口道，“你还要再来劝说吗？”</p><p>“不敢，只是吾一直想要问个为何？”另一人持剑站在身后说道。</p><p>“因为这里是我的第二故乡，即使我成就了仙帝之位，也无法舍弃感情。”崖边之人转身说道，“世人皆说，天上的仙人无悲无喜，无忧无虑，手握生死，脚踏乾坤，是最逍遥的仙。这么看来我更像是一个凡人。”</p><p>“如今，苍吾界已活不了多久，若我再拖延下去就真的无力回天了。”</p><p>“我知道，这些年来我们既是战友也是对手，更改世界法则，回溯世界，这确实会有损我的实力，但还请放心，只是这点亏损罢了，日后我依旧是帝。”</p><p>说完这段话后，所有的一切在林羽的眼中如尘埃被风吹散一般消失。</p><p>随后，散去的白雾重新组合，“小道士，你终于打破了牢的束缚。”</p><p>再次见到牛村长，林羽的肌肉都松了下来，这说明她之前的猜测都是对的。</p><p>但……</p><p>林羽咬牙切齿的问道，“我现在就想要知道一件事，这个世界的所有人都是在你的操控之下吗？”</p><p>“是也不是，这个世界是依据叶如霜的过去而产生的，她记忆中的人该是如何就该是如何，只不过在这个世界我拥有些特权，按你们人族的说法，叫做夺舍？”牛村长笑道。</p><p>“或者说是傀儡？”</p><p>原来如此，这里是二师姐的过去吗？</p><p>“那些白影和其中的对话蕴意是何？”</p><p>“只是我过去的记忆罢了，待的太久也会想找个人说说话。”牛村长握起拐杖狠狠的敲在地上。</p><p>忽然间，所有黑暗一扫而光，变为了天空与巨湖。</p><p>“死？你应该是法则吧，我竟然通过了你的考验……”林羽顿了顿才说道，“你难道不是应该归顺于我吗？”</p><p>“正是如此啊，这里的每一块墓碑里面都存在着一个小世界，而每个小世界里又存在着一种法则，它们遵守着墓碑里的规定与闯入者进行争道，赢则存，败则归。”</p><p>“对于我们法则来说，归顺于你们就相当于死亡。”</p><p>林羽：“……”</p><p>如果林羽只是个路人，她会说句，节哀，可惜她不是，这一路过来受过的苦与难是叮点都不敢忘记，所以……</p><p>“别磨叽了，快点。”林羽催促道。她可没忘记外面的危险，就怕二师姐先行她一步离开了这里。</p><p>“好好好，我跟你一样，也受不得这个地方了，现在记住我的名字——‘牢’。”</p><p>语毕，“牢”化作光点进入到林羽的体内。</p><p>无数的记忆涌入脑海中，这一刻，她对“牢”的含义有了更深的理解。</p><p>“终于可以回去了。”</p><p>林羽施展法则，因规则而生的世界即刻毁灭，而她那被尘封的记忆也因此打开。</p><p>……</p><p>时间回到林羽离开村子的那一日。</p><p>“畅聊?怕那个人不是你吧！”牛村长狰狞道。</p><p>忽然间，在木桌的对面凭空出现一位身着道袍的白发少女，正是林沫。</p><p>她挂着那说不清道不明的笑，“嘻嘻，小书生你先离开吧，这里的事，还是不要掺和为好。”</p><p>“是。”</p><p>语毕，白昔恭敬的行了一礼后，便离开木屋在外等候。</p><p>“牢，你怎么又换了一副皮囊，这种游戏还没玩够吗？”</p><p>“牢”不语，只是现在他的双眼变得炯炯有神起来，完全不似林羽见到的那样浑浊暗沉。</p><p>“哦？这次是猜心思吗。让我……”</p><p>林沫话还没说完，“牢”便掀起了木桌。</p><p>不过没有成功，木桌被林沫“压”得死死的。</p><p>“老东西，别太急躁了，这次可真有事要和你说。”</p><p>仿佛是遇到杀父仇人，“牢”用尽全身力气吼着，“有事？若这事不能杀了你，那就免谈！”</p><p>林沫撇了撇嘴脸，不屑道，“不就是杀了你几百个轮回而已吗，一点身为前辈的气度都没有。”</p><p>这个世界的规则就是如此，每一次都会让闯入者不断进行轮回，但这里的轮回可不是赢一次就判断你胜，而是要看闯入者的底蕴。</p><p>“牢”设置的获胜条件是杀死闯入者，而闯入者获胜条件的则是杀死在这个世界中自己附身的人或者说是傀儡。</p><p>胜者会得到上个轮回的部分物品，败者的情况则分为两种。</p><p>第一，如果是闯入者败，收的物品由“牢”来决定。</p><p>第二，如果是“牢”败，它掌控这个世界的权利就会减少。直到一无所有，闯入者才能摆脱这个世界的轮回。</p><p>“牢”与林沫的对决早已持续了几百个轮回，虽然它是个活了不知多少岁月的灵，但正如它的名字一样。</p><p>“牢”这个法则，真正的锁住了它，纵使它能在无数闯入者的记忆中看到万千功法，精湛技艺，也无法使用。</p><p>因为这个世界的上限是元婴巅峰，而它身为法则被世界束缚也罢，可却连那些技艺都无法使用。</p><p>这一切都是拜规则所赐。</p><p>“说说看。”</p><p>“牢”渐渐的冷静了下来，它知道现在的自己已不是林沫的对手，不自量力的争斗只会让伤痕更加繁多。</p><p>“听好咯，我要跟你玩一场赌约，如果赢了的话就放过你，并且你还可以对我提一个要求，输了的话你就归顺于我的主人，如何。”</p><p>也不管对方接不接受，林沫继续说道，“在最后主人跟你决战时，我绝不帮忙，就让她依靠自己的手段来杀死你，只要你能受得住她的一击。”</p><p>“牢”怔住了，说实话这个赌约，在它看来自己赢的概率有百分之九十九点九。</p><p>它光是思考都想不出没有仙器的林羽怎么打赢自己。</p><p>虽然附身过后，它的身躯会变得如同凡人般，但牢这个法则的防御力，在墓园里也是排的上号的存在，能被出道没个几百年的小丫头干死，做梦它都会笑死自己。</p><p>除非对方能在瞬间将自己的意识粉碎，不然头没了他也能够接回来。</p><p>没有一口气拒绝，那就有机会，林沫深知人心。</p><p>“机不可失，时不再来。我想你已经做好决定了。”</p><p>“好，你立下天道誓约，我便同意了这件事。”</p><p>“当然没问题，不过你还要帮我处理一件事。”</p><p>说着，林沫扔出了几瓶装有白色液体的药瓶。</p><p>“这是……苦水！？”</p><p>“牢”在看到苦水的一瞬间，脸色都不淡定起来了。</p><p>原来如此，它终于想明白了为何林沫能够代替林羽承担责任了。</p><p>她们之间签订了魂冢契约。</p><p>契约，传说那是荒古时期就存在的咒法，人们利用契约来保证彼此之间的交易。</p><p>而魂冢契约的用途，大多数都是关系极为亲密的人才会使用，例如夫妻。</p><p>“你是想要我毁掉她的记忆？”</p><p>苦水作为记忆的载体，交给别人只有一种用途——销毁记忆。</p><p>林沫点点头，“太多的经历，会将一个人塑造成怪物，特别是她这样心善的人，如果带着这些记忆出去……”</p><p>“我也不知道，她会变得怎么样。”</p><p>“牢”抓起药瓶思索着，这个世界的规则对林沫不起作用，每一次轮回重置的对象只有自己和林羽。</p><p>早在被林沫打败的第一次，自己就输透了。</p><p>现在不过是对方施舍给自己的一次机会。</p><p>“牢”很清楚，无论如何它都不可能有胜算，但它还是想要看看这最后的结局该是如何。</p><p>看着林沫那玩味的神情，“牢”还是选择了将药瓶捏碎。</p><p>“嗯。”林沫满意的笑了，“我林沫对天道起誓……”</p><p>说完，两张金黄色的纸出现在二人手中，开始自动焚烧起来。</p><p>契约已成，失言者，必遭天谴！</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

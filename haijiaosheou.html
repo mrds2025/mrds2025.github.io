@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>海角社区</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《海角社区》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于海角社区</h2>
+<p>					海角社区<p>从传送阵里出来，门外终于不是后山那种充满原始气息的地方。</p><p>映入眼帘的，是干净整洁的运动场。里面除了有些镶嵌着魔石的看不出用途的运动设施外，与秋枫原本世界的运动场并无不同。</p><p>整体上也是由跑道围绕这中间的草坪，要不是中间的草坪上存在的不是足球的球框，而是浮空在天上的两道大门，秋枫都会以为这里是原本的世界。</p><p>其他先来的考生们都坐在中间的草坪上，他们前方站着一位穿着运动装的健壮男子。</p><p>秋枫见状，赶忙小跑过去也跟着坐在草坪上，一边左顾右盼一边吃着带来的水果。这名老师见到秋枫这般行为也没有特地说些什么，而是清了清嗓子，用极其热情的声音大声说到。</p><p>“欢迎同学们来到第二场考试的地方，我便是这场考试的考官，你们可以叫我马斯克教授。”</p><p>对方做了个简单的自我介绍，一边说的时候，还不忘摆出些奇怪的poss，炫耀着自己身上的肌肉。</p><p>“这场考试很简单，来到八方学府学习，必须要有良好的体魄，用于战斗拼搏的精神。这里的跑道一圈是两千米，各位同学需要在120分钟内，奔跑一共十圈，二十千米。”</p><p>二十千米，放在以前的时候，秋枫跑完便可以不靠传送阵变成幽灵了。现在的秋枫自然不怕跑这么长的距离，但其他的考生就不这么决定了。</p><p>对擅长运动的兽人来说倒还好，但对于不擅长运动的地精、精灵和人类来说就不是一件好事了。</p><p>大家都在下面小说嘀咕起来，不满情绪逐渐蔓延开。</p><p>“咳咳，大家别急！”</p><p>前面的老师那如打雷般的声音打断了下面考生的交谈。</p><p>“一共五十位考生，只要有一位考生跑完十圈，或者120分钟耗尽即停止，剩下的考生按照排名，取前二十位考生晋级。考试期间允许考生互相攻击争斗，受到严重伤害的考生身上的护符会破碎，该考生会被传送离开，视为淘汰。但有一点，考生只允许在跑道上活动，禁止离开跑道。”</p><p>下方的考生不再交谈，此时每个人都变成了真正的对手。</p><p>“总之，这场考试，比赛第一，不论友谊，各位同学们加油，祝福各位能进入下一场考试！”</p><p>马斯克教授说完，露出爽朗的笑容，为下方的考生拍掌祝福起来。</p><p>“考试开始还有五分钟，各位同学可以休整一下，那边的房间里有各种武器和食物饮品。现在禁止同学们相互攻击哟，让我们五分钟后再燃烧汗水吧！”</p><p>说完，马斯克教授就跑到一旁用镶嵌着魔石的推举设施锻炼起来。</p><p>只要小小一块魔石，就能提供动力，不需要再靠重物来提供重量，这让秋枫决定相当新鲜。</p><p>除了秋枫还有心情东张西望，其他考生大多都开始紧张地热身起来。</p><p>这场考试可以说相当严峻，看似是在考验体力，实则是在对考生的综合战斗能力与军事判断能力进行考验。</p><p>跑的慢的人必然会通过阻挠攻击跑的快的人来获得名额。所以刚开始就跑的最快的人反而危险，很容易被群起攻之。但跑的太慢又容易最后时间结束时排名落后而淘汰。</p><p>“去丢垃圾吧。”</p><p>秋枫终于停止了四处张望，起身打算前往马斯克教授所指的房间之中。但秋枫过去的只要目的也只是把手中吃完的水果残余垃圾丢掉而已。</p><p>进入了这运动场一旁的房间，里面比秋枫想象的更加宽广。就像马斯克教授所说的那般，里面放满了各种兵器:刀枪棍棒戟，还有异世界特色的法杖等等。</p><p>而所谓的食物饮品，都只是些看着就不好吃的能量食品。</p><p>秋枫把垃圾丢在角落的垃圾桶，启动魔石的按钮后，一阵烈焰就把垃圾烧了个精光。</p><p>“好猛的火力呀，话说咱拿这垃圾桶做武器如何？”</p><p>秋枫脑海中浮现自己拿着垃圾桶大烧四方的画面。太过猎奇让秋枫不忍摇摇头，自己的形象是小，但自己代表着幽灵，让幽灵形象受损可就是大事了。</p><p>最后，秋枫也就从房间里随手拿了一把制式的长剑。但就算是最普通的制式长剑，其坚韧程度也绝非一般长剑能比。</p><p>这也让秋枫不由得佩服起八方学府的阔气程度。</p><p>秋枫拎着长剑出去后，休息时间也正好结束了。像秋枫一样去房间里面拿装备的人意外得少，大部分人都是用着自己带来的装备。</p><p>“好了，同学们，来按次序站好。”</p><p>虽然这里的跑道相当宽广，但是五十个人并排站着还是太过拥挤，马斯克教授也注意到这点，于是临时加了个规则。</p><p>“这么多人，起跑得乱套了，临时增加一个规则，第一圈大家都得跑步哟，不准攻击其他考生。”</p><p>也没有管其他考生有何反应，马斯克教授径直竖起手指。</p><p>“准备咯！”</p><p>话音一出，刚刚还有些吵闹的人群瞬间安静，大家都进入了准备状态，等待马斯克教授的发令。</p><p>“爆破！”</p><p>马斯克教授简短地念诵咒语，随后手指上方爆发出烈焰，伴随着剧烈的爆破声，大家也应声奔跑起来。</p><p>突如其来的规则改变让考生们不约而同地做出了同样的决策:</p><p>“第一圈一定要领先，这样到第二圈时就可以获得优先权，不管是攻击其他人还是继续跑都有选择权。”</p><p>第一圈里，几乎所有考生都在奋力奔跑，所以大家拉开的差距并不大。</p><p>但秋枫不同，在其他人奋力奔跑，争抢第二圈的优先权时，秋枫仍然自顾自地保持着一个中等的速度。</p><p>这也导致秋枫和其他考生之间拉开了一段距离。</p><p>跑得快的考生到达第一圈的终点，马上降低了速度，以一个较缓慢的速度奔跑，尽量不引起其他人注意。</p><p>而跑得慢的考生在到达第一圈终点后，马上摆出来战斗姿态，他们的目的很明确，跑不赢对方就打赢对方。</p><p>兽人便是这些跑得慢的考生最先的选择。兽人的体力和耐力都高于其他种族，也是最有可能跑完终结考试的。</p><p>这些跑得慢的种族便联手在原地等待那些跑得快的兽人在下一圈回来这起点时对其发起攻击。</p><p>兽人们自然也看出了这些人的目的，跑得快的兽人也互相结盟，在离这些人一定距离的地方停下，一时间考生们竟维持在一种怪异的僵持。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

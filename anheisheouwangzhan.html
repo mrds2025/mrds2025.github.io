@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>暗黑社区网站</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《暗黑社区网站》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于暗黑社区网站</h2>
+<p>					暗黑社区网站<p>第七百二十章：男欢女爱</p><p>“嗷呜——”正当尹浩伸手喝水时，阿美又跳到地上跑了出去，这货该不会是给琰玥通风报信吧？那尹浩可要怀疑这只美短的原型是不是王家宠物的克隆体了：“（那也不至于才这么快就这么能把人认清楚了啊！除非就是顾妹子控制它进行挑拨离间的……不过作为我们组最单纯的人设，只要立场没问题，她应该还没有这般的险恶用心……吧？）”不知道怎么的，男主立马又想起顾颖颢胁迫街上假扮店家的那些话语，顿时又感到后背发凉：“（我现在急切地需要辣妹子来给我温暖一下下……）”</p><p>“呼啦——呼啦——呼啦——”“吸——吸——呼——呼——”这段内心吐槽的时间里，耳朵也没闲着，他顺便听了一会儿，外面的声音依旧保持着不紧不慢的频率，虽然不严格固定但也并没有受到什么影响，也就是间隔有些细微的忽快忽慢证明这应该不是播放录音，甚至都能感受到对方胸腔间所迸发的干涩喘息，就好像曾经在会议室兼社团活动室面对压破而产生的紧张情绪。尹浩侧身推开轮椅，尝试双脚着地，虽然膝盖和足弓都有些泛软，但这应该也只是两天多没有站立而造成的反应。随后他屏住呼吸地迈了两步，除了心里有点不安地发怵，果然已经没有什么其他问题了，不过保险起见他还是双手搭在了轮椅的背靠上，就这样慢慢地推了出去……</p><p>“（啊等一下，这不就是，琰玥睡过的床么……）”当然路过此处时他还是特别留意了一下，只见被子和被单都不见了，早已不见了之前“火山喷发”与“板块运动”的迹象，估摸着是被她拿去洗了。再次凝聚起Big胆的他，回忆着凌晨时的手法再度触摸，床板上依旧残留有热烘烘的余温，看来她也没有起来很久，出去就能直接吃到早餐估计是不太可能了，或许琰玥是真的想跟他一起做布丁呢？</p><p>“（方才我还希望一会儿出去不要再看到任何梦中的场景了，但现在好像又有点期待某种浮夸到猎奇的样子……）”即将绕过房门的转角时，尹浩逐渐感到一股灼热渗入了他身后渐行渐远的清凉，待会儿想必又会遁入一种“燥热”的氛围：“（好讨厌又好喜欢的感觉，我可真是太变态了，趁着栩棋不在就放飞自我几天吧！这尼玛的连搭档都开始上进了，反而是我开始摆烂了么……）”</p><p>是的，虽然他已经基本恢复了，但没有意外的话，还是计划最迟明天才动身，给自己明面上找好的理由当然是为了安全考虑，但出于私心他也期盼能在自如活动的时候，舒舒坦坦地过一天与世无争、男欢女爱的“隐居”日子……</p><p>“哇喔，搭档你真的好了呀？”看到尹浩推着轮椅出来的第一眼，琰玥马上就收住了热量的释放，并且停下了手中摇摆的绳子，撩了一下黏在额头上的那一圈弯弯的发梢，像是把呆毛贴在了脑门上。而那火红发丝挂着水珠的晶莹感，不知道怎么的就让尹浩联想起了堵在卫生间浴缸下水口的那些头发……而相比于跳绳短促的惯性，胸前的肉肉还是泛起了连绵不绝的“余震”，并且可能是由于剧烈运动后充血的缘故，看起来貌似还比昨天更大了？但从更“乐观”的角度来说，莫非拥有“突飞猛进”可能性的还不止栩棋一人？等到时候四瓣“肉山大魔王”对阵一头“触手女巨人”，优势在我！</p><p>“嗯是呀……（什么叫‘真的好了’？难道她还不希望我变好吗？昨天应该没有趁着我不能动的时候干‘坏事’吧？）”尹浩下意识地握拳捂嘴掩饰惊讶，咸潮的气息伴随着她湿滑的全身，呈现出一副健康肉体的活跃激情，带着早餐新鲜的热腾气息扑面而来，本就挂着厚窗帘的昏暗室内被她弄得氤氲缭绕，从肩膀到胳膊再到大小腿无不沁着青春的汗湿，顺着肌肤的起起伏伏晕开了汪汪油光，简直像是涂擦了健身比赛中的橄榄油，加之不懂是否由于臀部膨胀导致大腿根子也变得粗壮，竟然还真能使得身体线条一改往日软踏踏的状态，这“人设塑造”也变得更加立体紧致和丰富饱满了。</p><p>“呃，怎么，是我身上有内种……汗臭味吗？”琰玥这副一点都不担心的样子，绝对是在针对男主逐渐收不住的视线进行一个明知故问，“嗯？我鼻子很灵的，你可不要露出那种很嫌弃的表情哦！不然我会很上心哒！”</p><p>“啊，没有没有，反正我鼻子没那么灵，怎么会嫌弃呢……（这，这话不对吧好像？）”这令他想起自己也曾对鹏飞收藏的一些图片和视频，暗中眼巴巴地望眼欲穿，却还要装正人君子批判一番。</p><p>“或者说……我怕猫猫嫌弃？”对方说着又左手右侧举，右手前弯举，右手小臂勾住左手大臂，一边似乎是在做着运动后的拉伸动作，但一边又因为前方过于突出导致双手的位置有些怪异，就好像在低头嗅着自己的……腋窝？</p><p>“猫猫？只要你把它伺候好了，再臭人家也会习惯的好吧？”而尹浩看着她那样，现在又不得不感慨，这样一个活生生的“大”人物就在他面前，而且还算是最近比较熟知的关系了，远比任何借助设备的虚幻滤镜更显真实与诱惑。</p><p>“真的吗？”红发妹子接着又是两边换手，但抬起头的时候，表情却不太轻松的样子，难道她真的嗅到了什么会令其皱眉的气息？</p><p>“那还……有假？”但男主此时可没把这放在心上，因为他脑海里也在暗自脑补，要是对面给他一个机会按压在上面推弄起来，不断循环着揉捏和挤碰的板块运动，贴合着固态物质，融合着液态物质，怕是事后当场殒命都值得了：“（啊不行不行，不值不值，我还没亲眼看到更‘别有洞天’的呢！确认过眼神……是我梦中拗不过的人……）你，您辛苦了，呵呵……”要不是他经历过更刺激的画面而脱敏，真想立马就把她当早餐给“吃”了，只是谁吃谁还犹未可知……“（我怀疑现在如果再用能力测一下，都绝对不止150公斤了，300公斤不知道有没有，想不到她以2米4的身高，还能比2米8的鹏飞还重量级？）”</p><p>“嗨呀，没事，客气啥，锻炼嘛！”琰玥扭动了几下肩膀和脖子，并且开始释放冷气，感觉过去她似乎已经完全拿捏了其搭档的体感舒适度，紧接着她的目光顺着尹浩的视线，然后伸出双手一压扶停了那两坨“活肉”的颤抖。虽然没再像昨晚那样发出“别看我啦”之类的明确感慨，但已经毫不在意的神情反倒更像是凸显出了一种“懂的都懂”的暗示，也丝毫不影响她在温度方面的“服务意识”，这些都令后者更显得愈发难为情了。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

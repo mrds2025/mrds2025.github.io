@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>暴走黑料社</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《暴走黑料社》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于暴走黑料社</h2>
+<p>					暴走黑料社<p>DEM执行总裁的专车安静平稳地行驶在深夜的高速公路上，刚从羽田机场入境的艾扎克·维斯考特此时正靠在后座眯眼假寐。</p><p>整辆加长型轿车里，除开沉默不语的司机，就只有副驾驶座上的艾伦·马瑟斯陪同。</p><p>手机微微震动，艾伦低头查看一番后，开口打断了老板的休息。</p><p>“艾克，这里有线人刚送来的情报。”</p><p>说完，她就将一封未署名的邮件转发到维斯考特的个人终端，“按照那边的说法，大约五小时前，AST在天宫市上空侦测到了异常的灵波信号。”</p><p>灰发的男人睁开眼，随意扫过屏幕：“……Witch＜女巫＞？还真是意料之外的人选。”</p><p>“要准备捕捉吗？”</p><p>“这倒是不急。”维斯考特将翘起的腿换了一边，“第二执行部在日本还有多少能够调动的战力？”</p><p>“包括Adeptus2在内的一个魔术师中队，以及一台猩红彼岸花＜Scarlet Lycoris＞。”</p><p>“她居然还没死吗？单论魔术师战力的话，意外地少啊。”当说出这些话的时候，身为DEM执行总裁的男人没有半点表情。</p><p>在阴阳师吉川皆阵制造的神隐事件中，DEM东亚部分的武装力量几乎消耗殆尽。常规业务虽然没有受到太大影响，但隐藏在水面下的情报部门却不断受到Ratatoskr的挤压，如今说是苟延残喘亦不为过。</p><p>对于这种情况，向来以武力为傲的艾伦·马瑟斯也无法可想，“需要调动澳大利亚那边的空中舰吗？”</p><p>“不，暂时还用不着。一部分工作可以交给尼别科尔们来处理。”</p><p>“尼别科尔……”艾伦并不喜欢那些神蚀篇帙的衍生品，但不得不承认，她们至少比普通魔术师好用不少。</p><p>维斯考特摆摆手，又把注意力转移到艾伦转发过来的灵波分析报告上。几眼扫完之后，顿时哑然失笑：“五个小时，还真是微妙的时间啊。”</p><p>这份灵波报告在事发当时不到一个小时就被整理出来，却延迟了许久后才送到他手上，这就不免引人遐想。</p><p>“管理日本的老人们不愿意看到阿斯嘉电子在这片土地上一家独大，但也没胆子在明面上反抗对方，于是就想方设法地借用我们的力量。”解释，他轻蔑地笑了起来。</p><p>一向自视甚高的艾伦微微点头，表示自己听懂了：“区区虫豸，居然妄图在巨人之间的战争里左右横跳。”</p><p>“没错，即希望DEM成为他们和那个人的谈判筹码，又不害怕我们过度插手，引起对方的强势反弹。”</p><p>说到这里，男人显得有些意兴阑珊，随手关掉了终端机的屏幕。</p><p>“不过是一群被时代抛弃的可怜人罢了。”</p><p>“不用去理会他们吗？”</p><p>副驾驶的艾伦回过头，静待对方的指示。</p><p>如今，艾扎克·维斯考特已经获得了精灵Sister的反转灵结晶，那是足以被称为‘魔王’的，能够改写世界规则的恐怖力量。</p><p>如果说过去的DEM还依赖于国家政府的资源动员能力，那现在的艾扎克·维斯考特只需动动手，就能让凡人臣服在他的脚底。</p><p>而这些，仅仅只是神蚀篇帙所崭露的冰山一角罢了。</p><p>现在他们拥有世界最强魔术师的武力，以及神蚀篇帙那神秘又恐怖的权能，想对付几个躲在普通魔术师保护之下的陈腐贵族，简直是轻而易举。</p><p>“最有效的杀手锏要留到最后，用来对付真正的敌人嘛。”维斯考特显然看出了她的想法，耐心安慰道。</p><p>“你是指Guest？那个三羽遥？”</p><p>回忆起与对方交手的经历，艾伦感到有气没处撒，虽然不理解那个精灵为何不愿使用天使，但仅靠CR-Unit就能和自己打成平手，她倒也认可对方的实力。</p><p>“平手……”维斯考特也没去反驳自己的贴身秘书，“对了，拖黑骑士先生的福，Goetia＜盖提亚＞的调整已经提前完成了，应该很快就能送到。”</p><p>“只要有了它，区区几艘空中舰完全不在话下，我很期待与Guest的机械天使交手。”</p><p>“不不，还要请你稍加等待。”</p><p>“为什么？”</p><p>“那个人和Guest暂且不论，我们还有更重要的事情，”说到这里，男人掀开手中的厚重书本，“弄清神蚀篇帙＜Beelzebub＞在天宫市失效的原因。”</p><p>随着他的话语，书本缓缓飘到半空，在不断翻过的页面上，篆刻了无数细密的花纹字体，仿佛尘世间的一切都被记录其中，直到某页为止——</p><p>这张书页上的内容全被黑白交错的马赛克所笼罩，就像印刷错版的文稿，无法读取出任何信息。</p><p>“Dues＜神＞。”</p><p>缓缓念出一个名字后，他又翻到下一页。与前页规整的错乱截然不同，这一页仿佛被淘气孩子用笔涂写乱画过，所有字符都被杂乱的线条所覆盖，根本看不清具体内容。</p><p>当涉及到神秘学方面，维斯考特似乎与普通的研究员别无二致。对手中的神奇书本仔细考究过一番后，又翻到再下一页。</p><p>“看来无论Dues还是黑骑士，都拥有干扰神蚀篇帙的手段。祂们能够保护自己在阿卡夏记录＜Akashic Records＞里的信息不被窥探，但这里……”</p><p>后面那些都是涉及到天宫市内人员信息的页面，这几十页甚至上百页里的内容仿佛化作了一个庞大的漩涡，卷起无数文字不断闪烁出现，又再度消失。</p><p>阿卡夏记录，在神秘学中被定义为自宇宙诞生之初便存在的信息库。宇宙中诞生的任何生命，其在任何时间与地点的思想、言语和行动都会被记载于这个知识的集合体里。</p><p>而神蚀篇帙可说是某种能够查阅和修改阿卡夏记录的操作界面。能够对神蚀篇帙造成这种程度的干扰，显然是与魔王同等程度，甚至更胜一筹的‘权能’。</p><p>“笼罩了整个天宫市，连阿卡夏记录都能覆写的力量，我真是很好奇啊，究竟会是谁的手笔呢……Dues？黑巫师？或者说……Guest？”</p><p>灰发的男人手指划过书页，忽然感觉到车辆猛然刹车时的惯性。</p><p>“怎么了？”</p><p>由于两人刚才在专注对话，艾伦回头询问司机。</p><p>一路上都沉默不语的司机开口道：“抱歉，刚才路边窜出来一只猫。”</p><p>维斯考特挥挥手，表示不用介意。他的专车司机都是经过记忆处理的普通人，对于这种连人格都被抹去的工具，并不需要担心背叛之类的问题。</p><p>“我们到哪了？”他随口问。</p><p>“刚进入天宫市的行政区范围。”</p><p>“原来如此，难怪受到了干扰。”</p><p>他索性收起书本，恢复到休暇的姿态。</p><p>“Dues、Guest、Darknight，现在还有Witch……真是伟大的巧合啊，在这座神奇的小城里，究竟隐藏了怎样的秘密，值得你们全都往这里跑呢？”</p><p>……</p><p>同一时间，无尽的深渊之下。</p><p>蓝发的魔术师拖起长袍，沿着深不见底的台阶一步步向下走去。</p><p>在他头顶的通道顶部，是不断闪烁幽光的符文。身边两侧，则是双手合十的拜伏人像。</p><p>这些蜡质人像身上，穿着印有拜精灵教纹章的兜帽长袍。如果再仔细看，会发现它们虽然都戴有面具，但面貌依旧各不相同，那栩栩如生的模样，简直与真人无异。</p><p>发出金属碰撞的脚步声踏上平地，当黑骑士停下时，他所在的地方已经是一片宽阔的祭坛。</p><p>祭坛中央，立起一个形似十字架的扭曲构造物，无数不知名的金属和宝石镶嵌其上，可除了诡异之外，丝毫不带半点奢华的气息。</p><p>黑骑士抬起手，虚空握拳。</p><p>金色的灵力光从额冠上一闪而过，围绕着祭坛的数百具‘蜡像’瞬间化为齑粉。</p><p>当这些充斥魔力的粉末挥洒在整个密室中时，隐约的金光围绕着中央的倒十字架缓缓展开，直至化作一个隐约的光影。</p><p>【黑暗的弥赛亚——】</p><p>有震撼的声音从光影中传出，仿佛自无穷高的至高天空穿透了整个世界，直至这片黑暗的深渊。</p><p>“神使，米凯勒。”</p><p>蓝发的男人盯着那片影影绰绰的光，直到光里逐渐显现出一个人形的影子。</p><p>那是一位撑肘托腮，安坐在巨大王座上的女性。虽然看不清面貌，但能分辨出她高挑的身形，以及垂落至地的淡金长发。</p><p>【约定的时间已经近了。】</p><p>只见她缓缓开口，语气中的那份高傲，如同垂视众生的神灵。</p><p>语气相比，黑骑士则恢复了那份无比嘶哑，且不带丝毫感情的语气。</p><p>“一切都在预料之中，这个世界的轮转亦是如此。”</p><p>【既然如此，又为何联系？交托给你的‘盐与火’和‘海与血’已经足以协助你完成任务了。】</p><p>“另一位异界的访客同样来到了这里，她来自超越我们认知的遥远世界，恐怕会成为计划之外的变数。”</p><p>【异界的访客】</p><p>声音沉默了几秒后，忽然爆发道：</p><p>【去找到神之座的下落，并打开神降的通道，那才是你的真正任务！】</p><p>淡金的长发瞬间暴涨，化作缠绕光芒的火焰，恐怖的灵压仿佛要透过世界之间的隔阂，将这里整个压碎。</p><p>“如果她与神之座有关呢？”</p><p>【这是你的假设？】</p><p>“命运无常。”</p><p>面对质问黑骑士却依旧不紧不慢，似乎只是在陈述现实和目标进展。</p><p>“与往常不同，在这个特殊世界里展开神降的仪轨，需要足以稳定世界之壁的神器。”</p><p>【你想要的是……】</p><p>对面那个被称为米凯勒的女子声音稍顿，显然是猜出了他的想法。</p><p>“弑神之枪。”</p><p>【……】</p><p>【可以】</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

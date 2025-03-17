@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>瓜料吧</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《瓜料吧》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于瓜料吧</h2>
+<p>					瓜料吧<p>缪和矢一焰如往常一样在路上慢走着，路上什么事也没有，天气倒是不错，闪烁的阳光照射在碧绿的草地上，小动物也是遍地都有，但就是有点无聊，矢一焰又不爱讲话，只是一直在那里行步着，缪如果不和他搭话，估计一辈子都不会开口说出声音了。</p><p>  “啊……”</p><p>  缪伸了个懒腰，天气这么好，难道就只能干走着没有一点好玩的事情吗。</p><p>  就在他眯着眼睛这么想的时候，他突然看到远处有一个看上去不错的天然池塘。</p><p>  “吼吼吼吼！”</p><p>  他异常兴奋的提着自己的包就是跑了过去，“快过来啊！”他如此喊道，矢一焰疑惑的看向他，便和紫瞳走了过去。</p><p>  只见缪把背包放了下来，一脸开心的指了指这个流动的大水池，里面游动着各种各样的大鱼和小鱼群，还有虾等等都有，说不定石头底下还有螃蟹呢。</p><p>  缪：“我们来钓鱼怎么样？”</p><p>  矢一焰：“钓鱼？”</p><p>  缪：“是啊，钓上了晚上吃烤鱼！”</p><p>  这么说着，他从背包里拿出了一支木棍和细线，随后把他们握在手里，不停的揉搓着，随后像变魔术一样一条不错的鱼竿就腾空变出来了。</p><p>  矢一焰：“真是个方便的能力啊。”</p><p>  缪也笑着说道：“是吧，我这人啊其实很容易腻的，不管什么事情没有了新鲜感的话一会儿就厌倦了，说不定异能也是，还好我运气好得到了这种千奇百怪的异能。”</p><p>  他随后变出了两根鱼竿，把其中一根递给了矢一焰，矢一焰拿着竿子看了看。</p><p>  矢一焰：“我不会钓鱼。”</p><p>  缪：“没事，这种简单的，教教你就会了。”</p><p>  他从背包里拿出了一些玉米粒，“还好我有这个，我早就想在大自然外面和朋友一起钓鱼了。”</p><p>  这么说着他帮自己和焰的钩子按上鱼饵，然后随便坐在草地上拿起自己的鱼竿，哦对了，还有一个鱼桶，他又变出一个桶子来到河边舀了些水放在一旁。</p><p>  “记好了啊，要先甩竿，从后往前扔。”</p><p>  缪重复了一遍自己的动作，矢一焰看了看他，并也笨重的把线扔了出去，两个鱼线就这么扑通一下进了远方的水里。</p><p>  “不错嘛！”缪如此夸讲道。</p><p>  “记好啊，可以适当的提提竿来动动鱼饵吸引鱼过来，但是不要太用力了，一点点力度就可以，等鱼过来后就静静的等待就可以了。”</p><p>  矢一焰点了点头，然后就也一动不动的坐在那里，紫瞳在一旁看着他们两个，又自己向水边走了下去靠近看了看水里，顺便prpr舔了几口喝了喝水，舔了舔爪子，然后看到有小蝌蚪在里面游，又伸出爪子在里面舀来舀去。</p><p>  天空的鸟儿从他们头顶划过，缪抬头望了一眼，说道：“据说格林布尔的鸟各种各样，比这种普通的小鸟都要大上十几倍，颜色也五花八门的。”</p><p>  “十几倍都能把人叼走了。”矢一焰说着继续捏紧鱼竿，深怕下一秒自己的杆子就被里面的鱼给咬走什么的。</p><p>  过了几分钟后，缪的鱼竿有了动静。</p><p>  “哦有了有了！”</p><p>  缪有点兴奋的站起来，一边收着线一边把竿往上提，所谓的钓鱼享受的就是这一时刻啊，紫瞳也好奇的看向水面。</p><p>  “不仅是需要拉回来的力道，还要掌握时机偶尔的放一下线欲擒故纵一下，急性子是钓不到鱼的。嘿！”</p><p>  他感觉到了最后的冲刺，一把直接转着鱼竿快速把线收了回去，随后一条肥美的大鱼便扑通扑通的呗钩了上来。</p><p>  “好像是一条大鲫鱼啊！”</p><p>  缪如此赞叹道，一把把大鲫鱼收进了先前准备好的水桶里。</p><p>  “完美！”</p><p>  缪满足的看了看桶里的收获，矢一焰回头看了看他的战利品，说真的看着自己一动也不动的竿子心里确实有那么一丝羡慕，紫瞳好奇的蹭了过去，它把头伸进桶里看了看，里面确实有一条大鱼在动来动去。</p><p>  “你不可以偷吃啊小家伙，到时候有你的份的。”</p><p>  缪在一旁说着，紫瞳抬起头看了看，便离开躺在了焰的旁边休息。 </p><p>  又过了一小会，焰突然感觉自己的鱼竿也有了东西，他立刻把竿子往上面收。</p><p>  缪：“诶慢点慢点慢点不急！等等你那个方向是收线，拉线啊拉线！别忘了抬杆，不要那么用力……”</p><p>  折腾了一小会，焰和缪看着他眼前钓上来的猎物——— 一个破鞋子。</p><p>       矢一焰：“。。。。。。。。。。”</p><p>          缪：“。。。。。。。。。。”  </p><p>  火焰从他的手中冒起，绽放无数的怒气。</p><p>  “把这里煮熟了吧！”</p><p>  他咬着牙如此讲道。</p><p>  缪：“诶诶诶别激动别激动慢慢来，慢慢来~”</p><p>  “我一把火把这里烧了，这样所有的鱼不就都浮上来了么！”焰对着他这么说着，似乎还有一点小情绪。</p><p>  “钓鱼不是这么钓的~过程也是非常重要的一步，如果只是在意自己钓多少鱼的话，那就不能真正的算是在钓鱼，你要在有耐心一点。”</p><p>  缪一边自己钓着一边这么劝解他，矢一焰眼神里充满了无奈，便又提起自己的鱼竿重新开始。</p><p>……</p><p>  “嗯？”</p><p>  矢一焰的鱼竿又有了动静，他寻思收竿提了起来，但是什么都没有钓到。</p><p>  “好奇怪啊，我确实感觉有东西上钩了的。”矢一焰疑惑的摸了摸自己的鱼饵。</p><p>  缪：“大概是跑了吧，鱼的反应很快的，一点动静就能跑了。”</p><p>  矢一焰：“谁说的，人的反应速度才快，只不过身体跟不上脑子罢了，如果能保持一致，那便无人能敌。”</p><p>  缪：“哈哈，说的好像有点道理。” </p><p>  又过了十几分钟，缪突然觉得他的鱼竿瞬间重了起来，他眼神瞬间瞪大，心想着一定是个大家伙！</p><p>  “看我的！！！！”</p><p>  只见他站了起来使出吃奶的力气收线，没想到这个大鱼很是能挣扎，矢一焰在一旁看着他，缪吃劲的站住双脚，但差点被鱼拉了回去。</p><p>  矢一焰：“你不会拉了条鲨鱼吧？”</p><p>  缪：“。。。赶紧。。帮我下！”</p><p>  矢一焰放下了自己的鱼竿，走上前帮缪一起回拉。</p><p>  【1 2 3！】</p><p>  【1  2  3！】</p><p> 【1   2      3！！    】</p><p>  Duang，一只咬着钩的紫瞳从水里被拽了上来。</p><p>  “。。。。。。。。。”</p><p>    【把鱼吐出来！！！】</p><p>  在岸上，缪不停的掰着紫瞳的嘴巴，因为它的嘴里有一条鱼，就是缪刚刚钓住的，所以紫瞳在水里一口咬住了钩。</p><p>  “你这个坏猫！松！口！（虽然人家是豹）”</p><p>  他不停的捣鼓着紫瞳，捏着紫瞳的脸让它松嘴，但不管是拍头还是什么的紫瞳就是不肯张嘴，非常的倔，却还在那边悠闲的晃着尾巴，看起来它感觉这很好玩。</p><p>  “…我去生火了，看样子今天傍晚吃的就是这点了。”</p><p>  矢一焰不想见这惨无忍睹的情景，拉下这么一句话后便一个人搭火堆去了。</p><p>  又过了一会儿，火生好了，缪拿着水桶回来了。</p><p>  缪：“不行啊，那家伙不松嘴，自己吃掉了。”</p><p>  矢一焰：“习惯就好。”</p><p>  随后缪从水桶里拿出了那条唯一的鲫鱼。</p><p>  “看来今晚只有这个了。”</p><p>  就在缪准备杀鱼的时候，紫瞳从一旁走了过来，缪回头看了看它，发现紫瞳的嘴里咬着一只大螃蟹！</p><p>  “螃蟹！是你抓的吗小家伙！”</p><p>  “厉害啊。”</p><p>  缪兴奋的大喊着，焰看到也不禁赞叹道。</p><p>  这么一弄他才想起来了，随后缪一人快速的往水边走，他脱掉了自己的鞋子，然后直接下了水，卷起袖子就是不停的翻找底下的大石头。</p><p>  果然，最好的食物全近在眼前啊，石头底下有一大堆的大小螃蟹和鱼苗，缪不在乎那点小小鱼，唰唰几下就是抓住好几只螃蟹，这样子今天也不算是徒劳无果了。</p><p>  到了晚上，天色暗了下来，矢一焰就是在池塘边扎的火堆，在这里烤鱼并听着舒服的水流声，还是非常惬意的。 </p><p>  大鱼被戳在木棍中间夹在火堆上那么烧着，火堆的旁边被围满了石头，石头上则是放着螃蟹在那里烤。</p><p>  紫瞳趴在地上眼睛死死的盯着大鱼，灵兽好像明明不用吃东西，但它就是馋嘴，甚至口水都有点流下来了。</p><p>  “哈哈哈待会有你的份的小家伙。”缪一边转着烤鱼的木棍一边说着。</p><p>  烤鱼时间结束，缪直接把鱼头砍掉，连着鱼尾的三分之一给紫瞳，外加一个螃蟹，剩下的就是缪和矢一焰平分了。</p><p>  缪拿起小刀撬开了螃蟹的壳子，直接用刀挖来吃，焰也自然一样。</p><p>  缪：“嗯！味道不错啊！果然不是自己变出来的就好吃。”</p><p>  他们一边吃着一边随意的聊天，紫瞳趴在草地上动来动去，不停的舔着缪给它的鱼，但是太烫了，每次一舔就烫的缩了回去，然后又去舔，不知道这样要吃到什么时候，不过它好像乐在其中。</p><p>  “对了焰，你也要来格伦布尔，那你的梦想是什么，又或者说有什么目标吗？记得你最初不是说过有什么目的吗。”</p><p>  “突然聊起正经事了啊。”</p><p>  焰拿起小刀从烤鱼上削下来一块鱼肉吃进嘴里，思考了一下，说：“没有，仔细一想，有点滑稽，但我确实没有什么明确的目标，你不也是吗。”</p><p>  “我吗？嗯如果探索这个世界也算目标的话，那我算是有个明确目标的！”他笑嘻嘻的说道。</p><p>  “那我也是咯，我本来待的好好的，就这么被你挖出来了，不陪你完成目标，那也白离开家了。”焰这么说着。</p><p>  缪：“哦？那你这么就是说，你认同来找你是对的咯！”</p><p>  矢一焰沉默了一小下，“是啊，要是你没出现过，我现在真的不知道是怎么样的。”</p><p>  缪笑了笑，然后想起了什么，从包里拿出预先封存好的果酒。</p><p>  “来，喝一杯。”</p><p>  矢一焰推开了他递过来的酒，“我不喝酒，不喜欢那个味道。”</p><p>  缪：“没事，你的那瓶只是普通的果汁，我那个才是酒，我自己喝，主要是想要来个人一起陪我喝点什么，这个气氛才是最重要的，喝的什么无所谓。”</p><p>  缪再一次把果酒递给他，矢一焰看了看，接过了果酒。</p><p>  “来！干杯！”</p><p>  两人碰了一杯，一起一饮而尽……</p><p>  【噗！！！！！！】</p><p>  矢一焰一口把刚才喝的全部吐了出来。</p><p>  “你敢骗我啊混账！！！”</p><p>    “我跑！！！！”</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

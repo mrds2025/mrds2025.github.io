@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全民吃瓜公司</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《全民吃瓜公司》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于全民吃瓜公司</h2>
+<p>					全民吃瓜公司<p>自从人类与精灵并肩作战，共同抵抗黑暗帝国的入侵，已经过去了四年。尽管五河士道成功拯救了八舞姐妹，但人类和精灵之间脆弱的协议却早已荡然无存……</p><p>“等等，今天才第二天，哪有过去四年啊。”</p><p>抱着牛肉汉堡的五河士道举手提问。此时，两人正借着修学旅行最后一天的自由活动时间，在游客步行街的快餐店里坐着。</p><p>“是吗？我觉得过去很久了哎。”</p><p>三羽遥转着水笔，把稿子收了起来，这叠东西将做为作战报告归档到Fraxinus的主电脑里。看在伍德曼议长开出的不菲工资面子上，有些场面活还是要干的。</p><p>“那是因为遥你一觉就睡到中午了啊……”</p><p>眼瞅着小桌对面女朋友的懒散形象，虽然不至于形象崩塌，但也真是少见了。</p><p>昨晚回到酒店，遥什么都没说，回房倒头就睡。直到今天中午自己不放心去敲门后，才勉强从床上爬起来。</p><p>当时瞧她那头发蓬乱不堪，无精打采到眼睛眯成一条缝的模样，士道差点以为敲错了门。</p><p>“欸嘿嘿……我也没想到，显现装置使用过度会有这种副作用嘛。”三羽遥偷偷吐舌头，试图装傻充愣蒙混过关。</p><p>只有在两人独处的时候，她才会这么放松，摆出这种可爱的样子。</p><p>是自己独享的景色呢。想到同学们对自己女友高岭之花的评价，五河士道略有得色。</p><p>不过还是有些担心她的身体情况：“那样高强度使用显现装置，真的没关系吗？”</p><p>“有哦。”</p><p>“哎？！哪里？要不要找令音小姐看看？”</p><p>相较惊慌失措的士道，遥小姐则摘掉眼镜，懒洋洋地趴到桌子上，指指肩膀：“这里酸。”</p><p>……</p><p>“嘶——轻、轻一点……啊嗯……”</p><p>一番劝说无果，三羽遥依旧咸鱼一样，赖在麦当劳的空调下边，死活不肯出门。无奈之下，士道只能与其坐成并排，帮她捏起肩膀。</p><p>要说幸好他们的位置在转角内侧，一般顾客不会往这边走，否则真是害臊到姥姥家。况且万一被同学们看到……士道已经能想象自己被捆上火刑柱的场面了。</p><p>这时候，咸鱼小姐努力地翻了下脑袋：</p><p>“昨天在沙滩上，北原同学问我有没有男朋友。”</p><p>“咦？”</p><p>一听这话，士道立刻警觉起来。</p><p>做了一年多同学，他很清楚北原春绘不是那种喜欢八卦的性格。她会特意去问遥，肯定是有人拜托的。</p><p>“那、那你怎么说的？”</p><p>“我说暂时不想谈恋爱。”</p><p>“这样啊……”</p><p>对于被这么问的女孩子来说，如果回答‘现在没有男朋友’，那么潜台词就是‘有人来追求的话亦无不可’。</p><p>但像遥这样回答的话，就是对躲藏在背后那个人的婉拒了。‘我对你们没兴趣，请保持理智’，在拒绝的同时给对方留了一丝脸面。</p><p>当然，真要碰到死缠烂打的可就要头痛了。</p><p>【和北原关系好的男生有哪几个来着？】</p><p>五河士道松了口气的同时，又有些担忧起来：“她有说为什么问这个吗？”</p><p>“没有哦。”三羽遥转过脸来，一眼看出他脑瓜里在想些什么，于是顺势鼓起了腮帮子。</p><p>“为什么不能告诉大家我们俩的关系？难道我不是士道的女朋友吗？”</p><p>“这个嘛……”</p><p>士道挠挠脸，这确实只是为了自己方便，才不向大家公布他们俩真正关系的。</p><p>用想的也知道，遥这回答一散播出去，以后的麻烦不会少。毕竟对一些自信过度的人来说，‘不想谈恋爱’和‘没有男朋友’是可以划等号的。</p><p>不仅这件事，攻略精灵也是一样。明明是自己的一厢情愿，她却无所求地提供了大量帮助。甚至在没有灵力的情况下，去直面八舞姐妹的天使。</p><p>想想现在两人之间的关系，真就是遥在单方面付出。</p><p>“哎，这就是所谓的地下情人吧。”女孩丧气似得把脸蒙在交错的双臂下，唉声叹气。</p><p>不，这还是不太一样的。</p><p>但自问没资格说这话的士道垂下眼睑，颇感羞愧：“对不起……”</p><p>谁知对方却阴谋得逞地嘿嘿一笑。</p><p>“那行～小哥再加十分钟的～”</p><p>原来是要多捏一会啊！五河士道内心掀桌。当然，现实里还是不能停的，毕竟自己女友的肩膀又软又香，偶尔淌过的发丝更是绸缎一样柔光滑顺，手感是真不错。</p><p>“既然肩膀那么酸，找家按摩店不是更好吗？我这业余的手艺烂啊。”</p><p>“不行，”三羽遥说话声音还是嗡嗡的，简直就像快要睡着一样：“被其他人碰的话，会引起条件反射。”</p><p>“条件反射？”</p><p>“最好也会把人丢出去……”</p><p>“这样啊。”</p><p>这算不算PTSD？五河士道特意查过创伤后应激障碍的资料，但又总觉得和她的情况对不上号。</p><p>不过……遥的肩膀好单薄啊。女孩子都是这样的吗？</p><p>感受着柔若无骨的肩膀，只需一手就能完全掌握。就像这样单薄的女孩，却还总想着去拯救别人，真是令人难以置信。简直就像是漫画里走出来的完美英雄一样。</p><p>正当他神游天外的时候，三羽遥脑袋又转了回来，发出享受的哼哼声。</p><p>这让青春期少年有些心猿意马，不由得出声换了个话题：“昨天和耶俱矢她们的战斗，你为什么能使用灵力了？”</p><p>“那个呀，”她闭着眼睛嘿嘿一笑：“其实并不是灵力哦。”</p><p>“那是用魔力炉来模拟的灵力波动，实际上都是最简单的魔力波而已。”</p><p>不需要魔术师，单纯依靠无人装置就能收集环境中的灵力，并转化成可供显现装置使用的魔力。</p><p>琴里给自己恶补的魔力学知识，多少还能记得点，这让他有些欣慰。</p><p>“我记得魔力炉都是大型的吧？好像只能搭载在战舰之类的上面。”</p><p>“就因为准备这个，才会差点赶不上嘛。要把魔力炉预埋进大殿地下，还要在周边配置好能够由我远程操控的显现装置。”</p><p>“只靠魔力炉……就能和耶俱矢她们打成平手吗？按好了，要起来吗？”</p><p>好不容易挣扎着起身，三羽遥终于想起把最后一口化了的草莓圣代放进嘴里。</p><p>“什么叫只靠啊，那可是战舰级出力的魔力炉哦，只论瞬间出力的话并不比一名精灵低多少。真正的差距是天使啦。”</p><p>看着她吃完最后一口草莓圣代，还不死心地在杯壁凹槽里刮了半天。士道咧咧嘴：“昨天真的很危险吧。”</p><p>“是呢，没想到你会冲到夕弦她们前面。那可是精灵之间的战斗呦，就算我们再怎么小心，也可能会波及到你的。”</p><p>三羽遥皱起眉，有些生气似得调转过勺子柄，对准士道脑袋戳戳戳。</p><p>这让他想起之前在家庭餐厅里的场景。</p><p>那时候的她是如此可望又不可及，如今却坐在身边，成了自己的女朋友。感觉真是不可思议，仿佛冥冥中有一只手引导着自己和遥，逐渐走到一起。</p><p>***</p><p>还有一半在修字，下午接着发</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

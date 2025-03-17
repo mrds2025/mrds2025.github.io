@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>吃瓜 海角社区</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《吃瓜 海角社区》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于吃瓜 海角社区</h2>
+<p>					吃瓜 海角社区<p>天央祭的第二天，来禅高中的大门前人流熙攘。就连原本躲在办公室喝茶的校长，都已经穿上不知哪来的骑士铠甲，手提玩具剑，在龙骨前干起了保安的活计。</p><p>因为游客数量远超预期，Ratatoskr的施工队硬是花了一晚上，把原本充作仓库的二年一班教室也紧急改建成了餐吧。</p><p>至于整个二楼的门前走廊，更是摆上木椅和花卉，搭造出一个临时休息区。</p><p>可即便这样，也没法彻底安顿下慕名而来的游客们。看着纷乱吵杂的排队区，三羽遥不由头痛万分。</p><p>理论上来说，未经本人同意，游客不能拍摄女仆们的照片。但再严格的规定，也架不住有老哥扒墙偷拍。</p><p>于是到了昨天傍晚，JK女仆们的照片已经在本地讨论版上传得到处都是了。</p><p>其中更是以包括三羽遥在内的几位看板娘尤甚。</p><p>“B12号桌，泡沫红茶和树莓起司蛋糕两份。”</p><p>默默记下菜谱，鸢一折纸转头而去，她现在是顾客群体中知名的冷美人，甚至有不少游客只为听那几句不带感情的招呼词而反复点单。</p><p>……</p><p>“唔，您点的是……阿咧？原来已经点过单了吗？那这份黄豆粉面包是……哪桌点的？”</p><p>在另一边，则是摸着脑袋的迷糊小女仆。经常闹出点小差错的十香已经成了咖啡厅的吉祥物，在部分游客当中人气极高。</p><p>……</p><p>“来了来了！这是妾身亲手制作的魔法蛋包饭！只要吃下它，就能免疫三楼狮身人面像的魔法攻击哦！”</p><p>“Kira。这是大小姐您点的蓝莓果酱搭配炒面面包，以及仅限女孩子的萌萌爱心。”</p><p>还有包括耶俱矢和夕弦在内的几位新女仆，是士道昨晚跑去二年三班交涉后搬来的援军。</p><p>……</p><p>至于三羽遥自己……</p><p>“哈？劳资在这边排了半小时队，居然还没轮到吗？！”</p><p>“就是就是！你们这破店什么意思？！”</p><p>“难办？那就别办了呗！”</p><p>顺着声音回过头，发现有几名不耐烦的混混正在对管理排队秩序的女同学发火。</p><p>由于这几天全面对外放开，所以一些乌烟瘴气的家伙也混迹在了游客人群里。</p><p>拦住要从后厨冲出来的男生，三羽遥自己迎了上去。</p><p>“小遥！不要打架呀——”</p><p>北原春绘拉住她的裙摆，面露担忧之色。</p><p>少女的关怀让遥倍感温馨，她笑了笑，安慰道：“放心，不会受伤的。”</p><p>“我是担心他们受伤，闹出人命很麻烦吧？”</p><p>“……”</p><p>三羽遥满脸尴尬，原来在大家眼里，自己是那种喜欢用武力解决的性格么？</p><p>抱着跳进黄河也洗不清的心态，她拍拍春绘的手，示意自己有分寸。</p><p>随后拿起托盘，如同正规服务员那样，把正在唯唯诺诺道歉的女同学挡在身后。</p><p>“抱歉了，如果觉得等位无趣的话，我们这里有将棋和扑克牌可以解闷，还有茶水和小零食。您不介意的话——”</p><p>哐铛——</p><p>话还没说完，遥手里的托盘就被掀翻在地，茶水和零食甩落四周。</p><p>“哈？！我要的是精神损失赔偿啊！！”</p><p>虽然及时退后一步，不过茶渍的污点依旧溅在了裙沿的花边上。</p><p>【可惜……这套衣服还挺好看的……】</p><p>三羽遥心中默念。</p><p>【这种情况，应该是特地来找茬的吧？龙胆寺？还是其他学校？】</p><p>念头转动间，她已经弯腰把撒到地上的零食包装和盘子拾了起来，再将托盘又摆回茶几上。等到一切办完后时，她才抬头看清对方的长相。</p><p>“你们几位，好像有点眼熟啊？”</p><p>少女皱起眉，试图从记忆里把这几个经典混混造型的路人翻找出来。</p><p>对面染着金发的混混也在这时才刚看清她的长相。不看到还好，可一旦仔细打量，整个人就立刻定格了下来。</p><p>“是……是你？”</p><p>“嗯？”</p><p>仿佛网络延迟一样卡顿好几秒后，对方终于反应过来：</p><p>“对、对不起！大姐头我错了！！！”</p><p>“我们认识吗？”</p><p>可话都没说完，对方就已经拽着同伴，跌跌撞撞地挤开围观人群，一溜烟冲出了休息区。</p><p>遥纳闷地眨眨眼，直到现在，她都没想起究竟在哪见过这几个小混混。</p><p>“三羽同学你好厉害呀！”</p><p>被解围的三班女生跑了过来，拉着她的手，激动万分：“这就是三羽同学无敌的武术吗？！”</p><p>“额……我想应该不是吧？”</p><p>“不愧是武斗派女仆！这份以眼杀人的功力，这就是武术，这就是传说中的武术啊！”</p><p>不明真相的围观群众纷纷掏出手机。</p><p>“那个、请不要拍照……”</p><p>三羽遥勉力维持着秩序，然而细微的抗议声早已彻底淹没在了此起彼伏的相机快门里。</p><p>直到此时，她依旧横竖想不通，自己怎么会被安上个‘武力担当’的名号。</p><p>……</p><p>“小遥，有人找哦！”</p><p>过了好一会，春绘才晃着手机，把她从人群中拯救出来。</p><p>“校门口有消息说，天央祭执行委员会的巡察正在找你。”</p><p>冲春绘比出个收到的手势，三羽遥已经在楼梯口见到那几个穿着不同学校制服的学生了。</p><p>当发现是由两名身穿龙胆寺校服的女生领头时，立刻就明白对方是来找茬的。</p><p>毕竟历来躺平划水的来禅高中在这一届居然异军突起，怎么想都会觉得奇怪吧。</p><p>同对方打了招呼，摆出自己来禅高中的执行委员身份后，队伍最前的女学生推推眼镜，一副公事公办的口吻。</p><p>“三羽同学，我们是执行委员会的巡察。”</p><p>这副故作成熟的模样，有点那味了。</p><p>遥点点头：“我知道。”</p><p>在昨晚，第一天的营业额统计数据到手之后，遥和士道就对巡察小组的到来有所准备了。</p><p>——根据Ratatoskr的统计，来禅高中第一天的摊位人流量与龙胆寺基本持平。如果再参照网络上的讨论热度，来禅第二天的销售额超过龙胆寺几乎是板上钉钉的事情。</p><p>作为历年的王者，龙胆寺那边派人来探查情况，可以说是再正常不过。</p><p>而且身为天央祭最大的出资方，执行委员会的判决显然也会更偏向龙胆寺那边。如果被查出违规，显然对来禅相当不利。</p><p>不过她也不在乎，只要能说服巡察就行了，毕竟真实的人流量做不得假。</p><p>……</p><p>陪着几个外校学生在校园里转了一圈，等到再回到咖啡厅坐下时，原本气势汹汹的巡察们已经被各种娱乐项目迷晕了眼。尤其是几位男生，正不断往窗外偷瞄。</p><p>果然还是小孩子嘛，三羽遥捂嘴偷笑。</p><p>只剩下那位眼镜女生还努力板着脸，装成认真工作的大人样。</p><p>“你们来禅的装修水平，和上报的预算数额相差很大啊。”</p><p>“是的。”三羽遥摊摊手，大大方方地承认了：“这都是学生会的前辈们与供应商辛苦商讨之下的成果。”</p><p>面对她营业式的笑容，对方显然不打算就这样草草放过。</p><p>“可根据我的计算，这不是几乎等于白送了吗？！”</p><p>“没错，是前辈们以必死的觉悟，与供应商们谈判所得。”学着对方之前假装成熟的样子，三羽遥有些玩闹地回答着。</p><p>“必死……这说得也太……”那位眼镜学姐显然不信她的随口瞎掰：“你们来禅的学生会长我也认识，五十岚君他在哪里？我希望可以当面询问。”</p><p>五十岚君～</p><p>三羽遥挑挑眉，瞬间脑补出一副相爱相杀的青春爱情电视剧。</p><p>“前辈他们已经精疲力竭——”</p><p>“我问的是他在哪里？！”</p><p>“正在天宫市立医院的ICU病房抢救……所以为了前辈们拼死获得的成果，我们一定会办好这届天央祭！”</p><p>当听到医院ICU几个字的时候，对面的脸色显然不对劲了。这也让三羽遥彻底确信，这位学姐与来禅学生会长之间铁定有一腿。</p><p>不过毕竟是就读高级私立学校的大小姐，在天宫市立医院那边都能轻易找到关系。当她跑出去打了个电话后，等再回来时，学姐的面色已经缓和下来。</p><p>毕竟小情人都进ICU躺着了，那还能怎么办，总不见得冲到医院里当面对质吧。</p><p>……</p><p>厚重的木质吧台微微陷入地板，空气中烟雾缭绕，几位顾客围坐在桌旁私下闲聊，头顶电视机里则在播放当日的天宫新闻。</p><p>新闻里正在报道天央祭的采访，其中自然不乏这次异军突起的来禅高校，以及身穿铠甲正在接受采访的校长。</p><p>“说到底还是群小孩子嘛。”</p><p>送走了巡察小组的三羽遥坐在吧台前，抿了口手里的鸡尾酒（无酒精），随后戴上并不存在的墨镜。</p><p>“妈妈桑，结账。”</p><p>北原春绘走过来，笑着用账单敲敲她的脑袋：“算我请客。”</p><p>“哎呦喂——”</p><p>三羽遥抱着脑袋，让自己好不容易打理整齐的头发免于遭难。</p><p>“这次可多亏了你呦，否则我们有得被折腾了。”</p><p>“至于吗？”</p><p>春绘点点头：“小遥你是今年刚转学来，不了解也正常，龙胆寺巡察组的名头这些年可威风呢～”</p><p>“这也不是我的功劳，主要还是出卖色相的会长大人居功至伟。说起来五十岚会长的八卦你知道吗？”</p><p>“哎呦，这个我还真知道～”</p><p>“快快说来听！”</p><p>当女孩子们在悄悄聊天的时候，围裙口袋里的邮件铃声响了。</p><p>三羽遥掏出手机一看，谈笑间扬起的眉毛立刻低垂下来。</p><p>“怎么了？”正在擦杯子的春绘随口问道。</p><p>“傍晚我要请个假。”</p><p>“下午本来就没你的班啦～”</p><p>没有问为什么，北原春绘已经习惯了这个偶尔会神秘兮兮的闺蜜。</p><p>大概是家里的事情吧，她这样猜测。</p><p>“对了……”</p><p>三羽遥起身时，一把拽住正巧路过她身后的小女仆十香，凑到她耳边悄声叮嘱道：</p><p>“今晚可能不回家吃饭，不用等我了。”</p><p>“是有什么危险的事情吗？小遥？”</p><p>不得不说，除了对食物的特殊直觉外，十香只有在这种情况下才会特别敏感。</p><p>“哪有，是普通的……网友见面。”</p><p>三羽遥随口打了个哈哈。</p><p>“网友？”</p><p>夜刀神十香歪歪头，尽管已经在人类社会住了大半年，但她显然还没弄懂这个词的意思。</p><p>“对了，还有另一件事。”</p><p>说着她又从围裙下的口袋里掏出个机械装置。浅蓝色调，做工精巧，大约只有一支口红大小。</p><p>“来，把这个拿好。在关岛那边给你用过的。”塞进十香兜兜里的同时，还不忘解说道：“如果明天的演唱会出了什么意外情况，就按这边的按钮。”</p><p>“疑问。该不会是自爆装置吧？”</p><p>见她们躲在角落里神秘兮兮的模样，偶然得空的夕弦也凑了过来。</p><p>“才不是啦……总之，没准能帮到士道哦。”</p><p>说完她一口气喝完杯子里的饮料，跳下高脚圆凳，往教室外走去。</p><p>***</p><p>#Silver Moon Red Moon</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>
